@@ -1,0 +1,38 @@
+.carouselCompanies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+  }
+  
+  .carouselCompanies h2 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+  }
+  
+  .carousel__button {
+    display: none;
+  }
+  
+  .carousel__images {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel__image {
+    flex: 0 0 25%;
+    max-width: 250px;
+    min-width: 200px;
+    max-height: 250px;
+    box-sizing: border-box;
+    padding: 50px;
+    transition: transform 0.5s ease;
+    margin-bottom: 70px;
+  }
+  

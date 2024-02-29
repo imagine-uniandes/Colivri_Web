@@ -1,0 +1,62 @@
+[
+    {
+        "nombreProyecto": "Proyecto 1",
+        "foto": "influencersVirtuales.png",
+        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "integrantes": [
+            {
+                "nombre": "Integrante 1",
+                "fotoIntegrante": "foto_pabloFigueroa.png"
+            },
+            {
+                "nombre": "Integrante 2",
+                "fotoIntegrante": "foto_valentinaRozo.png"
+            }
+        ]
+    },
+    {
+        "nombreProyecto": "Proyecto 2",
+        "foto": "influencersVirtuales.png",
+        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "integrantes": [
+            {
+                "nombre": "Integrante 1",
+                "fotoIntegrante": "foto_pabloFigueroa.png"
+            },
+            {
+                "nombre": "Integrante 2",
+                "fotoIntegrante": "foto_valentinaRozo.png"
+            }
+        ]
+    },
+    {
+        "nombreProyecto": "Proyecto 3",
+        "foto": "influencersVirtuales.png",
+        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "integrantes": [
+            {
+                "nombre": "Integrante 1",
+                "fotoIntegrante": "foto_pabloFigueroa.png"
+            },
+            {
+                "nombre": "Integrante 2",
+                "fotoIntegrante": "foto_valentinaRozo.png"
+            }
+        ]
+    },
+    {
+        "nombreProyecto": "Proyecto 4",
+        "foto": "influencersVirtuales.png",
+        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "integrantes": [
+            {
+                "nombre": "Integrante 1",
+                "fotoIntegrante": "foto_pabloFigueroa.png"
+            },
+            {
+                "nombre": "Integrante 2",
+                "fotoIntegrante": "foto_valentinaRozo.png"
+            }
+        ]
+    }
+]

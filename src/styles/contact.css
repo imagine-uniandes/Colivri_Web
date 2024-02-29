@@ -1,0 +1,60 @@
+.contact-us-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #111;
+    padding-bottom: 80px;
+  }
+  
+  .contact-us-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+  }
+
+  .contact-us-container .container {
+    margin-top: 50px;
+  }
+
+  .contact-us-container h3 {
+    color: white;
+  }
+  
+  .social-media {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons-social-media{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: -10px;
+  }
+
+  .social-link, .email-link {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .social-link i, .email-link i {
+    font-size: 50px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .disc {
+      margin-top: 25%;
+    }
+  }
+  

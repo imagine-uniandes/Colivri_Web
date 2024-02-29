@@ -1,0 +1,10 @@
+.calendar{
+    margin-top: 20px;
+}
+
+.calendar h2{
+    margin-top: 2%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}

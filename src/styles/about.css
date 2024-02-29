@@ -1,0 +1,50 @@
+.about h2{
+    margin-top: 4%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.about {
+    background-color: #f5f5f5;
+}
+
+.about .container{
+    margin-top: 2%;
+}
+
+.about img{
+    max-width: 500px;
+    max-height: 450px;
+}
+
+.about li{
+    margin-top: 10%;
+    list-style-type: none;
+    margin-bottom: 14%;
+}
+
+.about ul{
+    margin-top: 5%;
+}
+
+.about p{
+    font-size: 19px;
+}
+
+@media (max-width: 768px) {
+    .image{
+        display: none;
+    }
+
+    .about {
+        background-color: #f5f5f5;
+        margin-bottom: 15%;
+    }
+
+    .about .info{
+        text-align: center;
+        justify-content: center;
+    }
+    
+  }

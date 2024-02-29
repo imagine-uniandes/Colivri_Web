@@ -1,0 +1,20 @@
+.mainEvents{
+    margin-top: 90px;
+}
+
+.mainEvents h2{
+    margin-top: 2%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.mainEvents .carousel{
+    margin-top: 40px;
+}
+
+.mainEvents .carousel-img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  

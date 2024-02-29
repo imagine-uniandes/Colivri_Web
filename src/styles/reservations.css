@@ -1,0 +1,64 @@
+.reserva-equipos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+    margin-top: 0px; /* Agrega espacio arriba */
+    margin-bottom: 0px; /* Agrega espacio abajo */
+  }
+  
+  .reserva-equipos-text {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .reserva-equipos-text h2 {
+    margin-top: 6%;
+    margin-bottom: 0px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  
+  .reserva-equipos-text p {
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  
+  .reserva-equipos-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .reserva-button {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20%;
+  }
+  
+  .reserva-equipos-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .reserva-equipos-image{
+        display: none;
+    }
+
+    .reserva-button {
+      padding: 10px 90px;
+    }
+  }
+  
