@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "nombreProyecto": "Proyecto 1",
         "foto": "influencersVirtuales.png",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
@@ -12,9 +13,11 @@
                 "nombre": "Integrante 2",
                 "fotoIntegrante": "foto_valentinaRozo.png"
             }
-        ]
+        ],
+        "researchArea": "influencersVirtuales"
     },
     {
+        "id": 2,
         "nombreProyecto": "Proyecto 2",
         "foto": "influencersVirtuales.png",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
@@ -27,9 +30,11 @@
                 "nombre": "Integrante 2",
                 "fotoIntegrante": "foto_valentinaRozo.png"
             }
-        ]
+        ],
+        "researchArea": "influencersVirtuales"
     },
     {
+        "id": 3,
         "nombreProyecto": "Proyecto 3",
         "foto": "influencersVirtuales.png",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
@@ -42,9 +47,11 @@
                 "nombre": "Integrante 2",
                 "fotoIntegrante": "foto_valentinaRozo.png"
             }
-        ]
+        ],
+        "researchArea": "influencersVirtuales"
     },
     {
+        "id": 4,
         "nombreProyecto": "Proyecto 4",
         "foto": "influencersVirtuales.png",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
@@ -57,6 +64,7 @@
                 "nombre": "Integrante 2",
                 "fotoIntegrante": "foto_valentinaRozo.png"
             }
-        ]
+        ],
+        "researchArea": "influencersVirtuales"
     }
 ]

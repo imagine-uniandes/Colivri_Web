@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 import data from '../data/proyects.json';
 import '../styles/proyects.css';
 
-const CarouselWithCards = () => {
+const Proyectos = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -33,9 +34,9 @@ const CarouselWithCards = () => {
                   />
                 ))}
               </div>
-              <a href="/" className="btn btn-primary">
+              <Link to={`/proyectos/${project.id}`} className="btn btn-primary">
                 Ver más
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -44,7 +45,7 @@ const CarouselWithCards = () => {
   };
 
   return (
-    <div className="proyects container">
+    <div className="proyectos container">
       <h2>Proyectos</h2>
       <div className="row">
         {renderCards()}
@@ -53,4 +54,4 @@ const CarouselWithCards = () => {
   );
 };
 
-export default CarouselWithCards;
+export default Proyectos;
