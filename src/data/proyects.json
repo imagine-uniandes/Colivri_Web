@@ -2,69 +2,557 @@
     {
         "id": 1,
         "nombreProyecto": "Proyecto 1",
-        "foto": "influencersVirtuales.png",
+        "foto": "influencersVirtuales",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
         "integrantes": [
             {
-                "nombre": "Integrante 1",
-                "fotoIntegrante": "foto_pabloFigueroa.png"
+                "nombre": "Prof. Pablo Figueroa",
+                "fotoIntegrante": "foto_pabloFigueroa"
             },
             {
                 "nombre": "Integrante 2",
-                "fotoIntegrante": "foto_valentinaRozo.png"
+                "fotoIntegrante": "foto_valentinaRozo"
             }
         ],
-        "researchArea": "influencersVirtuales"
+        "researchArea": "influencers Virtuales"
     },
     {
         "id": 2,
-        "nombreProyecto": "Proyecto 2",
-        "foto": "influencersVirtuales.png",
-        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "nombreProyecto": "Ambiente de Apoyo al Aprendizaje de Estructuras de Datos",
+        "foto": "aprendizajeEstructuras",
+        "descripcion": "Las estructuras de datos son un tema fundamental que se aborda en la formación como ingenieros de sistemas. Para facilitar el aprendizaje de este tema se propone construir una herramienta visual que permita realizar validaciones de la implementación de una estructura de datos y de las operaciones que se realizan sobre ella. Como resultado, se obtiene una aplicación en Python que permite trabajar con las estructuras listas enlazadas, árboles binarios ordenados y grafos.",
         "integrantes": [
-            {
-                "nombre": "Integrante 1",
-                "fotoIntegrante": "foto_pabloFigueroa.png"
-            },
-            {
-                "nombre": "Integrante 2",
-                "fotoIntegrante": "foto_valentinaRozo.png"
-            }
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Vanessa Cardona",
+            "fotoIntegrante": ""
+          }
         ],
-        "researchArea": "influencersVirtuales"
+        "researchArea": "Human Computer Interaction"
     },
     {
         "id": 3,
-        "nombreProyecto": "Proyecto 3",
-        "foto": "influencersVirtuales.png",
-        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "nombreProyecto": "Diseño de un Sistema para la Automatización de Tareas de Inspección de Estructuras Físicas Sencillas Utilizando un Dron",
+        "foto": "",
+        "descripcion": "La inspección de estructuras físicas es una tarea crítica, y omitir algún detalle puede tener consecuencias desastrosas. Al pilotear manualmente un dron, existe el riesgo de que el piloto no cubra en su totalidad la estructura y se pierda información sumamente importante. Se propone un sistema basado en la existencia de un modelo tridimensional de la estructura a inspeccionar, donde el usuario inspector solo tenga que introducir algunos parámetros básicos y un dron sea capaz de ejecutar la tarea de inspección automáticamente.",
         "integrantes": [
-            {
-                "nombre": "Integrante 1",
-                "fotoIntegrante": "foto_pabloFigueroa.png"
-            },
-            {
-                "nombre": "Integrante 2",
-                "fotoIntegrante": "foto_valentinaRozo.png"
-            }
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "David Oviedo",
+            "fotoIntegrante": ""
+          }
         ],
-        "researchArea": "influencersVirtuales"
+        "researchArea": "Robotics"
     },
     {
         "id": 4,
-        "nombreProyecto": "Proyecto 4",
-        "foto": "influencersVirtuales.png",
-        "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
+        "nombreProyecto": "Defensor de la cultura",
+        "foto": "defensorCultura",
+        "descripcion": "Videojuego educativo desarrollado en Unity",
         "integrantes": [
-            {
-                "nombre": "Integrante 1",
-                "fotoIntegrante": "foto_pabloFigueroa.png"
-            },
-            {
-                "nombre": "Integrante 2",
-                "fotoIntegrante": "foto_valentinaRozo.png"
-            }
+          {
+            "nombre": "Prof. Pablo Figueroa",
+            "fotoIntegrante": "foto_pabloFigueroa"
+          },
+          {
+            "nombre": "Gabriel Serna",
+            "fotoIntegrante": "foto_gabrielSerna"
+          },
+          {
+            "nombre": "Camilo Otalora",
+            "fotoIntegrante": "foto_camiloOtalora"
+          },
+          {
+            "nombre": "Arturo Rubio",
+            "fotoIntegrante": "foto_arturoRubio"
+          }
         ],
-        "researchArea": "influencersVirtuales"
+        "researchArea": "Video Games"
+    },
+    {
+        "id": 5,
+        "nombreProyecto": "Desarrollo Humano Para Valientes",
+        "foto": "desarrolloValientes",
+        "descripcion": "Este es un proyecto en curso desarrollado en colaboración con el PNUD. El proyecto consiste en ayudar a las comunidades a comunicar sus problemas (en torno a los ODS), enseñándoles a grabar videos de empatía 360 para contar sus historias. Se desarrollará un MOOC (Massive Open Online Course) en Coursera que servirá como una plataforma donde las personas experimentarán estas historias y propondrán soluciones junto con las comunidades para abordar estos problemas. (2022, Universidad de los Andes).",
+        "integrantes": [
+          {
+            "nombre": "Camilo Useche",
+            "fotoIntegrante": ""
+          },
+          {
+            "nombre": "Prof. Pablo Figueroa",
+            "fotoIntegrante": "foto_pabloFigueroa"
+          }
+        ],
+        "researchArea": "Mixed Realities"
+    },
+    {
+        "id": 6,
+        "nombreProyecto": "Escape VR",
+        "foto": "escapeVR",
+        "descripcion": "El proyecto es un juego cooperativo de realidad virtual que sigue la dinámica de un escape room. Esto significa que los jugadores, en este caso dos, estarán sumergidos en un entorno virtual ambientado en la época medieval y estos tendrán la tarea de resolver distintos acertijos para lograr escapar de su encierro. Asimismo, los acertijos a los cuales se enfrentarán evaluarán sus habilidades para trabajar en equipo y comunicar sus ideas.",
+        "integrantes": [
+          {
+            "nombre": "Angela Jimenez",
+            "fotoIntegrante": "foto_angelaJimenez"
+          },
+          {
+            "nombre": "Andres Rincon",
+            "fotoIntegrante": "foto_andresRincon"
+          },
+          {
+            "nombre": "Prof. Pablo Figueroa",
+            "fotoIntegrante": "foto_pabloFigueroa"
+          }
+        ],
+        "researchArea": "Mixed Realities"
+    },
+    {
+        "id": 7,
+        "nombreProyecto": "Three-dimensional path definning and following for drones supported by virtual reality technology.",
+        "foto": "",
+        "descripcion": "Investigate and design an architecture that integrates VR to the interaction with UAV drones for solving path definning and path following tasks.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Prof. Nelson Andrés Sánchez",
+            "fotoIntegrante": "foto_NelsonAndresSanchez"
+          }
+        ],
+        "researchArea": "Robotics"
+    },
+    {
+        "id": 8,
+        "nombreProyecto": "Path planning and following using genetic algorithms to solve the multi-travel salesman problem in dynamic scenarios",
+        "foto": "",
+        "descripcion": "Develop and implementation of a technique to solve the Multi-Travel Salesman Problem (MTSP) when applied to mobile robots in dynamic scenarios.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Prof. Nelson Andrés Sánchez",
+            "fotoIntegrante": "foto_NelsonAndresSanchez"
+          }
+        ],
+        "researchArea": "Robotics",
+        "link": "http://ieeexplore.ieee.org/document/8023519/"
+    },
+    {
+        "id": 9,
+        "nombreProyecto": "Diseño de sistema de planeación y seguimiento de rutas en un escenario interior con un robot móvil",
+        "foto": "",
+        "descripcion": "Desarrollo de un sistema de planeación de rutas que permita hacer la navegación de un robot P3DX dentro de un escenario interior para que sea un guía dentro del edificio Mario Laserna.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Francisco Durango",
+            "fotoIntegrante": "foto_FranciscoManuelJoseDurangoUribe"
+          }
+        ],
+        "researchArea": "Robotics"
+    },
+    {
+        "id": 10,
+        "nombreProyecto": "Consolidation of web and mobile architectural projects integrating Lego Mindstorm EV3",
+        "foto": "",
+        "descripcion": "Consolidate web and mobile architectures, to deploy the existent control and programming of Lego Mindstorm EV3 robots across multiple platforms; Android, IOS and WebPages.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Samuel Baquero",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Robotics"
+    }
+    ,
+    {
+        "id": 11,
+        "nombreProyecto": "Definition of an architecture for web applications integrating Lego Mindstorm EV3",
+        "foto": "",
+        "descripcion": "Define a base software architecture for the creation of web applications for operation, control and programming of Lego Mindstorm EV3 robots.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Fernando de la Rosa",
+            "fotoIntegrante": "foto_FernandodelaRosa"
+          },
+          {
+            "nombre": "Eduardo Cabello",
+            "fotoIntegrante": "foto_EduardoCabello10"
+          }
+        ],
+        "researchArea": "Robotics"
+    },
+    {
+        "id": 12,
+        "nombreProyecto": "Harmony",
+        "foto": "",
+        "descripcion": "Harmony es una herramienta de aprendizaje de batería con Unity, Oculus y Photon. La idea es crear el ambiente perfecto para aprender a tocar la batería. Los músicos y los alumnos pueden tener un espacio para practicar y desarrollar nuevas habilidades mientras un maestro o un amigo los guía a través del proceso.",
+        "integrantes": [
+          {
+            "nombre": "Angela Jimenez",
+            "fotoIntegrante": "foto_angelaJimenez"
+          },
+          {
+            "nombre": "Andres Rincon",
+            "fotoIntegrante": "foto_andresRincon"
+          },
+          {
+            "nombre": "Prof. Pablo Figueroa",
+            "fotoIntegrante": "foto_pabloFigueroa"
+          }
+        ],
+        "researchArea": "Mixed Realities"
+    },
+    {
+        "id": 13,
+        "nombreProyecto": "Tadava - Visual Analytics Architecture for large table-based datasets",
+        "foto": "Tadava_VisualAnalyticsArchitecture",
+        "descripcion": "Sampling, summarize and exploration of large table-based datasets to provide the user with a representative and understandable sample of the data.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Juan Camilo",
+            "fotoIntegrante": "foto_juanCamilo"
+          }
+        ],
+        "researchArea": "Visual Analytics"
+    },
+    {
+        "id": 14,
+        "nombreProyecto": "Visualizing Biological Sequence Comparison Summaries for Sequence Alignment Analysis",
+        "foto": "Biological-sequence",
+        "descripcion": "This project consists in a visualization technique to summarize and compare single and multi-queries in biological sequence comparisons. After proposing a taxonomy of existing tools supporting sequence comparison, some analysis tasks were identified and prioritized according to the untapped work potential and relevance to the analyst. This project would be tested along with a group of bioinformaticians.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Meili Vanegas",
+            "fotoIntegrante": "foto_meiliVanegas"
+          }
+        ],
+        "researchArea": "Visual Analytics"
+    },
+    {
+        "id": 15,
+        "nombreProyecto": "Visual Analytics the Bogotá Council case",
+        "foto": "",
+        "descripcion": "This project will be focused in making the data flow to the correct stakeholders, making the middleman’s job easier and dynamizing its use. The forms for data input will be simplified, the data will be reorganized and stored for future use, and visualizations will be made regarding the user’s best interests.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Esteban Dalel",
+            "fotoIntegrante": "foto_estebanDalel"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/EstebanDalelR/Thesis-Viz"
+    },
+    {
+        "id": 16,
+        "nombreProyecto": "DataViz widget for summarizing and navigating large lists of items",
+        "foto": "",
+        "descripcion": "Develop a UI framework which will allow users to navigate big photo repositories. Using a dimension system, the user will be able to switch the photos they're visualizing depending on the predefined attribute that has been chosen.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Camilo Alfonso",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/vecope/Thesis"
+    },
+    {
+        "id": 17,
+        "nombreProyecto": "Accessibility Fix Tool",
+        "foto": "",
+        "descripcion": "Fix web applications accessibility problems without writing any code",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Antonio De La Vega",
+            "fotoIntegrante": "foto_antonioDeLaVega"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/adelavegaf/magically"
+    },
+    {
+        "id": 18,
+        "nombreProyecto": "Interpretable and Interactive Machine Learning",
+        "foto": "InterpretableML",
+        "descripcion": "Machine Learning has positioned itself as a hot topic and almost as a synonym to data analysis. However, most of the current real world ML systems use models as black-boxes. Given this, the big question that arises is what about if model performance is not the unique requirement to be fulfilled?  To address this, two new sub-fields of research have been proposed to help users to interact and understand ML models, and by this opening the black-box Interactive ML and Interpretable ML. This master thesis project is developed in the context of these sub-fields, with applications to Exploratory Data Analysis (EDA) supported by the t-SNE algorithm, a common technique for dimensionality reduction of high-dimensional data. The contributions of this project are (1) provide a set of guidelines for designing more user-centric ML systems in terms of interactivity and interpretability and (2) design and develop of a visual tool to interact and interpret t-SNE models for performing EDA. The proposal is evaluated in two case studies, the animals dataset and the urban environment dataset from SALURBAL project.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Jose Hernandez",
+            "fotoIntegrante": "foto_JoseHernandez"
+          },
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Fabian Penna",
+            "fotoIntegrante": "foto_fabianPenna"
+          }
+        ],
+        "researchArea": "Visual Analytics"
+    },
+    {
+        "id": 19,
+        "nombreProyecto": "Using ML to produce tactile graphics for the blind",
+        "foto": "",
+        "descripcion": "Develop a machine learning tool able to identify the object present in an image and provide a tactile graphic of it.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Felipe Martinez",
+            "fotoIntegrante": "foto_felipeMartinez"
+          }
+        ],
+        "researchArea": "Visual Analytics"
+    },
+    {
+        "id": 20,
+        "nombreProyecto": "Node Navigator: Summarizing and Navigating Multivariate Data",
+        "foto": "",
+        "descripcion": "Navigation, summarization and exploration of large repositories of images and videos in multiple dimensions without losing the context of the data",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Juan Guillermo",
+            "fotoIntegrante": "foto_juanGuillermo"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/jgmurillo10/thesis"
+    },
+    {
+        "id": 21,
+        "nombreProyecto": "Exploring treemaps for summarizing and navigating image galleries",
+        "foto": "",
+        "descripcion": "Treemaps are an important and useful tool to navigate and visualize image galleries. Images repositories has grown in size and now there is the need of a tool that allows to navigate and find meaningful insights in a straightforward way. Because of this, the approach used for Treemaps result suitable for the problem. Treemaps are a visualization technique used for display hierarchical collections of quantitative data. In the case of images, this technique is used to represent a large collection of pictures in a reduced space, this representation is ordered based in the pictures' meta-data. The thesis purpose is divided in four main stages. First, it will present an investigation of the current state of the art and how similar problems has been addressed. Then, it will be focus on present a system based on Treemaps, which aims to solve the problem of summarizing and navigating image galleries of any kind, having in mind the best approaches of usability and visualization. After this, the purposed solution will be evaluated through usability tests, to verify its contributions to solve the afore mentioned problem. Finally, this research presents conclusions and the possibilities for future work.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Luis Mesa",
+            "fotoIntegrante": "foto_luisMesa"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/john-guerra/photoTreemap"
+    },
+    {
+        "id": 22,
+        "nombreProyecto": "PhotoRing: Visual Analytics Architecture for Exploring Large Repositories of Photos",
+        "foto": "",
+        "descripcion": "An efficient architecture for the exploration of big photo datasets to provide the user with a representative and understandable sample of the data.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "David Delgado",
+            "fotoIntegrante": "foto_davidDelgado"
+          },
+          {
+            "nombre": "David Laiton",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/nonameable/thesis"
+    },
+    {
+        "id": 23,
+        "nombreProyecto": "Best practices for Architecting Data Analytics",
+        "foto": "Practices-data-analytics",
+        "descripcion": "Figure out the best practices and techniques for architecting applications to analyze and visualize large data, by using benchmarking techniques which allow to recommend the best software tools to develop Visual Data Analytics applications with structured, stream and graph data.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Camilo Mera",
+            "fotoIntegrante": "foto_camiloMera"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/lincex7845/bestPract-DA"
+    },
+    {
+        "id": 24,
+        "nombreProyecto": "Analyzing news articles to answer research questions",
+        "foto": "",
+        "descripcion": "Apply NLP techniques to a database of NYT articles. COMPLETE",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Nicolar Chavez",
+            "fotoIntegrante": "foto_nicolarChavez"
+          }
+        ],
+        "researchArea": "Visual Analytics"
+    },
+    {
+        "id": 25,
+        "nombreProyecto": "Visual analytics support tool",
+        "foto": "",
+        "descripcion": "Develop a tool for researchers to help them summarize, annotate and compare results from studies on the medical field.",
+        "integrantes": [
+          {
+            "nombre": "Prof. John Guerra",
+            "fotoIntegrante": "foto_JohnGuerra_2015"
+          },
+          {
+            "nombre": "Esteban Dalel",
+            "fotoIntegrante": "foto_estebanDalel"
+          }
+        ],
+        "researchArea": "Visual Analytics",
+        "link": "https://github.com/EstebanDalelR/Thesis-Viz"
+    },
+    {
+        "id": 26,
+        "nombreProyecto": "Interactive segmentation of 3D biomedical images",
+        "foto": "",
+        "descripcion": "Develop an interactive segmentation tool to either manually segment one or various organs or regions of interest, or correct an existing segmentation obtained using an automatic segmentation algorithm.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Marcela Hernandez",
+            "fotoIntegrante": "foto_MarcelaHernandez"
+          },
+          {
+            "nombre": "Rogelio Garcia",
+            "fotoIntegrante": "foto_RogelioGarcia"
+          }
+        ],
+        "researchArea": "Image Processing"
+    },
+    {
+        "id": 27,
+        "nombreProyecto": "Global, regional and local recruitment of the lungs taking into account the deformation",
+        "foto": "poumon_final",
+        "descripcion": "The goal of this project is to create global, regional and local recruitment algorithms that take into account the volume difference of inspiration and expiration images by using the determinant of the Jacobian of their transformation. With this, we want to find the best way to calculate the aeration of the lungs and assist medical professionals in choosing the best parameters to treat ARDS patients with mechanical ventilation.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Marcela Hernandez",
+            "fotoIntegrante": "foto_MarcelaHernandez"
+          },
+          {
+            "nombre": "Margarita Gomez",
+            "fotoIntegrante": "foto_margaritaGomez"
+          },
+          {
+            "nombre": "Camila Garcia",
+            "fotoIntegrante": "foto_camilaGarcia"
+          },
+          {
+            "nombre": "Maciej Orkisz",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Image Processing"
+    },
+    {
+        "id": 28,
+        "nombreProyecto": "CAAVAT - Computer Assisted Analysis of Visceral Adipose Tissue (VAT) on CT Images",
+        "foto": "CAAVAT",
+        "descripcion": "We have developed an automatic VAT quantification technology using an innovative technique for the segmentation of CT images in the abdominal region. The software captures CT images as an input and then automatically segments the existing VAT as well as the Subcutaneous Adipose Tissue (SAT). We were granted a patent in Colombia, Japan, USA, and Europe. For more information, please access patent No.WO/2015/172753.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Marcela Hernandez",
+            "fotoIntegrante": "foto_MarcelaHernandez"
+          },
+          {
+            "nombre": "Ricardo Mendoza",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Image Processing"
+    },
+    {
+        "id": 29,
+        "nombreProyecto": "Automatic image analysis applied to the characterization of microstructural powder metallurgy",
+        "foto": "imageanalysismetallurgy",
+        "descripcion": "In this project we created a method of processing the powder metallurgy process known as metal powder. The proposed method analyzes the roundness of pores automatically using image processing, saving time and avoiding errors incurred when analysis is performed manually. The results show that the proposed method is consistent with the manual analysis by an expert.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Marcela Hernandez",
+            "fotoIntegrante": "foto_MarcelaHernandez"
+          },
+          {
+            "nombre": "Diego Rodriguez",
+            "fotoIntegrante": "foto_DiegoRodriguez"
+          },
+          {
+            "nombre": "Daniel Wilches",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Image Processing"
+    },
+    {
+        "id": 30,
+        "nombreProyecto": "Astronomical image processing from large all-sky photometric surveys for the detection and measurement of transients",
+        "foto": "LSST",
+        "descripcion": "Develop an efficient and accurate pipeline for the detection of transient-like events on astronomical images for the LSST.",
+        "integrantes": [
+          {
+            "nombre": "Prof. Marcela Hernandez",
+            "fotoIntegrante": "foto_MarcelaHernandez"
+          },
+          {
+            "nombre": "Juan Pablo Reyes",
+            "fotoIntegrante": ""
+          }
+        ],
+        "researchArea": "Image Processing"
     }
 ]
