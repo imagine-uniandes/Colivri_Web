@@ -8,7 +8,7 @@ import '../styles/home.css';
 function proyects() {
     return (
         <div className='Proyects'>
-            <div style={{ marginTop: '70px' }}>
+            <div style={{ marginTop: '100px'}}>
                 <Proyects />
             </div>
             <Contact />

@@ -14,11 +14,20 @@ const Proyectos = () => {
     return projects.map((project, index) => (
       <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={index}>
         <div className="card h-100 mw-100">
+          {project.foto && (
             <img
-              src={project.foto ? (require(`../assets/proyectos/${project.foto}${project.foto.endsWith('') ? '.png' : '.jpg'}`)) : require('../assets/placeholder.jpg')}
+              src={require(`../assets/proyectos/${project.foto}`)}
               className="card-img-top"
               alt={`Imagen ${project.nombreProyecto}`}
             />
+          )}
+          {!project.foto && (
+            <img
+              src={require('../assets/logoImagine.png')}
+              className="card-img-top"
+              alt={`Imagen ${project.nombreProyecto}`}
+            />
+          )}
           <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
             <p className="card-text">{project.descripcion}</p>
@@ -26,11 +35,12 @@ const Proyectos = () => {
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex">
                 {project.integrantes.map((integrante, i) => (
-                  <img
+                  <img 
                     key={i}
-                    src={integrante.fotoIntegrante ? (require(`../assets/integrantes/${integrante.fotoIntegrante}${integrante.fotoIntegrante.endsWith('.png') ? '.png' : '.jpg'}`)) : require('../assets/placeholder.jpg')}
+                    src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : require('../assets/default.png')}
                     className="rounded-circle mr-2 member"
                     alt={`Integrante ${integrante.nombre}`}
+                    style={{ width: '50px', height: '50px' }}
                   />
                 ))}
               </div>
@@ -43,6 +53,7 @@ const Proyectos = () => {
       </div>
     ));
   };
+  
   
   
 

@@ -8,7 +8,7 @@
   }
   
   .proyects h2{
-    margin-top: 1%;
+    margin-top: 10px;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 45px;
@@ -67,7 +67,6 @@
     margin-bottom: 3%;
   }
   
-
   img.member {
     width: 50px;
     height: 50px;
