@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom';
 import data from '../data/proyects.json';
 import '../styles/proyect-detail.css';
+import { DEFAULT_IMAGE } from '../constants';
+
 
 const renderIntegrantes = (integrantes) => {
   return (
@@ -41,19 +43,13 @@ const ProyectDetail = () => {
           alt={`Imagen ${proyecto.nombreProyecto}`}
         />
         )}
-      {!proyecto.foto && (
-        <img
-        src={require('../assets/logoImagine.png')}
-        alt={`Imagen ${proyecto.nombreProyecto}`}
-        />
-        )}
       <p>{proyecto.descripcion}</p>
         {proyecto.video && (
             <iframe className="proyect-detail-video" src={proyecto.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         )}
+      <p>Área de investigación: {proyecto.researchArea}</p>
       <h2 className="integrantes-heading">Integrantes:</h2>
       {renderIntegrantes(proyecto.integrantes)}
-      <p>Área de investigación: {proyecto.researchArea}</p>
     </div>
   );
 };

@@ -1248,6 +1248,10 @@
         {
             "nombre": "Valentina Uribe",
             "fotoIntegrante": "foto_valentinaUribe.jpg"
+        },
+        {
+            "nombre": "Abel Arismendy",
+            "fotoIntegrante": "foto_abelArismendy.jpg"
         }
     ],
     "researchArea": "Mixed Realities",

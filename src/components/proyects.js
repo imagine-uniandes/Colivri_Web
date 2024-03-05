@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 import data from '../data/proyects.json';
 import '../styles/proyects.css';
+import { DEFAULT_IMAGE } from '../constants';
+
 
 const Proyectos = () => {
   const [projects, setProjects] = useState([]);
@@ -23,17 +25,25 @@ const Proyectos = () => {
           )}
           {!project.foto && (
             <img
-              src={require('../assets/logoImagine.png')}
+              src={DEFAULT_IMAGE}
               className="card-img-top"
               alt={`Imagen ${project.nombreProyecto}`}
             />
           )}
           <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
-            <p className="card-text">{project.descripcion}</p>
             <p className="card-research">{project.researchArea}</p>
-            <div className="d-flex justify-content-between align-items-center">
+            <p className="card-text">{project.descripcion}</p>
+            <div className="bottom-cta d-flex justify-content-between">
               <div className="d-flex">
+                {/* #TODO Renderizar solo i imagenes de los integrantes:
+                - mobile <320px: 3
+                - mobile >576px: 2
+                - tablet >768px: 4
+                - desktop >1024px: 3
+                - desktop >1200px: 4
+                Al superar el limite de imagenes, quitar una imagen y mostrar un icono de +n-i+1
+                */}
                 {project.integrantes.map((integrante, i) => (
                   <img 
                     key={i}
@@ -59,7 +69,7 @@ const Proyectos = () => {
 
   return (
     <div className="proyectos container">
-      <h2>Proyectos</h2>
+      <h1>Proyectos</h1>
       <div className="row">
         {renderCards()}
       </div>
