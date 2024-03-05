@@ -6,7 +6,7 @@ import Contact from '../components/contact';
 const ProyectDetailPage = () => {
   return (
     <div className='proyect-detail'>
-      <div style={{ marginTop: '70px' }}>
+      <div style={{ marginTop: '110px' }}>
         <ProyectDetail />
       </div>
       <Contact />

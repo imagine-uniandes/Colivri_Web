@@ -54,7 +54,7 @@
         "id": 4,
         "nombreProyecto": "Defensor de la cultura",
         "foto": "defensorCultura.png",
-        "descripcion": "Videojuego educativo desarrollado en Unity",
+        "descripcion": "videojuego educativo desarrollado en Unity",
         "integrantes": [
           {
             "nombre": "Prof. Pablo Figueroa",
@@ -78,7 +78,7 @@
     {
         "id": 5,
         "nombreProyecto": "Desarrollo Humano Para Valientes",
-        "foto": "desarrolloValientes.png",
+        "foto": "",
         "descripcion": "Este es un proyecto en curso desarrollado en colaboración con el PNUD. El proyecto consiste en ayudar a las comunidades a comunicar sus problemas (en torno a los ODS), enseñándoles a grabar videos de empatía 360 para contar sus historias. Se desarrollará un MOOC (Massive Open Online Course) en Coursera que servirá como una plataforma donde las personas experimentarán estas historias y propondrán soluciones junto con las comunidades para abordar estos problemas. (2022, Universidad de los Andes).",
         "integrantes": [
           {
@@ -90,7 +90,8 @@
             "fotoIntegrante": "foto_pabloFigueroa.png"
           }
         ],
-        "researchArea": "Mixed Realities"
+        "researchArea": "Mixed Realities",
+        "video": "https://www.youtube.com/embed/NoRnkz74sc8?si=9JLz0nebAiK9koKp"
     },
     {
         "id": 6,
@@ -740,7 +741,7 @@
     "id": 39,
     "nombreProyecto": "DAVID",
     "foto": "Header-DAVID.png",
-    "descripcion": "Strategic plan for the Videogame and Animation Industries",
+    "descripcion": "Strategic plan for the videogame and Animation Industries",
     "integrantes": [
         {
             "nombre": "Prof. Pablo Figueroa",
@@ -1133,7 +1134,7 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "addscape.PNG",
-    "demoVideo": "https://www.youtube.com/embed/hTaPmFHje3M"
+    "video": "https://www.youtube.com/embed/hTaPmFHje3M"
   },
   {
     "id": 46,
@@ -1154,7 +1155,7 @@
         }
     ],
     "foto": "addscapeV2.PNG",
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "video": "https://www.youtube.com/embed/mbAbzxoia-Y"
   },
   {
@@ -1180,7 +1181,7 @@
         }
     ],
     "foto": "corruptio.png",
-    "research_area": "Video Games",
+    "researchArea": "Video Games",
     "video": "https://www.youtube.com/embed/grDYLl6gy_Y",
     "link": "https://paco-democratico-devs.itch.io/corruptio-mvp-2",
     "github": "https://github.com/nfajardor/corruptio"
@@ -1208,7 +1209,7 @@
         }
     ],
     "foto": "img_domicilioSurvivor.png",
-    "research_area": "Video Games",
+    "researchArea": "Video Games",
     "link": "https://berserker1523.itch.io/domicilio-survivor"
   },
   {
@@ -1249,7 +1250,7 @@
             "fotoIntegrante": "foto_valentinaUribe.jpg"
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "GD-COLIVRI.png"
   },
   {
@@ -1266,7 +1267,7 @@
             "fotoIntegrante": "foto_valentinaRozo.jpg"
         }
     ],
-    "research_area": "Human Computer Interaction",
+    "researchArea": "Human Computer Interaction",
     "foto": "influencersVirtuales.png"
   },
   {
@@ -1291,7 +1292,7 @@
             "fotoIntegrante": "foto_nicolasFajardo.jpeg"
         }
     ],
-    "research_area": "Video Games"
+    "researchArea": "Video Games"
   },
   {
     "id": 52,
@@ -1311,7 +1312,7 @@
             "fotoIntegrante": "foto_valentinaUribe.jpg"
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "metaversosEducativos.jpg"
   },
   {
@@ -1336,9 +1337,9 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "reparacionTierras.PNG",
-    "demoVideo": "https://www.youtube.com/embed/BknTOvWK6OU",
+    "video": "https://www.youtube.com/embed/BknTOvWK6OU",
     "link": "https://github.com/yabejarano10/Tesis"
   },
   {
@@ -1359,9 +1360,9 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Video Games",
+    "researchArea": "Video Games",
     "foto": "shadesOfMySoul.png",
-    "demoVideo": "https://www.youtube.com/embed/wpGb45UeoVs",
+    "video": "https://www.youtube.com/embed/wpGb45UeoVs",
     "link": "https://juanotalora.itch.io/shades-of-my-soul",
     "repository": "https://github.com/JuanOtalora/Shades"
   },
@@ -1379,9 +1380,9 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "foto": "simulacionesVehiculosAutonomos.png",
-    "demoVideo": "https://www.youtube.com/embed/GFKQv1j6vpQ",
+    "video": "https://www.youtube.com/embed/GFKQv1j6vpQ",
     "repository": "https://github.com/Lala341/SimulationCARLA"
   },
   {
@@ -1398,9 +1399,9 @@
             "fotoIntegrante": "foto_pabloFigueroa.png"
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "presentacionesVR.png",
-    "demoVideo": "https://www.youtube.com/embed/nDPP78MRtxM"
+    "video": "https://www.youtube.com/embed/nDPP78MRtxM"
   },
   {
     "id": 57,
@@ -1420,7 +1421,7 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Mixed Realities"
+    "researchArea": "Mixed Realities"
   },
   {
     "id": 58,
@@ -1436,7 +1437,7 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "foto": "MetroBogota.png"
   },
   {
@@ -1453,7 +1454,7 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "foto": "braintractographies.jpg",
     "link": "http://diego0020.github.io/braviz/index.html"
   },
@@ -1471,7 +1472,7 @@
             "fotoIntegrante": ""
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "link": "http://analiticafundacioncanguro.com/"
   },
   {
@@ -1488,7 +1489,7 @@
             "fotoIntegrante": "foto_DavidMayorga.jpg"
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "Orthaptica.jpg"
   },
   {
@@ -1505,7 +1506,7 @@
             "fotoIntegrante": "foto_miguelfeijoo.jpg"
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "github_repository": "https://github.com/miguelfeijoo/miguelfeijoo.github.io/tree/master/TesisMINE"
   },
   {
@@ -1522,7 +1523,7 @@
             "fotoIntegrante": "foto_meiliVanegas.jpg"
         }
     ],
-    "research_area": "Visual Analytics",
+    "researchArea": "Visual Analytics",
     "github_repository": "https://github.com/mvanegas10/kobdig-validation"
   },
   {
@@ -1547,7 +1548,7 @@
             "fotoIntegrante": "foto_pabloFigueroa.png"
         }
     ],
-    "research_area": "Mixed Realities",
+    "researchArea": "Mixed Realities",
     "foto": "wizardChess.jpg"
   }
 ]

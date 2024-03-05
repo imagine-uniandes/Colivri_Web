@@ -31,7 +31,7 @@ const Proyectos = () => {
           <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
             <p className="card-text">{project.descripcion}</p>
-            <p className="card-text">{project.researchArea}</p>
+            <p className="card-research">{project.researchArea}</p>
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex">
                 {project.integrantes.map((integrante, i) => (
