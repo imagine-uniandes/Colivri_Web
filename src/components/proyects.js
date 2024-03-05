@@ -59,20 +59,22 @@ const Proyectos = () => {
     return projects.map((project, index) => (
       <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={index}>
         <div className="card h-100 mw-100">
-          {project.foto && (
-            <img
-              src={require(`../assets/proyectos/${project.foto}`)}
-              className="card-img-top"
-              alt={`Imagen ${project.nombreProyecto}`}
-            />
-          )}
-          {!project.foto && (
-            <img
-              src={DEFAULT_IMAGE}
-              className="card-img-top"
-              alt={`Imagen ${project.nombreProyecto}`}
-            />
-          )}
+          <Link to={`/proyectos/${project.id}`}>
+            {project.foto && (
+              <img
+                src={require(`../assets/proyectos/${project.foto}`)}
+                className="card-img-top"
+                alt={`Imagen ${project.nombreProyecto}`}
+              />
+            )}
+            {!project.foto && (
+              <img
+                src={DEFAULT_IMAGE}
+                className="card-img-top"
+                alt={`Imagen ${project.nombreProyecto}`}
+              />
+            )}
+          </Link>
           <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
             <p className="card-research">{project.researchArea}</p>
