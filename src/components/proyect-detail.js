@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom';
 import data from '../data/proyects.json';
 import '../styles/proyect-detail.css';
-import { DEFAULT_IMAGE } from '../constants';
 
 
 const renderIntegrantes = (integrantes) => {

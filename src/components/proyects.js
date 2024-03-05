@@ -12,6 +12,49 @@ const Proyectos = () => {
     setProjects(data);
   }, []);
 
+  const renderMemberImages = (integrantes) => {
+    const breakpoints = {
+      mobileSmall: 320,
+      mobileMedium: 576,
+      tablet: 768,
+      desktopMedium: 1023,
+      desktopLarge: 1401,
+    };
+
+    const maxImagesToShow = {
+      mobileSmall: 3,
+      mobileMedium: 3,
+      tablet: 3,
+      desktopMedium: 3,
+      desktopLarge: 4,
+    };
+
+    const windowWidth = window.innerWidth;
+    let category = 'desktopLarge';
+
+    if (windowWidth < breakpoints.mobileMedium) {
+      category = 'mobileSmall';
+    } else if (windowWidth < breakpoints.tablet) {
+      category = 'mobileMedium';
+    } else if (windowWidth < breakpoints.desktopMedium) {
+      category = 'tablet';
+    } else if (windowWidth < breakpoints.desktopLarge) {
+      category = 'desktopMedium';
+    }
+
+    const maxToShow = maxImagesToShow[category];
+
+    return integrantes.slice(0, maxToShow).map((integrante, i) => (
+      <img 
+        key={i}
+        src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : require('../assets/default.png')}
+        className="rounded-circle mr-2 member"
+        alt={`Integrante ${integrante.nombre}`}
+        style={{ width: '50px', height: '50px' }}
+      />
+    ));
+  };
+
   const renderCards = () => {
     return projects.map((project, index) => (
       <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={index}>
@@ -36,23 +79,7 @@ const Proyectos = () => {
             <p className="card-text">{project.descripcion}</p>
             <div className="bottom-cta d-flex justify-content-between">
               <div className="d-flex">
-                {/* #TODO Renderizar solo i imagenes de los integrantes:
-                - mobile <320px: 3
-                - mobile >576px: 2
-                - tablet >768px: 4
-                - desktop >1024px: 3
-                - desktop >1200px: 4
-                Al superar el limite de imagenes, quitar una imagen y mostrar un icono de +n-i+1
-                */}
-                {project.integrantes.map((integrante, i) => (
-                  <img 
-                    key={i}
-                    src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : require('../assets/default.png')}
-                    className="rounded-circle mr-2 member"
-                    alt={`Integrante ${integrante.nombre}`}
-                    style={{ width: '50px', height: '50px' }}
-                  />
-                ))}
+                {renderMemberImages(project.integrantes)}
               </div>
               <Link to={`/proyectos/${project.id}`} className="btn btn-primary">
                 Ver más
@@ -63,9 +90,6 @@ const Proyectos = () => {
       </div>
     ));
   };
-  
-  
-  
 
   return (
     <div className="proyectos container">
