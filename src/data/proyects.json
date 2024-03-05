@@ -558,7 +558,7 @@
     {
       "id": 31,
       "nombreProyecto": "Interacciones pseudohápticas en realidad virtual",
-      "foto": "Pseudohaptics.png",
+      "foto": "Pseudohaptics.PNG",
       "descripcion": "En este proyecto buscamos diseñar y probar una serie de interacciones tradicionales y pseudohápticas en realidad virtual.",
       "integrantes": [
           {
@@ -567,7 +567,7 @@
           },
           {
               "nombre": "Prof. Vivian Gómez",
-              "fotoIntegrante": "foto_VivianGomez.jpg"
+              "fotoIntegrante": "foto_VivianGomez.JPG"
           },
           {
               "nombre": "Sebastián Calvache",
@@ -642,7 +642,7 @@
         },
         {
             "nombre": "Prof. Vivian Gomez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         }
     ],
     "researchArea": "Mixed Realities"
@@ -659,7 +659,7 @@
         },
         {
             "nombre": "Prof. Vivian Gomez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         },
         {
             "nombre": "Nicolas Rueda",
@@ -920,7 +920,7 @@
         },
         {
             "nombre": "Prof. Vivian Gomez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         }
     ],
     "researchArea": "Mixed Realities",
@@ -1107,11 +1107,11 @@
         },
         {
             "nombre": "Collab John C. McClelland",
-            "fotoIntegrante": ""
+            "fotoIntegrante": "foto_johnCMcClelland.png"
         },
         {
             "nombre": "Collab Audrey Girouard",
-            "fotoIntegrante": ""
+            "fotoIntegrante": "foto_audreyGirouard.jpg"
         }
     ],
     "researchArea": "Mixed Realities",
@@ -1128,7 +1128,7 @@
         },
         {
             "nombre": "Prof. Vivian Gómez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         }
     ],
     "researchArea": "Mixed Realities",
@@ -1222,7 +1222,7 @@
         },
         {
             "nombre": "Prof. Vivian Gómez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         },
         {
             "nombre": "Juan Esteban",
@@ -1304,7 +1304,7 @@
         },
         {
             "nombre": "Prof. Vivian Gómez",
-            "fotoIntegrante": "foto_VivianGomez.jpg"
+            "fotoIntegrante": "foto_VivianGomez.JPG"
         },
         {
             "nombre": "Valentina Uribe (Master)",
