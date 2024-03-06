@@ -16,21 +16,21 @@ const Proyectos = () => {
     const breakpoints = {
       mobileSmall: 320,
       mobileMedium: 576,
-      tablet: 768,
-      desktopMedium: 1023,
-      desktopLarge: 1401,
+      tablet: 770,
+      desktopMedium: 1199,
+      desktopLarge: 1200,
     };
 
     const maxImagesToShow = {
-      mobileSmall: 3,
-      mobileMedium: 3,
-      tablet: 3,
+      mobileSmall: 2,
+      mobileMedium: 2,
+      tablet: 2,
       desktopMedium: 3,
       desktopLarge: 4,
     };
 
     const windowWidth = window.innerWidth;
-    let category = 'desktopLarge';
+    let category = '';
 
     if (windowWidth < breakpoints.mobileMedium) {
       category = 'mobileSmall';
@@ -40,7 +40,11 @@ const Proyectos = () => {
       category = 'tablet';
     } else if (windowWidth < breakpoints.desktopLarge) {
       category = 'desktopMedium';
-    }
+    } else {
+      category = 'desktopLarge'
+    } 
+    
+    
 
     const maxToShow = maxImagesToShow[category];
 
