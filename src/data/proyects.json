@@ -10,7 +10,7 @@
                 "fotoIntegrante": "foto_pabloFigueroa.png"
             },
             {
-                "nombre": "Integrante 2",
+                "nombre": "Valentina Rozo",
                 "fotoIntegrante": "foto_valentinaRozo.jpg"
             }
         ],
@@ -685,7 +685,7 @@
         },
         {
             "nombre": "Julio Morales",
-            "fotoIntegrante": "foto_julianMora.jpeg"
+            "fotoIntegrante": ""
         },
         {
             "nombre": "Andres Gonzalez",

@@ -4,9 +4,28 @@ import data from '../data/proyects.json';
 import '../styles/proyects.css';
 import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return windowSize;
+};
 
 const Proyectos = () => {
   const [projects, setProjects] = useState([]);
+  
+  const windowWidth = useWindowSize(); // Usamos el hook personalizado aquí
 
   useEffect(() => {
     setProjects(data);
@@ -14,25 +33,26 @@ const Proyectos = () => {
 
   const renderMemberImages = (integrantes) => {
     const breakpoints = {
-      mobileSmall: 320,
+      mobileSmall: 400,
       mobileMedium: 576,
-      tablet: 770,
+      tablet: 768,
       desktopMedium: 1199,
       desktopLarge: 1200,
     };
 
     const maxImagesToShow = {
-      mobileSmall: 2,
+      xs: 2,
+      mobileSmall: 4,
       mobileMedium: 2,
-      tablet: 2,
+      tablet: 3,
       desktopMedium: 3,
       desktopLarge: 4,
     };
 
-    const windowWidth = window.innerWidth;
     let category = '';
-
-    if (windowWidth < breakpoints.mobileMedium) {
+    if (windowWidth < breakpoints.mobileSmall) {
+      category = 'xs';
+    } else if (windowWidth < breakpoints.mobileMedium) {
       category = 'mobileSmall';
     } else if (windowWidth < breakpoints.tablet) {
       category = 'mobileMedium';
@@ -42,19 +62,18 @@ const Proyectos = () => {
       category = 'desktopMedium';
     } else {
       category = 'desktopLarge'
-    } 
-    
-    
+    }
 
     const maxToShow = maxImagesToShow[category];
 
     return integrantes.slice(0, maxToShow).map((integrante, i) => (
-      <img 
+      <img
         key={i}
         src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
         className="rounded-circle mr-2 member"
         alt={`Integrante ${integrante.nombre}`}
-        style={{ width: '50px', height: '50px' }}
+        title={`${integrante.nombre}`}
+        style={{ width: '50px', height: '50px', marginRight: '5px' }}
       />
     ));
   };
