@@ -58,3 +58,21 @@
   aspect-ratio: 16/9;
   margin-bottom: 30px;
 }
+
+.proyect-detail-container .link-heading {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.proyect-detail-link {
+  font-size: 16px;
+}
+
+.proyect-detail-container .repository-heading {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.proyect-detail-repository {
+  font-size: 16px;
+}

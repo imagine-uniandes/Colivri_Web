@@ -35,7 +35,7 @@ const ProyectDetail = () => {
   console.log(proyecto);
   return (
     <div className="proyect-detail-container">
-      <h3>{proyecto.nombreProyecto}</h3>
+      <h1>{proyecto.nombreProyecto}</h1>
       {proyecto.foto && (
         <img
           src={require(`../assets/proyectos/${proyecto.foto}`)}
@@ -49,9 +49,28 @@ const ProyectDetail = () => {
       <p>Área de investigación: {proyecto.researchArea}</p>
       <h2 className="integrantes-heading">Integrantes:</h2>
       {renderIntegrantes(proyecto.integrantes)}
+      <h2 className="link-heading">Link:</h2>
+      <div className="proyect-detail-link">
+        {proyecto.link && (
+          <p>
+            <a href={proyecto.link} target="_blank" rel="noopener noreferrer">
+              {proyecto.link}
+            </a>
+          </p>
+        )}
+      </div>
+      <h2 className="repository-heading">Repositorio:</h2>
+      <div className="proyect-detail-repository">
+        {proyecto.repository && (
+            <p>
+            <a href={proyecto.repository} target="_blank" rel="noopener noreferrer">
+            {proyecto.repository}
+            </a>
+          </p>
+        )}
+      </div>
     </div>
   );
 };
-
 
 export default ProyectDetail;

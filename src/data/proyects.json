@@ -1184,7 +1184,7 @@
     "researchArea": "Video Games",
     "video": "https://www.youtube.com/embed/grDYLl6gy_Y",
     "link": "https://paco-democratico-devs.itch.io/corruptio-mvp-2",
-    "github": "https://github.com/nfajardor/corruptio"
+    "repository": "https://github.com/nfajardor/corruptio"
   },
   {
     "id": 48,
@@ -1511,7 +1511,7 @@
         }
     ],
     "researchArea": "Visual Analytics",
-    "github_repository": "https://github.com/miguelfeijoo/miguelfeijoo.github.io/tree/master/TesisMINE"
+    "repository": "https://github.com/miguelfeijoo/miguelfeijoo.github.io/tree/master/TesisMINE"
   },
   {
     "id": 63,
@@ -1528,7 +1528,7 @@
         }
     ],
     "researchArea": "Visual Analytics",
-    "github_repository": "https://github.com/mvanegas10/kobdig-validation"
+    "repository": "https://github.com/mvanegas10/kobdig-validation"
   },
   {
     "id": 64,
