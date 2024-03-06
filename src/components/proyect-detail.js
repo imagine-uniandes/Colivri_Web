@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import data from '../data/proyects.json';
 import '../styles/proyect-detail.css';
+import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 
 
 const renderIntegrantes = (integrantes) => {
@@ -10,7 +11,7 @@ const renderIntegrantes = (integrantes) => {
         <li key={index} className="integrante-item">
           <div className="integrante-info">
             <img 
-              src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : require('../assets/default.png')}
+              src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
               className="rounded-circle mr-2 member"
               alt={`Integrante ${integrante.nombre}`}
               style={{ width: '50px', height: '50px' }}

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 import data from '../data/proyects.json';
 import '../styles/proyects.css';
-import { DEFAULT_IMAGE } from '../constants';
+import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 
 
 const Proyectos = () => {
@@ -51,7 +51,7 @@ const Proyectos = () => {
     return integrantes.slice(0, maxToShow).map((integrante, i) => (
       <img 
         key={i}
-        src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : require('../assets/default.png')}
+        src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
         className="rounded-circle mr-2 member"
         alt={`Integrante ${integrante.nombre}`}
         style={{ width: '50px', height: '50px' }}
@@ -73,7 +73,7 @@ const Proyectos = () => {
             )}
             {!project.foto && (
               <img
-                src={DEFAULT_IMAGE}
+                src={DEFAULT_PROJECT_IMAGE}
                 className="card-img-top"
                 alt={`Imagen ${project.nombreProyecto}`}
               />

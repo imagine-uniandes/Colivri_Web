@@ -1,3 +1,5 @@
-import defaultImage from './assets/imagine.jpg';
-export { defaultImage as DEFAULT_IMAGE };
+import defaultProjectImage from './assets/default/imagine.jpg';
+import defaultPersonImage from './assets/default/circle-user-solid.svg';
+export { defaultProjectImage as DEFAULT_PROJECT_IMAGE };
+export { defaultPersonImage as DEFAULT_PERSON_IMAGE };
 /* #TODO Abel: Hacer una imagen placeholder por cada categoría */
