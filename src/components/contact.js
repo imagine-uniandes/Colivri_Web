@@ -8,7 +8,7 @@ const ContactUs = () => {
       <div className="container">
         <div className='row'>
           <div className="social-media col-12 col-md-6">
-            <h3>@COLIVRI_UNIANDES</h3>
+            <h3>¡ESCRÍBENOS!</h3>
             <div className='icons-social-media'>
               <a href="mailto:imagine@uniandes.edu.co" className="email-link"><i className="bi bi-envelope"></i></a>
             </div>

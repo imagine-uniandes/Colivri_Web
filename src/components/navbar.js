@@ -13,10 +13,10 @@ function Navbar() {
         <div className="bg-dark p-4">
           <nav className="nav flex-column">
             <a className="nav-link active text-white" href="/proyectos">Proyectos</a>
-            <a className="nav-link text-white" href="/eventos">Papers</a>
-            <a className="nav-link text-white" href="/eventos">Grupos</a>
-            <a className="nav-link text-white" href="/eventos">Eventos</a>
-            <a className="nav-link text-white" href="/eventos">Equipo</a>
+            <a className="nav-link text-white" href="/papers">Papers</a>
+            <a className="nav-link text-white" href="/grupos">Grupos</a>
+
+            <a className="nav-link text-white" href="/equipo">Equipo</a>
           </nav>
         </div>
       </div>
@@ -34,14 +34,18 @@ function Navbar() {
         <a className="navbar-brand" href="/"><img src={logo} alt="Logo" className="navbar-logo" /></a>
         <div className="navbar-links d-none d-lg-flex ml-auto">
           <a href="/proyectos" className="nav-link">Proyectos</a>
-          <a href="/eventos" className="nav-link">Papers</a>
-          <a href="/eventos" className="nav-link">Grupos</a>
-          <a href="/eventos" className="nav-link">Eventos</a>
-          <a href="/eventos" className="nav-link">Equipo</a>
+          <a href="/papers" className="nav-link">Papers</a>
+          <a href="/grupos" className="nav-link">Grupos</a>
+          <a href="/equipo" className="nav-link">Equipo</a>
         </div>
       </nav>
     </div>
   );
 }
+
+
+//<a className="nav-link text-white" href="/eventos">Eventos</a>
+
+//<a href="/eventos" className="nav-link">Eventos</a>
 
 export default Navbar;

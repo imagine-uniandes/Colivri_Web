@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import data from '../data/proyects.json';
 import '../styles/proyect-detail.css';
-import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
+import { DEFAULT_PERSON_IMAGE } from '../constants';
 
 
 const renderIntegrantes = (integrantes) => {
@@ -50,7 +50,9 @@ const ProyectDetail = () => {
       <p>Área de investigación: {proyecto.researchArea}</p>
       <h2 className="integrantes-heading">Integrantes:</h2>
       {renderIntegrantes(proyecto.integrantes)}
-      <h2 className="link-heading">Link:</h2>
+      {proyecto.link && (
+          <h2 className="link-heading">Link:</h2>
+        )}
       <div className="proyect-detail-link">
         {proyecto.link && (
           <p>
@@ -60,7 +62,9 @@ const ProyectDetail = () => {
           </p>
         )}
       </div>
-      <h2 className="repository-heading">Repositorio:</h2>
+      {proyecto.repository && (
+          <h2 className="repository-heading">Repositorio:</h2>
+        )}
       <div className="proyect-detail-repository">
         {proyecto.repository && (
             <p>
