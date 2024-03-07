@@ -2,7 +2,6 @@
     {
         "id": 1,
         "nombreProyecto": "Influencers Virtuales",
-        "foto": "influencersVirtuales.png",
         "descripcion": "Mental health, between human and virtual influencers: A Netnographic Study ",
         "integrantes": [
             {
@@ -14,12 +13,15 @@
                 "fotoIntegrante": "foto_valentinaRozo.jpg"
             }
         ],
-        "researchArea": "Mixed Realities"
+        "researchArea": "Mixed Realities",
+        "foto": "influencersVirtuales.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 2,
         "nombreProyecto": "Ambiente de Apoyo al Aprendizaje de Estructuras de Datos",
-        "foto": "aprendizajeEstructuras.png",
         "descripcion": "Las estructuras de datos son un tema fundamental que se aborda en la formación como ingenieros de sistemas. Para facilitar el aprendizaje de este tema se propone construir una herramienta visual que permita realizar validaciones de la implementación de una estructura de datos y de las operaciones que se realizan sobre ella. Como resultado, se obtiene una aplicación en Python que permite trabajar con las estructuras listas enlazadas, árboles binarios ordenados y grafos.",
         "integrantes": [
           {
@@ -31,12 +33,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Human Computer Interaction"
+        "researchArea": "Human Computer Interaction",
+        "foto": "aprendizajeEstructuras.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 3,
         "nombreProyecto": "Diseño de un Sistema para la Automatización de Tareas de Inspección de Estructuras Físicas Sencillas Utilizando un Dron",
-        "foto": "",
         "descripcion": "La inspección de estructuras físicas es una tarea crítica, y omitir algún detalle puede tener consecuencias desastrosas. Al pilotear manualmente un dron, existe el riesgo de que el piloto no cubra en su totalidad la estructura y se pierda información sumamente importante. Se propone un sistema basado en la existencia de un modelo tridimensional de la estructura a inspeccionar, donde el usuario inspector solo tenga que introducir algunos parámetros básicos y un dron sea capaz de ejecutar la tarea de inspección automáticamente.",
         "integrantes": [
           {
@@ -48,12 +53,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Robotics"
+        "researchArea": "Robotics",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 4,
         "nombreProyecto": "Defensor de la cultura",
-        "foto": "defensorCultura.png",
         "descripcion": "videojuego educativo desarrollado en Unity",
         "integrantes": [
           {
@@ -73,12 +81,15 @@
             "fotoIntegrante": "foto_arturoRubio.jpg"
           }
         ],
-        "researchArea": "Video Games"
+        "researchArea": "Video Games",
+        "foto": "defensorCultura.png",
+        "video": "https://www.youtube.com/embed/eM0-8YLHb84",
+        "link": "",
+        "repository": "https://github.com/Arturony/Tesis_2022"
     },
     {
         "id": 5,
         "nombreProyecto": "Desarrollo Humano Para Valientes",
-        "foto": "",
         "descripcion": "Este es un proyecto en curso desarrollado en colaboración con el PNUD. El proyecto consiste en ayudar a las comunidades a comunicar sus problemas (en torno a los ODS), enseñándoles a grabar videos de empatía 360 para contar sus historias. Se desarrollará un MOOC (Massive Open Online Course) en Coursera que servirá como una plataforma donde las personas experimentarán estas historias y propondrán soluciones junto con las comunidades para abordar estos problemas. (2022, Universidad de los Andes).",
         "integrantes": [
           {
@@ -91,12 +102,14 @@
           }
         ],
         "researchArea": "Mixed Realities",
-        "video": "https://www.youtube.com/embed/NoRnkz74sc8?si=9JLz0nebAiK9koKp"
+        "foto": "",
+        "video": "https://www.youtube.com/embed/NoRnkz74sc8?si=9JLz0nebAiK9koKp",
+        "link": "",
+        "repository": "https://github.com/JuanCamiloUsecheRodriguez/ROOM360"
     },
     {
         "id": 6,
         "nombreProyecto": "Escape VR",
-        "foto": "escapeVR.png",
         "descripcion": "El proyecto es un juego cooperativo de realidad virtual que sigue la dinámica de un escape room. Esto significa que los jugadores, en este caso dos, estarán sumergidos en un entorno virtual ambientado en la época medieval y estos tendrán la tarea de resolver distintos acertijos para lograr escapar de su encierro. Asimismo, los acertijos a los cuales se enfrentarán evaluarán sus habilidades para trabajar en equipo y comunicar sus ideas.",
         "integrantes": [
           {
@@ -112,12 +125,15 @@
             "fotoIntegrante": "foto_pabloFigueroa.png"
           }
         ],
-        "researchArea": "Mixed Realities"
+        "researchArea": "Mixed Realities",
+        "foto": "escapeVR.png",
+        "video": "https://www.youtube.com/embed/WK2SxbgI36U",
+        "link": "",
+        "repository": "https://github.com/AngelaJimenez/ColabVRTesis"
     },
     {
         "id": 7,
         "nombreProyecto": "Three-dimensional path definning and following for drones supported by virtual reality technology.",
-        "foto": "",
         "descripcion": "Investigate and design an architecture that integrates VR to the interaction with UAV drones for solving path definning and path following tasks.",
         "integrantes": [
           {
@@ -129,12 +145,15 @@
             "fotoIntegrante": "foto_NelsonAndresSanchez.jpg"
           }
         ],
-        "researchArea": "Robotics"
+        "researchArea": "Robotics",
+        "foto": "",
+        "video": "https://www.youtube.com/embed/_lJLJAQSTYU",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 8,
         "nombreProyecto": "Path planning and following using genetic algorithms to solve the multi-travel salesman problem in dynamic scenarios",
-        "foto": "",
         "descripcion": "Develop and implementation of a technique to solve the Multi-Travel Salesman Problem (MTSP) when applied to mobile robots in dynamic scenarios.",
         "integrantes": [
           {
@@ -147,12 +166,14 @@
           }
         ],
         "researchArea": "Robotics",
-        "link": "http://ieeexplore.ieee.org/document/8023519/"
+        "foto": "",
+        "video": "",
+        "link": "http://ieeexplore.ieee.org/document/8023519/",
+        "repository": ""
     },
     {
         "id": 9,
         "nombreProyecto": "Diseño de sistema de planeación y seguimiento de rutas en un escenario interior con un robot móvil",
-        "foto": "",
         "descripcion": "Desarrollo de un sistema de planeación de rutas que permita hacer la navegación de un robot P3DX dentro de un escenario interior para que sea un guía dentro del edificio Mario Laserna.",
         "integrantes": [
           {
@@ -164,12 +185,15 @@
             "fotoIntegrante": "foto_FranciscoManuelJoseDurangoUribe.jpg"
           }
         ],
-        "researchArea": "Robotics"
+        "researchArea": "Robotics",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/franciscoD1202/robot_guide"
     },
     {
         "id": 10,
         "nombreProyecto": "Consolidation of web and mobile architectural projects integrating Lego Mindstorm EV3",
-        "foto": "",
         "descripcion": "Consolidate web and mobile architectures, to deploy the existent control and programming of Lego Mindstorm EV3 robots across multiple platforms; Android, IOS and WebPages.",
         "integrantes": [
           {
@@ -181,13 +205,16 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Robotics"
+        "researchArea": "Robotics",
+        "foto": "",
+        "video": "https://www.youtube.com/embed/u2lfPUpbOe8",
+        "link": "",
+        "repository": ""
     }
     ,
     {
         "id": 11,
         "nombreProyecto": "Definition of an architecture for web applications integrating Lego Mindstorm EV3",
-        "foto": "",
         "descripcion": "Define a base software architecture for the creation of web applications for operation, control and programming of Lego Mindstorm EV3 robots.",
         "integrantes": [
           {
@@ -199,12 +226,15 @@
             "fotoIntegrante": "foto_EduardoCabello10.jpg"
           }
         ],
-        "researchArea": "Robotics"
+        "researchArea": "Robotics",
+        "foto": "",
+        "video": "https://www.youtube.com/embed/u2lfPUpbOe8",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 12,
         "nombreProyecto": "Harmony",
-        "foto": "",
         "descripcion": "Harmony es una herramienta de aprendizaje de batería con Unity, Oculus y Photon. La idea es crear el ambiente perfecto para aprender a tocar la batería. Los músicos y los alumnos pueden tener un espacio para practicar y desarrollar nuevas habilidades mientras un maestro o un amigo los guía a través del proceso.",
         "integrantes": [
           {
@@ -220,12 +250,15 @@
             "fotoIntegrante": "foto_pabloFigueroa.png"
           }
         ],
-        "researchArea": "Mixed Realities"
+        "researchArea": "Mixed Realities",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 13,
         "nombreProyecto": "Tadava - Visual Analytics Architecture for large table-based datasets",
-        "foto": "Tadava_VisualAnalyticsArchitecture.png",
         "descripcion": "Sampling, summarize and exploration of large table-based datasets to provide the user with a representative and understandable sample of the data.",
         "integrantes": [
           {
@@ -237,12 +270,15 @@
             "fotoIntegrante": "foto_juanCamilo.jpg"
           }
         ],
-        "researchArea": "Visual Analytics"
+        "researchArea": "Visual Analytics",
+        "foto": "Tadava_VisualAnalyticsArchitecture.png",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/john-guerra/elasticSearchExperiments"
     },
     {
         "id": 14,
         "nombreProyecto": "Visualizing Biological Sequence Comparison Summaries for Sequence Alignment Analysis",
-        "foto": "Biological-sequence.png",
         "descripcion": "This project consists in a visualization technique to summarize and compare single and multi-queries in biological sequence comparisons. After proposing a taxonomy of existing tools supporting sequence comparison, some analysis tasks were identified and prioritized according to the untapped work potential and relevance to the analyst. This project would be tested along with a group of bioinformaticians.",
         "integrantes": [
           {
@@ -254,12 +290,15 @@
             "fotoIntegrante": "foto_meiliVanegas.jpg"
           }
         ],
-        "researchArea": "Visual Analytics"
+        "researchArea": "Visual Analytics",
+        "foto": "Biological-sequence.png",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/mvanegas10/HMMsearch"
     },
     {
         "id": 15,
         "nombreProyecto": "Visual Analytics the Bogotá Council case",
-        "foto": "",
         "descripcion": "This project will be focused in making the data flow to the correct stakeholders, making the middleman’s job easier and dynamizing its use. The forms for data input will be simplified, the data will be reorganized and stored for future use, and visualizations will be made regarding the user’s best interests.",
         "integrantes": [
           {
@@ -272,12 +311,15 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/EstebanDalelR/Thesis-Viz"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/EstebanDalelR/Thesis-Viz"
+        
     },
     {
         "id": 16,
         "nombreProyecto": "DataViz widget for summarizing and navigating large lists of items",
-        "foto": "",
         "descripcion": "Develop a UI framework which will allow users to navigate big photo repositories. Using a dimension system, the user will be able to switch the photos they're visualizing depending on the predefined attribute that has been chosen.",
         "integrantes": [
           {
@@ -290,12 +332,15 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/vecope/Thesis"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/vecope/Thesis"
+        
     },
     {
         "id": 17,
         "nombreProyecto": "Accessibility Fix Tool",
-        "foto": "",
         "descripcion": "Fix web applications accessibility problems without writing any code",
         "integrantes": [
           {
@@ -308,12 +353,15 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/adelavegaf/magically"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/adelavegaf/magically"
+        
     },
     {
         "id": 18,
         "nombreProyecto": "Interpretable and Interactive Machine Learning",
-        "foto": "InterpretableML.png",
         "descripcion": "Machine Learning has positioned itself as a hot topic and almost as a synonym to data analysis. However, most of the current real world ML systems use models as black-boxes. Given this, the big question that arises is what about if model performance is not the unique requirement to be fulfilled?  To address this, two new sub-fields of research have been proposed to help users to interact and understand ML models, and by this opening the black-box Interactive ML and Interpretable ML. This master thesis project is developed in the context of these sub-fields, with applications to Exploratory Data Analysis (EDA) supported by the t-SNE algorithm, a common technique for dimensionality reduction of high-dimensional data. The contributions of this project are (1) provide a set of guidelines for designing more user-centric ML systems in terms of interactivity and interpretability and (2) design and develop of a visual tool to interact and interpret t-SNE models for performing EDA. The proposal is evaluated in two case studies, the animals dataset and the urban environment dataset from SALURBAL project.",
         "integrantes": [
           {
@@ -329,12 +377,15 @@
             "fotoIntegrante": "foto_fabianPenna.jpg"
           }
         ],
-        "researchArea": "Visual Analytics"
+        "researchArea": "Visual Analytics",
+        "foto": "InterpretableML.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 19,
         "nombreProyecto": "Using ML to produce tactile graphics for the blind",
-        "foto": "",
         "descripcion": "Develop a machine learning tool able to identify the object present in an image and provide a tactile graphic of it.",
         "integrantes": [
           {
@@ -346,12 +397,15 @@
             "fotoIntegrante": "foto_felipeMartinez.jpg"
           }
         ],
-        "researchArea": "Visual Analytics"
+        "researchArea": "Visual Analytics",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 20,
         "nombreProyecto": "Node Navigator: Summarizing and Navigating Multivariate Data",
-        "foto": "",
         "descripcion": "Navigation, summarization and exploration of large repositories of images and videos in multiple dimensions without losing the context of the data",
         "integrantes": [
           {
@@ -364,12 +418,14 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/jgmurillo10/thesis"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/jgmurillo10/thesis"
     },
     {
         "id": 21,
         "nombreProyecto": "Exploring treemaps for summarizing and navigating image galleries",
-        "foto": "",
         "descripcion": "Treemaps are an important and useful tool to navigate and visualize image galleries. Images repositories has grown in size and now there is the need of a tool that allows to navigate and find meaningful insights in a straightforward way. Because of this, the approach used for Treemaps result suitable for the problem. Treemaps are a visualization technique used for display hierarchical collections of quantitative data. In the case of images, this technique is used to represent a large collection of pictures in a reduced space, this representation is ordered based in the pictures' meta-data. The thesis purpose is divided in four main stages. First, it will present an investigation of the current state of the art and how similar problems has been addressed. Then, it will be focus on present a system based on Treemaps, which aims to solve the problem of summarizing and navigating image galleries of any kind, having in mind the best approaches of usability and visualization. After this, the purposed solution will be evaluated through usability tests, to verify its contributions to solve the afore mentioned problem. Finally, this research presents conclusions and the possibilities for future work.",
         "integrantes": [
           {
@@ -382,12 +438,14 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/john-guerra/photoTreemap"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/john-guerra/photoTreemap"
     },
     {
         "id": 22,
         "nombreProyecto": "PhotoRing: Visual Analytics Architecture for Exploring Large Repositories of Photos",
-        "foto": "",
         "descripcion": "An efficient architecture for the exploration of big photo datasets to provide the user with a representative and understandable sample of the data.",
         "integrantes": [
           {
@@ -404,12 +462,14 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/nonameable/thesis"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/nonameable/thesis"
     },
     {
         "id": 23,
         "nombreProyecto": "Best practices for Architecting Data Analytics",
-        "foto": "Practices-data-analytics.png",
         "descripcion": "Figure out the best practices and techniques for architecting applications to analyze and visualize large data, by using benchmarking techniques which allow to recommend the best software tools to develop Visual Data Analytics applications with structured, stream and graph data.",
         "integrantes": [
           {
@@ -422,12 +482,14 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/lincex7845/bestPract-DA"
+        "foto": "Practices-data-analytics.png",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/lincex7845/bestPract-DA"
     },
     {
         "id": 24,
         "nombreProyecto": "Analyzing news articles to answer research questions",
-        "foto": "",
         "descripcion": "Apply NLP techniques to a database of NYT articles. COMPLETE",
         "integrantes": [
           {
@@ -439,12 +501,15 @@
             "fotoIntegrante": "foto_nicolarChavez.jpg"
           }
         ],
-        "researchArea": "Visual Analytics"
+        "researchArea": "Visual Analytics",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 25,
         "nombreProyecto": "Visual analytics support tool",
-        "foto": "",
         "descripcion": "Develop a tool for researchers to help them summarize, annotate and compare results from studies on the medical field.",
         "integrantes": [
           {
@@ -457,12 +522,14 @@
           }
         ],
         "researchArea": "Visual Analytics",
-        "link": "https://github.com/EstebanDalelR/Thesis-Viz"
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": "https://github.com/EstebanDalelR/Thesis-Viz"
     },
     {
         "id": 26,
         "nombreProyecto": "Interactive segmentation of 3D biomedical images",
-        "foto": "",
         "descripcion": "Develop an interactive segmentation tool to either manually segment one or various organs or regions of interest, or correct an existing segmentation obtained using an automatic segmentation algorithm.",
         "integrantes": [
           {
@@ -474,12 +541,15 @@
             "fotoIntegrante": "foto_RogelioGarcia.jpg"
           }
         ],
-        "researchArea": "Image Processing"
+        "researchArea": "Image Processing",
+        "foto": "",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 27,
         "nombreProyecto": "Global, regional and local recruitment of the lungs taking into account the deformation",
-        "foto": "poumon_final.png",
         "descripcion": "The goal of this project is to create global, regional and local recruitment algorithms that take into account the volume difference of inspiration and expiration images by using the determinant of the Jacobian of their transformation. With this, we want to find the best way to calculate the aeration of the lungs and assist medical professionals in choosing the best parameters to treat ARDS patients with mechanical ventilation.",
         "integrantes": [
           {
@@ -499,12 +569,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Image Processing"
+        "researchArea": "Image Processing",
+        "foto": "poumon_final.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 28,
         "nombreProyecto": "CAAVAT - Computer Assisted Analysis of Visceral Adipose Tissue (VAT) on CT Images",
-        "foto": "CAAVAT.png",
         "descripcion": "We have developed an automatic VAT quantification technology using an innovative technique for the segmentation of CT images in the abdominal region. The software captures CT images as an input and then automatically segments the existing VAT as well as the Subcutaneous Adipose Tissue (SAT). We were granted a patent in Colombia, Japan, USA, and Europe. For more information, please access patent No.WO/2015/172753.",
         "integrantes": [
           {
@@ -516,12 +589,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Image Processing"
+        "researchArea": "Image Processing",
+        "foto": "CAAVAT.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 29,
         "nombreProyecto": "Automatic image analysis applied to the characterization of microstructural powder metallurgy",
-        "foto": "imageanalysismetallurgy.png",
         "descripcion": "In this project we created a method of processing the powder metallurgy process known as metal powder. The proposed method analyzes the roundness of pores automatically using image processing, saving time and avoiding errors incurred when analysis is performed manually. The results show that the proposed method is consistent with the manual analysis by an expert.",
         "integrantes": [
           {
@@ -537,12 +613,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Image Processing"
+        "researchArea": "Image Processing",
+        "foto": "imageanalysismetallurgy.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
         "id": 30,
         "nombreProyecto": "Astronomical image processing from large all-sky photometric surveys for the detection and measurement of transients",
-        "foto": "LSST.png",
         "descripcion": "Develop an efficient and accurate pipeline for the detection of transient-like events on astronomical images for the LSST.",
         "integrantes": [
           {
@@ -554,12 +633,15 @@
             "fotoIntegrante": ""
           }
         ],
-        "researchArea": "Image Processing"
+        "researchArea": "Image Processing",
+        "foto": "LSST.png",
+        "video": "",
+        "link": "",
+        "repository": ""
     },
     {
       "id": 31,
       "nombreProyecto": "Interacciones pseudohápticas en realidad virtual",
-      "foto": "Pseudohaptics.PNG",
       "descripcion": "En este proyecto buscamos diseñar y probar una serie de interacciones tradicionales y pseudohápticas en realidad virtual.",
       "integrantes": [
           {
@@ -583,12 +665,15 @@
               "fotoIntegrante": "foto_markusTatzgen.jpg"
           }
       ],
-      "researchArea": "Mixed Realities"
+      "researchArea": "Mixed Realities",
+      "foto": "Pseudohaptics.PNG",
+      "video": "",
+      "link": "",
+      "repository": ""
   },
   {
     "id": 32,
     "nombreProyecto": "3RCity",
-    "foto": "3RCity.PNG",
     "descripcion": "Juego sobre los tipos de reciclaje.",
     "integrantes": [
         {
@@ -612,12 +697,15 @@
             "fotoIntegrante": "foto_JoseRiano.PNG"
         }
     ],
-    "researchArea": "Video Games"
+    "researchArea": "Video Games",
+    "foto": "3RCity.PNG",
+    "video": "",
+    "link": "https://www.newgrounds.com/portal/view/701972",
+    "repository": ""
   },
   {
     "id": 33,
     "nombreProyecto": "3D-Animation-With-XR",
-    "foto": "3dAnimationWithXR.PNG",
     "descripcion": "A project that allows the real-time animation of a 3D model by using an Android (APK 8+) device and the Perception Neuron suit.",
     "integrantes": [
         {
@@ -629,12 +717,15 @@
             "fotoIntegrante": "foto_andresSandoval.jpg"
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "3dAnimationWithXR.PNG",
+    "video": "https://www.youtube.com/embed/foF39S0gu_g%22%3E",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 34,
     "nombreProyecto": "Prototipo consola de ingeniería en realidad virtual y simulación en el entrenamiento de tripulaciones de la flota naval de la armada de Colombia",
-    "foto": "p75926.jpg",
     "descripcion": "El presente proyecto se basa en la creación de un software de realidad virtual que simula escenarios tridimensionales, similares al cuarto de ingeniería de un buque de la flota de la Armada de Colombia. En este proyecto, se busca entrenar a la tripulación del cuarto, encargada de tareas de supervisión y mantenimiento del cuarto de máquinas del buque. Por lo cual, un suboficial en el simulador puede interactuar con la consola de ingeniería, los tableros de control y el personal del cuarto. En particular, debe atender situaciones normales, anormales y de emergencia que se pueden presentar en el buque. Esto permite que la tripulación adquiera un entrenamiento para saber cómo actuar en dichas situaciones, en un espacio cercano al buque real.",
     "integrantes": [
         {
@@ -646,12 +737,15 @@
             "fotoIntegrante": "foto_VivianGomez.JPG"
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "p75926.jpg",
+    "video": "https://www.youtube.com/embed/ScdDqaJFiPg",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 35,
     "nombreProyecto": "Aplicativo para entrenamiento basado en realidad virtual y pseudo-hápticas",
-    "foto": "Foto_Entrenamiento_Armada.png",
     "descripcion": "Este proyecto, desarrollado en la sala Colivri como tesis de grado, es un aplicativo de inmersión en realidad virtual utilizando tecnologías pseudo-hápticas, para el entrenamiento de la tripulación de los buques OPV de la Armada Nacional de Colombia, en el manejo de la consola de ingeniería. En el proyecto se realiza la calibración entre la consola virtual y una maqueta a escala real de la consola de ingeniería, para interactuar con todos sus botones, indicadores y palancas, con el fin de entrenarse en su operación.",
     "integrantes": [
         {
@@ -667,12 +761,15 @@
             "fotoIntegrante": "foto_nicolasRueda.jpg"
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "Foto_Entrenamiento_Armada.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 36,
     "nombreProyecto": "Balance Universal",
-    "foto": "img_balanceUniversal.png",
     "descripcion": "A serious game about balancing your life",
     "integrantes": [
         {
@@ -693,12 +790,14 @@
         }
     ],
     "researchArea": "Video Games",
-    "status": "active"
+    "foto": "img_balanceUniversal.png",
+    "video": "",
+    "link": "https://pg-21ii-2.itch.io/balance-universal-beta",
+    "repository": ""
   },
   {
     "id": 37,
     "nombreProyecto": "Boom Away",
-    "foto": "boomAway.PNG",
     "descripcion": "Este proyecto de grado es un videojuego experimental. En él buscamos explorar nuestra idea de un juego de plataformas 2D donde el jugador no puede saltar. El resultado es una experiencia en la que el jugador deberá hacer buen uso de los explosivos a su disposición para lanzarse a través de cada nivel.",
     "integrantes": [
         {
@@ -718,12 +817,15 @@
             "fotoIntegrante": "foto_andresLosada.png"
         }
     ],
-    "researchArea": "Video Games"
+    "researchArea": "Video Games",
+    "foto": "boomAway.PNG",
+    "video": "https://www.youtube.com/embed/IFVkVLKDt18",
+    "link": "https://boomawayinc.itch.io/boomaway",
+    "repository": "https://github.com/pardo312/BoomAway"
   },
   {
     "id": 38,
     "nombreProyecto": "Diseño y oferta de cajas fuertes por medio del uso de RV",
-    "foto": "cajasRV.PNG",
     "descripcion": "En el proyecto desarrollado se busca resolver la problemática en el proceso de diseño y oferta de los productos por medio del uso de tecnologías a nivel de realidad virtual en la creación de un catálogo 3D que permita beneficiar tanto a las empresas como a los clientes centrado en la experiencia con el usuario. Los resultados permiten demostrar que la aceptación en términos de experiencia es positiva reflejado en factores como la importancia de las funcionalidades existentes y la combinación de elementos e información mostrada.",
     "integrantes": [
         {
@@ -735,12 +837,15 @@
             "fotoIntegrante": "foto_DanielCagua.jpg"
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "cajasRV.PNG",
+    "video": "https://www.youtube.com/embed/QkkgoSvTPHk%22%3E",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 39,
     "nombreProyecto": "DAVID",
-    "foto": "Header-DAVID.png",
     "descripcion": "Strategic plan for the videogame and Animation Industries",
     "integrantes": [
         {
@@ -761,12 +866,14 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "link": "http://juegos.virtual.uniandes.edu.co/"
+    "foto": "Header-DAVID.png",
+    "video": "",
+    "link": "http://juegos.virtual.uniandes.edu.co/",
+    "repository": ""
   },
   {
     "id": 40,
     "nombreProyecto": "Dare to chat",
-    "foto": "daretochat.png",
     "descripcion": "This project is built as a prototype of a serious videogame directed to the construction of peace in the Colombian context. We ask participants to identify themselves with a made-up profile, and collaborate with people that are different to their profile. In this indirect way, we pursue the construction of peace by encouraging the conversation among people with different points of view. Preliminary user studies show that our prototype encourages collaboration among participants.",
     "integrantes": [
         {
@@ -779,25 +886,14 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "link": [
-        {
-            "title": "Article",
-            "url": "http://cleilaclo2018.mackenzie.br/docs/SLIS/182655.pdf"
-        },
-        {
-            "title": "GameLab page (Spanish)",
-            "url": "https://sistemasproyectos.uniandes.edu.co/iniciativas/videojuegos/dare-to-chat/"
-        },
-        {
-            "title": "APK download",
-            "url": "https://drive.google.com/drive/u/1/folders/1RJW0esTVDlUC6WNgyfYul8OQH7Pfm54v"
-        }
-    ]
+    "foto": "daretochat.png",
+    "video": "https://www.youtube.com/embed/2eZZbDEcuIo",
+    "link": "http://cleilaclo2018.mackenzie.br/docs/SLIS/182655.pdf",
+    "repository": ""
   },
   {
     "id": 41,
     "nombreProyecto": "A Multiplatform Tool for Comparing Users Behavior in Virtual Museum Environments",
-    "foto": "",
     "descripcion": "In this project we analyze visitor's behavior in an interactive virtual museum, and how it differentiates depending on the exploration environment. In order to achieve this, a tool with instances for a head-mounted display (Oculus Quest) and a conventional device (Web browser) will be made, using 3D models of archaeological artifacts from the Luis Raúl Rodríguez Lamus Collection - Uniandes.",
     "integrantes": [
         {
@@ -809,12 +905,15 @@
             "fotoIntegrante": ""
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 42,
     "nombreProyecto": "Training in seismic safety practices using virtual reality",
-    "foto": "earthquakeSimulator.PNG",
     "descripcion": "El proyecto busca apoyar el aprendizaje de las medidas de prevención y protocolos de seguridad que se deben aplicar para estar mejor protegidos y preparados ante un sismo. Esto a través del desarrollo de un videojuego de realidad virtual que mejora la retención del conocimiento. (Unidad, Oculus Rift). Participante del primer Laboratorio Abierto de Realidades Mixtas (2019, Universidad de los Andes).",
     "integrantes": [
         {
@@ -834,12 +933,15 @@
             "fotoIntegrante": ""
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "earthquakeSimulator.PNG",
+    "video": "https://www.youtube.com/embed/UEEGDM1uYMY%22%3E",
+    "link": "",
+    "repository": "https://github.com/JuanCamiloUsecheRodriguez/Earthquake-simulation"
   },
   {
     "id": 43,
     "nombreProyecto": "Training for hazard identification using VR",
-    "foto": "VR_HazardIdentification.png",
     "descripcion": "Training for hazard identification using VR.",
     "integrantes": [
         {
@@ -851,7 +953,11 @@
             "fotoIntegrante": ""
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "VR_HazardIdentification.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 44,
@@ -871,7 +977,11 @@
             "fotoIntegrante": "foto_DiegoRodriguez.jpg"
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 45,
@@ -887,7 +997,10 @@
             "fotoIntegrante": ""
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 46,
@@ -904,7 +1017,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-     "foto": "MicroTrafficCUDA.png"
+     "foto": "MicroTrafficCUDA.png",
+     "video": "",
+     "link": "",
+     "repository": ""
   },
   {
     "id": 47,
@@ -925,7 +1041,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "neonatos.jpeg"
+    "foto": "neonatos.jpeg",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 48,
@@ -942,7 +1061,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "orthaptica.PNG"
+    "foto": "orthaptica.PNG",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 49,
@@ -959,7 +1081,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "paperandpencil.png"
+    "foto": "paperandpencil.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 50,
@@ -976,7 +1101,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "passivehaptics.jpg"
+    "foto": "passivehaptics.jpg",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 51,
@@ -994,7 +1122,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "perceivedSpace.PNG",
-    "link": "https://ieeexplore-ieee-org.ezproxy.uniandes.edu.co:8443/document/8798344"
+    "video": "",
+    "link": "https://ieeexplore-ieee-org.ezproxy.uniandes.edu.co:8443/document/8798344",
+    "repository": ""
   },
   {
     "id": 52,
@@ -1012,7 +1142,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "programacionInteractivaDaydream.PNG",
-    "link": "https://www.youtube.com/embed/Hv3TocOUFe8"
+    "video": "",
+    "link": "https://www.youtube.com/embed/Hv3TocOUFe8",
+    "repository": ""
   },
   {
     "id": 53,
@@ -1030,7 +1162,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "rooms360.png",
-    "link": "https://www.youtube.com/embed/T9FF7vvoRd0"
+    "video": "",
+    "link": "https://www.youtube.com/embed/T9FF7vvoRd0",
+    "repository": ""
   },
   {
     "id": 54,
@@ -1048,7 +1182,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "roomsvr.png",
-    "link": "https://www.youtube.com/embed/mrSgmlmEYdA"
+    "video": "",
+    "link": "https://www.youtube.com/embed/mrSgmlmEYdA",
+    "repository": ""
   },
   {
     "id": 55,
@@ -1066,7 +1202,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "SandyBridgeIntel.jpg",
-    "link": "https://sites.google.com/site/sandybridgeproject/"
+    "video": "",
+    "link": "https://sites.google.com/site/sandybridgeproject/",
+    "repository": ""
   },
   {
     "id": 56,
@@ -1087,7 +1225,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "VR_SpatialPerformance.png"
+    "foto": "VR_SpatialPerformance.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 57,
@@ -1116,7 +1257,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "adaptic.jpg"
+    "foto": "adaptic.jpg",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 58,
@@ -1134,7 +1278,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "addscape.PNG",
-    "video": "https://www.youtube.com/embed/hTaPmFHje3M"
+    "video": "https://www.youtube.com/embed/hTaPmFHje3M",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 59,
@@ -1156,7 +1302,9 @@
     ],
     "foto": "addscapeV2.PNG",
     "researchArea": "Mixed Realities",
-    "video": "https://www.youtube.com/embed/mbAbzxoia-Y"
+    "video": "https://www.youtube.com/embed/mbAbzxoia-Y",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 60,
@@ -1210,7 +1358,9 @@
     ],
     "foto": "img_domicilioSurvivor.png",
     "researchArea": "Video Games",
-    "link": "https://berserker1523.itch.io/domicilio-survivor"
+    "video": "",
+    "link": "https://berserker1523.itch.io/domicilio-survivor",
+    "repository": ""
   },
   {
     "id": 62,
@@ -1255,7 +1405,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "GD-COLIVRI.png"
+    "foto": "GD-COLIVRI.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 63,
@@ -1272,7 +1425,10 @@
         }
     ],
     "researchArea": "Human Computer Interaction",
-    "foto": "influencersVirtuales.png"
+    "foto": "influencersVirtuales.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 64,
@@ -1296,7 +1452,11 @@
             "fotoIntegrante": "foto_nicolasFajardo.jpeg"
         }
     ],
-    "researchArea": "Video Games"
+    "researchArea": "Video Games",
+    "foto": "",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 65,
@@ -1317,7 +1477,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "metaversosEducativos.jpg"
+    "foto": "metaversosEducativos.jpg",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 66,
@@ -1344,7 +1507,8 @@
     "researchArea": "Mixed Realities",
     "foto": "reparacionTierras.PNG",
     "video": "https://www.youtube.com/embed/BknTOvWK6OU",
-    "link": "https://github.com/yabejarano10/Tesis"
+    "link": "https://github.com/yabejarano10/Tesis",
+    "repository": ""
   },
   {
     "id": 67,
@@ -1387,6 +1551,7 @@
     "researchArea": "Visual Analytics",
     "foto": "simulacionesVehiculosAutonomos.png",
     "video": "https://www.youtube.com/embed/GFKQv1j6vpQ",
+    "link": "",
     "repository": "https://github.com/Lala341/SimulationCARLA"
   },
   {
@@ -1405,7 +1570,9 @@
     ],
     "researchArea": "Mixed Realities",
     "foto": "presentacionesVR.png",
-    "video": "https://www.youtube.com/embed/nDPP78MRtxM"
+    "video": "https://www.youtube.com/embed/nDPP78MRtxM",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 70,
@@ -1425,7 +1592,11 @@
             "fotoIntegrante": ""
         }
     ],
-    "researchArea": "Mixed Realities"
+    "researchArea": "Mixed Realities",
+    "foto": "",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 71,
@@ -1442,7 +1613,10 @@
         }
     ],
     "researchArea": "Visual Analytics",
-    "foto": "MetroBogota.png"
+    "foto": "MetroBogota.png",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 72,
@@ -1460,7 +1634,9 @@
     ],
     "researchArea": "Visual Analytics",
     "foto": "braintractographies.jpg",
-    "link": "http://diego0020.github.io/braviz/index.html"
+    "video": "",
+    "link": "http://diego0020.github.io/braviz/index.html",
+    "repository": ""
   },
   {
     "id": 73,
@@ -1477,7 +1653,10 @@
         }
     ],
     "researchArea": "Visual Analytics",
-    "link": "http://analiticafundacioncanguro.com/"
+    "foto": "",
+    "video": "",
+    "link": "http://analiticafundacioncanguro.com/",
+    "repository": ""
   },
   {
     "id": 74,
@@ -1494,7 +1673,10 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "Orthaptica.jpg"
+    "foto": "Orthaptica.jpg",
+    "video": "",
+    "link": "",
+    "repository": ""
   },
   {
     "id": 75,
@@ -1511,6 +1693,9 @@
         }
     ],
     "researchArea": "Visual Analytics",
+    "foto": "",
+    "video": "",
+    "link": "",
     "repository": "https://github.com/miguelfeijoo/miguelfeijoo.github.io/tree/master/TesisMINE"
   },
   {
@@ -1528,6 +1713,9 @@
         }
     ],
     "researchArea": "Visual Analytics",
+    "foto": "",
+    "video": "",
+    "link": "",
     "repository": "https://github.com/mvanegas10/kobdig-validation"
   },
   {
@@ -1553,6 +1741,9 @@
         }
     ],
     "researchArea": "Mixed Realities",
-    "foto": "wizardChess.jpg"
+    "foto": "wizardChess.jpg",
+    "video": "",
+    "link": "",
+    "repository": ""
   }
 ]
