@@ -764,7 +764,7 @@
     "link": "http://juegos.virtual.uniandes.edu.co/"
   },
   {
-    "id": 41,
+    "id": 40,
     "nombreProyecto": "Dare to chat",
     "foto": "daretochat.png",
     "descripcion": "This project is built as a prototype of a serious videogame directed to the construction of peace in the Colombian context. We ask participants to identify themselves with a made-up profile, and collaborate with people that are different to their profile. In this indirect way, we pursue the construction of peace by encouraging the conversation among people with different points of view. Preliminary user studies show that our prototype encourages collaboration among participants.",
@@ -795,7 +795,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "nombreProyecto": "A Multiplatform Tool for Comparing Users Behavior in Virtual Museum Environments",
     "foto": "",
     "descripcion": "In this project we analyze visitor's behavior in an interactive virtual museum, and how it differentiates depending on the exploration environment. In order to achieve this, a tool with instances for a head-mounted display (Oculus Quest) and a conventional device (Web browser) will be made, using 3D models of archaeological artifacts from the Luis Raúl Rodríguez Lamus Collection - Uniandes.",
@@ -812,7 +812,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 43,
+    "id": 42,
     "nombreProyecto": "Training in seismic safety practices using virtual reality",
     "foto": "earthquakeSimulator.PNG",
     "descripcion": "El proyecto busca apoyar el aprendizaje de las medidas de prevención y protocolos de seguridad que se deben aplicar para estar mejor protegidos y preparados ante un sismo. Esto a través del desarrollo de un videojuego de realidad virtual que mejora la retención del conocimiento. (Unidad, Oculus Rift). Participante del primer Laboratorio Abierto de Realidades Mixtas (2019, Universidad de los Andes).",
@@ -837,7 +837,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 44,
+    "id": 43,
     "nombreProyecto": "Training for hazard identification using VR",
     "foto": "VR_HazardIdentification.png",
     "descripcion": "Training for hazard identification using VR.",
@@ -854,7 +854,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 45,
+    "id": 44,
     "nombreProyecto": "Human-in-the-loop mobile device interfaces for ground vehicles and articulated robots",
     "descripcion": "The lack of a formal taxonomy for mobile devices interfaces for robotic systems is an existing gap. Because of this, mobile device interfaces for ground vehicles and articulated robots are being developed without a proper guide, and this leads to additional trial and error stages or iterations in the development process.",
     "integrantes": [
@@ -874,7 +874,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 46,
+    "id": 45,
     "nombreProyecto": "Learning how to dance in VR",
     "descripcion": "A VR environment to enable people to learn coreographies, based in different motion learning theorems and interactive flat and 3D surfaces.",
     "integrantes": [
@@ -890,7 +890,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 47,
+    "id": 46,
     "nombreProyecto": "Micro-Simulation Model for Vehicular and Pedestrian Traffic using CUDA",
     "descripcion": "The objective of this project is to make a simulation of a zone of Bogotá with 3 types of entities (pedestrians, vehicles, and Transmilenio -a large vehicle-), using CUDA to accelerate the processing.",
     "integrantes": [
@@ -907,7 +907,7 @@
      "foto": "MicroTrafficCUDA.png"
   },
   {
-    "id": 34,
+    "id": 47,
     "nombreProyecto": "Realidad virtual aplicada al curso del minuto de oro en reanimación Neonatal para trabajadores de la salud",
     "descripcion": "El presente proyecto se basa en la creación de un software de realidad virtual que simula escenarios tridimensionales, similares a la sala de partos y de cesáreas. En dichos espacios, el equipo médico puede interactuar con los objetos presentes en el entorno, definir roles y tomar decisiones que ayuden a adquirir habilidades y desarrollar destrezas para realizar un procedimiento de reanimación cardio respiratoria neonatal. Adicionalmente, el proyecto busca aprovechar el potencial de la realidad virtual para generar situaciones realistas en las que un recién nacido tiene dificultad para iniciar y mantener un patrón respiratorio efectivo. De esta manera, se permite que el usuario entre en contexto y se sienta en un caso real para que se apropie de su rol y aprenda en el proceso. Lo anterior, contribuye al entrenamiento y capacitación del personal de salud, de tal manera que, en una situación real, en la que se presenten las circunstancias recreadas en el simulador, pueda actuar de manera coordinada, asertiva y eficiente.",
     "integrantes": [
@@ -928,7 +928,7 @@
     "foto": "neonatos.jpeg"
   },
   {
-    "id": 35,
+    "id": 48,
     "nombreProyecto": "Orthaptica",
     "descripcion": "Herramienta en realidad virtual y percepción háptica de entrenamiento quirúrgico para residentes de ortopedia",
     "integrantes": [
@@ -945,7 +945,7 @@
     "foto": "orthaptica.PNG"
   },
   {
-    "id": 36,
+    "id": 49,
     "nombreProyecto": "Paper and Pencil",
     "descripcion": "Paper and Pencil project presents a sketch-based interface that allows any user to create a 3D animation from a pencil and paper sketch.",
     "integrantes": [
@@ -962,7 +962,7 @@
     "foto": "paperandpencil.png"
   },
   {
-    "id": 37,
+    "id": 50,
     "nombreProyecto": "Passive Haptics Training",
     "descripcion": "It aims to measure the learning of users by comparing the completion of tasks with Passive Haptics and traditional controls.",
     "integrantes": [
@@ -979,7 +979,7 @@
     "foto": "passivehaptics.jpg"
   },
   {
-    "id": 38,
+    "id": 51,
     "nombreProyecto": "Perceived Space and Spatial Performance during Path-Integration Tasks in Consumer-Oriented Virtual Reality Environments",
     "descripcion": "Studies using virtual reality environments (VE) have shown that subjects can perform path integration tasks with acceptable performance. However, in these studies, subjects could walk naturally across large tracking areas, or researchers provided them with large-immersive displays. Unfortunately, these configurations are far from current consumer-oriented VEs (COVEs), and little is known about how their limitations influence this task. Using a triangle completion paradigm, we assessed the subjects’ spatial performance when developing path integration tasks in two consumer-oriented displays (an HTC Vive and a GearVR) and two consumer-oriented interaction devices (a Virtuix Omni motion platform and a Touchpad Control). Our results show that when locomotion is available (motion platform condition), there exist significant effects regarding the display and the path. In contrast, when locomotion is mediated no effect was found. Some future research directions are therefore proposed",
     "integrantes": [
@@ -997,7 +997,7 @@
     "link": "https://ieeexplore-ieee-org.ezproxy.uniandes.edu.co:8443/document/8798344"
   },
   {
-    "id": 39,
+    "id": 52,
     "nombreProyecto": "Programacion Interactiva Daydream",
     "descripcion": "Herramienta para aprender a programar mediante un editor de un lenguaje de programación tradicional implementado dentro de RV",
     "integrantes": [
@@ -1015,7 +1015,7 @@
     "link": "https://www.youtube.com/embed/Hv3TocOUFe8"
   },
   {
-    "id": 40,
+    "id": 53,
     "nombreProyecto": "Rooms360",
     "descripcion": "The objective of this project is generate Immersive 3D Virtual Reality tours with the render of 360° images that allow the user the exploration, customization and interaction with the scene.",
     "integrantes": [
@@ -1033,7 +1033,7 @@
     "link": "https://www.youtube.com/embed/T9FF7vvoRd0"
   },
   {
-    "id": 41,
+    "id": 54,
     "nombreProyecto": "RoomsVR",
     "descripcion": "From the measurements / dimensions of a place it is possible to generate virtual spaces, additionally with photographs a material can be generated to be used in the floors and walls. The configuration of this project is done through a JSON file and builds the scene depending on it. Concepts such as Tiling, Shaders, Materials, Textures, Dimensions, Lighting are worked on.",
     "integrantes": [
@@ -1051,7 +1051,7 @@
     "link": "https://www.youtube.com/embed/mrSgmlmEYdA"
   },
   {
-    "id": 42,
+    "id": 55,
     "nombreProyecto": "Analysis of graphics performance for SandyBridge Intel-Processor",
     "descripcion": "Sandy brige is the name given to the architecture used in the intelligent processors of second generation developed by Intel. The main characteristic is the integration of the Graphics Processing Unit (GPU) in the same die of the Central Processing Unit (CPU) which enables to perform graphic processing without the need of using an external discrete graphic card. This also gives adventages in terms of performace, such as the Intel Quick Sync technology which carries out a quick transcoding of high resolution videos.",
     "integrantes": [
@@ -1069,7 +1069,7 @@
     "link": "https://sites.google.com/site/sandybridgeproject/"
   },
   {
-    "id": 43,
+    "id": 56,
     "nombreProyecto": "A perceptual calibration method to improve the spatial performance on VR displays",
     "descripcion": "The project is focused in the development of a perceptual calibration method to improve the spatial performance on virtual reality displays for distance-related spatial tasks.",
     "integrantes": [
@@ -1090,7 +1090,7 @@
     "foto": "VR_SpatialPerformance.png"
   },
   {
-    "id": 44,
+    "id": 57,
     "nombreProyecto": "Adaptic, A Shape Changing Prop with Haptic Retargeting",
     "descripcion": "A Shape Changing Prop with Haptic Retargeting",
     "integrantes": [
@@ -1119,7 +1119,7 @@
     "foto": "adaptic.jpg"
   },
   {
-    "id": 45,
+    "id": 58,
     "nombreProyecto": "ADD SCAPE",
     "descripcion": "Este proyecto consta de un prototipo de videojuego en realidad virtual, el cual busca fortalecer las habilidades de pacientes diagnosticados con Trastorno por Déficit de Atención (TDHA) mediante una serie de tareas interactivas.",
     "integrantes": [
@@ -1137,7 +1137,7 @@
     "video": "https://www.youtube.com/embed/hTaPmFHje3M"
   },
   {
-    "id": 46,
+    "id": 59,
     "nombreProyecto": "ADD SCAPE V 2.0",
     "description": "Juan and Andrés developed a second interaction over ADD SCAPE, which consists on psychological tests for children with attention problems through games in a virtual environment. This is an application that seeks to help conduct psychological tests for children with attention problems through games. It seeks to determine the status and progress of each child, through a virtualization of traditional games, accompanied by more fun components. Thanks to the immersive environment (through VR) and the use of the 'Escape Room' game type, as a motivator for children. It is important to note that it is for children / teens from 13 to 17 years old.",
     "integrantes": [
@@ -1159,7 +1159,7 @@
     "video": "https://www.youtube.com/embed/mbAbzxoia-Y"
   },
   {
-    "id": 47,
+    "id": 60,
     "nombreProyecto": "Corruptio",
     "descripcion": "Mediante un proceso de desarrollo ágil de software se produjo un videojuego capaz de retratar dificultades asociadas al mandato público. Se sitúa al jugador como dirigente de una ciudad que responde visualmente a sus decisiones. A través de asignaciones de presupuesto y decisiones dilemáticas aleatorias, este deberá buscará el balance entre la satisfacción de seis sectores claves para su territorio.",
     "integrantes": [
@@ -1187,7 +1187,7 @@
     "repository": "https://github.com/nfajardor/corruptio"
   },
   {
-    "id": 48,
+    "id": 61,
     "nombreProyecto": "Domicilio Survivor",
     "descripcion": "You are a delivery man who must deliver a package as quickly as possible. However, there are a number of annoying road signs throughout the city. Will you respect it, or will you risk your life in order to be the fastest delivery man in town?",
     "integrantes": [
@@ -1213,7 +1213,7 @@
     "link": "https://berserker1523.itch.io/domicilio-survivor"
   },
   {
-    "id": 49,
+    "id": 62,
     "nombreProyecto": "Gemelo Digital de Colivri",
     "descripcion": "El proyecto Gemelo Digital de Colivri se presenta como una vanguardista plataforma de experimentación sobre gemelos digitales, aprovechando el potencial de diversas herramientas de realidad mixta. Este sistema, apoyado por el Departamento, no sólo busca ofrecer funcionalidades innovadoras como un panel de control de gran formato que facilita la monitorización en tiempo real del laboratorio y simulaciones audiovisuales, sino también establecer una infraestructura robusta para el desarrollo de proyectos de grado grupales. Con una visión a largo plazo, GD-Colivri pretende ser una plataforma abierta y extensible, permitiendo la integración de realidad aumentada para visualizar información detallada de los equipos presentes, así como datos históricos y dinámicos de los usuarios y el entorno.",
     "integrantes": [
@@ -1258,7 +1258,7 @@
     "foto": "GD-COLIVRI.png"
   },
   {
-    "id": 50,
+    "id": 63,
     "nombreProyecto": "Mental health, between human and virtual influencers: A Netnographic Study",
     "descripcion": "Social media has become a powerful platform for the creation and spread of content, including fashion, sports, well-being, and mental health. This paper presents a netnographic study comparing two human influencers with two virtual influencers, examining post captions and images or videos during the official Covid-19 time frame. The aim is to analyze the content they publish in their community around mental health.",
     "integrantes": [
@@ -1275,7 +1275,7 @@
     "foto": "influencersVirtuales.png"
   },
   {
-    "id": 51,
+    "id": 64,
     "nombreProyecto": "JuegoPolitico",
     "descripcion": "Este proyecto grupal va a explorar la creación de un juego alrededor de los problemas políticos colombianos.",
     "integrantes": [
@@ -1299,7 +1299,7 @@
     "researchArea": "Video Games"
   },
   {
-    "id": 52,
+    "id": 65,
     "nombreProyecto": "The Influence of Metaverse Environment Design on Learning Experiences in Virtual Reality Classes: A Comparative Study",
     "descripcion": "We are interested in how metaverse technologies can provide an environment for future virtual education, beyond traditional videoconferencing technologies. In this study, we investigate learning and the quality of the classroom experience by conducting classes in four metaverse environments: Workrooms, Spatial, Mozilla Hubs, and Arthur. Through the analysis of questionnaires, we assess the influence of factors such as avatars, spatial arrangement, mobility, and extra functionalities on concentration, usability, presence, and learning. While we did not observe significant differences in learning outcomes, our analysis reveals substantial variations in the quality of the classroom experience. Specifically, higher levels of immersion, concentration, and presence were observed in metaverses with limited movement and functionalities. Also, our findings emphasize the positive impact of avatars with realistic facial expressions on enhancing the overall learning experience. Finally, we present lessons learned and offer recommendations for class configurations in the metaverse based on our questionnaire analysis.",
     "integrantes": [
@@ -1320,7 +1320,7 @@
     "foto": "metaversosEducativos.jpg"
   },
   {
-    "id": 53,
+    "id": 66,
     "nombreProyecto": "Sensibilización en el proceso de reparación de tierras",
     "descripcion": "El proyecto tiene como objetivo dar a conocer las etapas que se llevan a cabo durante un proceso de reparación de tierras, así como generar conciencia y sensibilizar respecto a la dificultad del mismo. Para esto se plantea un videojuego de tipo simulación a través del uso de la realidad virtual.",
     "integrantes": [
@@ -1347,7 +1347,7 @@
     "link": "https://github.com/yabejarano10/Tesis"
   },
   {
-    "id": 54,
+    "id": 67,
     "nombreProyecto": "Shades of my Soul",
     "descripcion": "El proyecto de grado se basa en la idea de conformar un equipo de diseño de videojuegos, donde buscando nuevas formas de gameplay o mecánicas, se logre desarrollar un videojuego terminado y divertido basado en el desarrollo en equipo y en la unión de metodologías de desarrollo.",
     "integrantes": [
@@ -1371,7 +1371,7 @@
     "repository": "https://github.com/JuanOtalora/Shades"
   },
   {
-    "id": 55,
+    "id": 68,
     "nombreProyecto": "Simulación vehículos autónomos a partir del análisis de tráfico en Bogotá",
     "descripcion": "Este proyecto de grado consiste en el diseño e implementación de un sistema para la generación de simulaciones de vehículos autónomos a partir del análisis de video, en el software open source CARLA. Las simulaciones son una de las partes más importantes y fundamentales de la conducción automática. Sin embargo, la creación de simulaciones realistas, necesarias para el testeo adecuado de estos vehículos, suelen ser costosas y complejas. Por esta razón, el proyecto hacer uso de videos para automatizar la creación de simulaciones a partir de patrones identificados en el análisis de video.",
     "integrantes": [
@@ -1390,7 +1390,7 @@
     "repository": "https://github.com/Lala341/SimulationCARLA"
   },
   {
-    "id": 56,
+    "id": 69,
     "nombreProyecto": "Ambiente VR para preparar presentaciones en público",
     "descripcion": "Desarrollar un ambiente en realidad virtual, similar a un salon de clases, para ayudar a preparar presentaciones en público a partir del proyecto STAGE desarrollado anteriormente por la Universidad de Würzburg en Unreal Engine.",
     "integrantes": [
@@ -1408,7 +1408,7 @@
     "video": "https://www.youtube.com/embed/nDPP78MRtxM"
   },
   {
-    "id": 57,
+    "id": 70,
     "nombreProyecto": "BIM-based mixed reality applications to improve human decision-making during the construction process",
     "descripcion": "This PhD thesis project aims to propose mixed reality applications to improve human decision-making during the construction process, in particular during the pre-construction and construction phases. More precisely, we have yet designed 2 applications, one for construction supervision with drones and one for clash review during coordination design review. Currently, we are studying how to improve the preparation of the workers with mixed reality safety training tools. This part of the project is related to the project of Maria Sofia Alvarez Lopez.",
     "integrantes": [
@@ -1428,7 +1428,7 @@
     "researchArea": "Mixed Realities"
   },
   {
-    "id": 58,
+    "id": 71,
     "nombreProyecto": "Bogotá Metro InfoVis",
     "descripcion": "Bogotá city is going to build a metro system in the next few years. The Institute for urban development (IDU) from Bogotá wants to have an overview of the impact of this change in the inhabitants and also to have a study for value capture in order to finance the system. Along with the school of architecture, the group for urban and regional sustainability (SUR) from Universidad de los Andes have proposed a study for value capture and urban planning using a transit oriented development system. To create such a study, SUR group have created a set of 4 topics to analyze the current situation of the areas surrounding the future metro stations: urban and spatial, transportation, economics, and urban policies. Each of these topics have a set of views that are designed to show the results of the diagnostic studies using a wide set of analysis tools and software. This project is created to supply the need of communication of such results in a way that all involved stakeholders can have access to the most updated data in an easy to use interface.",
     "integrantes": [
@@ -1445,7 +1445,7 @@
     "foto": "MetroBogota.png"
   },
   {
-    "id": 59,
+    "id": 72,
     "nombreProyecto": "Method of extrapolation of anatomical context sensitive interest regions for subject cohortes analysis in brain tractographies",
     "descripcion": "The study of the brain is becoming a focus of interest using computers in order to obtain new information and prepare standard calculations valuable for doctors. In this project, a new algorithm was made  for BRAVIZ () for extrapolating regions of interest that depends on anatomical context for the analysis of brain tractografies. This new algorithm uses linear interpolation methods in order to reduce the distance from the calculated regions against a region set by an expert in brain research.",
     "integrantes": [
@@ -1463,7 +1463,7 @@
     "link": "http://diego0020.github.io/braviz/index.html"
   },
   {
-    "id": 60,
+    "id": 73,
     "nombreProyecto": "Visual Analytics applied to the growth of preterm infants in their first year of life",
     "descripcion": "More than 1 in 10 babies are born preterm, affecting families all around the world, in Colombia about 12% are preterm births. Kangaroo Foundation has helped this babies with the application of KMC as a standard practice in neonatal care. In 20 year this foundation has collected valuate information about growth of this population, and in this project we want to explore this data to find patterns and determine variables that affect the growth in this babies.",
     "integrantes": [
@@ -1480,7 +1480,7 @@
     "link": "http://analiticafundacioncanguro.com/"
   },
   {
-    "id": 61,
+    "id": 74,
     "nombreProyecto": "Multimodal training simulator about orthopedics surgical reduction as residency module",
     "descripcion": "This project trains orthopedical resident students from FSFB to achieve the reduction process during the osteosynthesis in  the trauma surgery.",
     "integrantes": [
@@ -1497,7 +1497,7 @@
     "foto": "Orthaptica.jpg"
   },
   {
-    "id": 62,
+    "id": 75,
     "nombreProyecto": "Interactive Urban Spatio-Temporal Data Exploration: A Web Approach",
     "descripcion": "The analysis of spatio-temporal heterogeneous data is considered as a big challenge due to the emerging of vast quantities of such information that considers the resolution of the questions “what, when and where”. Thus, in urban planning such analysis, through visual analytics, represent a big yearn to experts to get to know perhaps hidden and valuable information, supporting their decision making. This emerging field has various investigations which are briefly mentioned in order to get an idea of what is currently done and how. In this order of ideas, experts on the field, through this brief approximation, can get a notion of how the data is structured and, through the very best visualization to represent the current data selection of interest, regarding spatio-temporality, get an overview of the dataset as a whole. This article presents a web approach to offer exploration tools of spatio-temporal data. This proposal is illustrated by a first prototype to show its technical feasibility and, a review of differents proposals is presented and how, based on its analysis, is structured this proposal and its future evaluation.",
     "integrantes": [
@@ -1514,7 +1514,7 @@
     "repository": "https://github.com/miguelfeijoo/miguelfeijoo.github.io/tree/master/TesisMINE"
   },
   {
-    "id": 63,
+    "id": 76,
     "nombreProyecto": "Agent-based Urban Segregation Model and Visualization Proposal",
     "descripcion": "This project presents a model for urban segregation based on three different agents, those are, householders, investors and promoters. Using a simple visualization tool, it is possible to interact with the steps of the simulation from the model. This proposal creates an interaction of an artificial intelligence tool and an economic simulation in a spatial context. The model was validated following steps of previous models presented along with an expert in urban planning. This is considered a first proposal that allows the urban planner to understand the systematic behavior of the agents under an economic and spatial context.",
     "integrantes": [
@@ -1531,7 +1531,7 @@
     "repository": "https://github.com/mvanegas10/kobdig-validation"
   },
   {
-    "id": 64,
+    "id": 77,
     "nombreProyecto": "Wizard Chess",
     "descripcion": "Wizard Chess es un ajedrez por control de voz en realidad virtual cuyo objetivo principal es incentivar a personas que han tenido poco contacto con el ajedrez a jugarlo de una manera más entretenida. Para ello se creó un juego multijugador cooperativo en el cual el usuario puede comandar las fichas por medio de su voz en un escenario con un ambiente mágico.",
     "integrantes": [
