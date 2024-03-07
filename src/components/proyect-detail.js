@@ -3,15 +3,15 @@ import data from '../data/proyects.json';
 import '../styles/proyect-detail.css';
 import { DEFAULT_PERSON_IMAGE } from '../constants';
 
-
 const renderIntegrantes = (integrantes) => {
-  return (
-    <ul className="integrantes-list">
-      {integrantes.map((integrante, index) => (
+  const renderColumn = (columnIntegrantes) => (
+    <ul className="integrantes-column">
+      {columnIntegrantes.map((integrante, index) => (
         <li key={index} className="integrante-item">
           <div className="integrante-info">
             <img 
-              src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
+              src={integrante.fotoIntegrante ? 
+                require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
               className="rounded-circle mr-2 member"
               alt={`Integrante ${integrante.nombre}`}
               style={{ width: '50px', height: '50px' }}
@@ -22,8 +22,29 @@ const renderIntegrantes = (integrantes) => {
       ))}
     </ul>
   );
-};
 
+  const columns = [];
+  const numColumns = 2;
+  const numIntegrantes = integrantes.length;
+  const integrantesPerColumn = Math.ceil(numIntegrantes / numColumns);
+
+  for (let i = 0; i < numColumns; i++) {
+    const startIndex = i * integrantesPerColumn;
+    const endIndex = Math.min(startIndex + integrantesPerColumn, numIntegrantes);
+    const columnIntegrantes = integrantes.slice(startIndex, endIndex);
+    columns.push(renderColumn(columnIntegrantes));
+  }
+
+  return (
+    <div className="integrantes-container">
+      {columns.map((column, index) => (
+        <div key={index} className="integrantes-column-wrapper">
+          {column}
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const ProyectDetail = () => {
   const { id } = useParams();
