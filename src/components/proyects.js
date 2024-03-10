@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
-import data from '../data/proyects.json';
+import { Link } from 'react-router-dom';
 import '../styles/proyects.css';
 import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 
@@ -24,12 +23,28 @@ const useWindowSize = () => {
 
 const Proyectos = () => {
   const [projects, setProjects] = useState([]);
+  const [people, setPeople] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
   
-  const windowWidth = useWindowSize(); // Usamos el hook personalizado aquí
+  const windowWidth = useWindowSize();
 
   useEffect(() => {
-    setProjects(data);
+    Promise.all([
+      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/projects.json')
+        .then(response => response.json()),
+      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
+        .then(response => response.json())
+    ]).then(([projectData, peopleData]) => {
+      setProjects(projectData);
+      setPeople(peopleData);
+      setIsLoading(false);
+    });
   }, []);
+
+  if (isLoading) {
+    return <div>Cargando...</div>;
+  }
+
 
   const renderMemberImages = (integrantes) => {
     const breakpoints = {
@@ -66,16 +81,34 @@ const Proyectos = () => {
 
     const maxToShow = maxImagesToShow[category];
 
-    return integrantes.slice(0, maxToShow).map((integrante, i) => (
-      <img
-        key={i}
-        src={integrante.fotoIntegrante ? require(`../assets/integrantes/${integrante.fotoIntegrante}`) : DEFAULT_PERSON_IMAGE}
-        className="rounded-circle mr-2 member"
-        alt={`Integrante ${integrante.nombre}`}
-        title={`${integrante.nombre}`}
-        style={{ width: '50px', height: '50px', marginRight: '5px' }}
-      />
-    ));
+    return integrantes.slice(0, maxToShow).map((integrante, i) => {
+      const person = people[integrante];
+      if (!person) {
+        console.log(people);
+        console.log(integrante);
+        console.warn(`No se encontró a la persona con el identificador "${integrante}" en los datos de las personas.`);
+        return null;
+      }
+      const imageElement = person.image && (
+        <img
+          src={person.image ? `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`: DEFAULT_PERSON_IMAGE}
+          className="rounded-circle mr-2 member"
+          alt={`Integrante ${person.display_name}`}
+          title={`${person.display_name}`}
+          style={{ width: '50px', height: '50px', marginRight: '5px' }}
+        />
+      );
+
+      return person.webpage ? (
+        <a href={person.webpage} key={i}>
+          {imageElement}
+        </a>
+      ) : (
+        <div key={i}>
+          {imageElement}
+        </div>
+      );
+    });
   };
 
   const renderCards = () => {
@@ -85,7 +118,7 @@ const Proyectos = () => {
           <Link to={`/proyectos/${project.id}`}>
             {project.foto && (
               <img
-                src={require(`../assets/proyectos/${project.foto}`)}
+                src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
                 className="card-img-top"
                 alt={`Imagen ${project.nombreProyecto}`}
               />
