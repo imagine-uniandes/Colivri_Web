@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from '../pages/home';
-import Proyects from '../pages/proyects';
+import Projects from '../pages/projects';
 import Navbar from './navbar';
-import ProyectDetail from '../pages/proyect-detail';
+import ProjectDetail from '../pages/project-detail';
 //import Events from '../pages/events';
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/proyectos" element={<Proyects />} />
-                <Route path="/proyectos/:id" element={<ProyectDetail />} />
+                <Route exact path="/proyectos" element={<Projects />} />
+                <Route path="/proyectos/:id" element={<ProjectDetail />} />
             </Routes>
         </Router>
     );
