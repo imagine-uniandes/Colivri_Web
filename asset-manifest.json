@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Colivri_Web/static/css/main.10d6434d.css",
-    "main.js": "/Colivri_Web/static/js/main.b484258e.js",
+    "main.js": "/Colivri_Web/static/js/main.e30b8b77.js",
     "static/media/ejercito.png": "/Colivri_Web/static/media/ejercito.30acc256ff6281349de0.png",
     "static/media/vr.png": "/Colivri_Web/static/media/vr.4a8e1209bb74a45f4f00.png",
     "static/media/bootstrap-icons.woff?": "/Colivri_Web/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
@@ -17,10 +17,10 @@
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
     "main.10d6434d.css.map": "/Colivri_Web/static/css/main.10d6434d.css.map",
-    "main.b484258e.js.map": "/Colivri_Web/static/js/main.b484258e.js.map"
+    "main.e30b8b77.js.map": "/Colivri_Web/static/js/main.e30b8b77.js.map"
   },
   "entrypoints": [
     "static/css/main.10d6434d.css",
-    "static/js/main.b484258e.js"
+    "static/js/main.e30b8b77.js"
   ]
 }
