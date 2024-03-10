@@ -102,7 +102,7 @@ const Projects = () => {
       );
 
       return person.webpage ? (
-        <a href={person.webpage} key={i}>
+        <a href={person.webpage} key={i} target='_blank' rel="noopener noreferrer">
           {imageElement}
         </a>
       ) : (

@@ -62,7 +62,7 @@ const ProyectDetail = () => {
           return person.webpage ? (
             <li key={index} className="integrante-item">
               <div className="integrante-info">
-                <a href={person.webpage}>
+                <a href={person.webpage} target='_blank' rel="noopener noreferrer">
                   {imageElement}
                   <span>{person.display_name}</span>
                 </a>
