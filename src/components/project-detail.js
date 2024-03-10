@@ -50,15 +50,28 @@ const ProyectDetail = () => {
             ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
             : DEFAULT_PERSON_IMAGE;
   
-          return (
-            <li key={index} className="integrante-item">
-              <div className="integrante-info">
-                <img
+          const imageElement = (
+            <img
                   src={imageSrc}
                   className="rounded-circle mr-2 member"
                   alt={`Integrante ${person.display_name}`}
                   style={{ width: '50px', height: '50px' }}
                 />
+          )
+
+          return person.webpage ? (
+            <li key={index} className="integrante-item">
+              <div className="integrante-info">
+                <a href={person.webpage}>
+                  {imageElement}
+                  <span>{person.display_name}</span>
+                </a>
+              </div>
+            </li>
+          ) : (
+            <li key={index} className="integrante-item">
+              <div className="integrante-info">
+                {imageElement}
                 <span>{person.display_name}</span>
               </div>
             </li>

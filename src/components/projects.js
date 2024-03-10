@@ -91,7 +91,7 @@ const Projects = () => {
       const imageSrc = person.image
         ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
     : DEFAULT_PERSON_IMAGE;
-      const imageElement = person.image && (
+      const imageElement = (
         <img
           src={imageSrc}
           className="rounded-circle mr-2 member"
