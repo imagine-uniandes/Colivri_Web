@@ -25,6 +25,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+This command will build the app and deploy it to the gh-pages branch of the repository. The app will be available at [https://imagine-uniandes.github.io/Colivri_Web/](https://imagine-uniandes.github.io/Colivri_Web/).
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
