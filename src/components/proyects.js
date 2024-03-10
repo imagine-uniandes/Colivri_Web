@@ -84,14 +84,16 @@ const Proyectos = () => {
     return integrantes.slice(0, maxToShow).map((integrante, i) => {
       const person = people[integrante];
       if (!person) {
-        console.log(people);
-        console.log(integrante);
         console.warn(`No se encontró a la persona con el identificador "${integrante}" en los datos de las personas.`);
         return null;
       }
+      const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
+      const imageSrc = person.image
+        ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
+    : DEFAULT_PERSON_IMAGE;
       const imageElement = person.image && (
         <img
-          src={person.image ? `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`: DEFAULT_PERSON_IMAGE}
+          src={imageSrc}
           className="rounded-circle mr-2 member"
           alt={`Integrante ${person.display_name}`}
           title={`${person.display_name}`}
