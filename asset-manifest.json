@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/colivri_web/static/css/main.75d6cdc2.css",
+    "main.js": "/colivri_web/static/js/main.39535882.js",
+    "static/media/ejercito.png": "/colivri_web/static/media/ejercito.30acc256ff6281349de0.png",
+    "static/media/vr.png": "/colivri_web/static/media/vr.4a8e1209bb74a45f4f00.png",
+    "static/media/bootstrap-icons.woff?": "/colivri_web/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/colivri_web/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/slider.png": "/colivri_web/static/media/slider.7acb49fbb9935fdcdc5b.png",
+    "static/media/logo.png": "/colivri_web/static/media/logo.8a46a3e7f26d5f0310ae.png",
+    "static/media/3GoVideo.png": "/colivri_web/static/media/3GoVideo.9a1219956b301909c95d.png",
+    "static/media/unity.png": "/colivri_web/static/media/unity.092bf4f9228a3747fc3c.png",
+    "static/media/vr.webp": "/colivri_web/static/media/vr.5d0a08010c9056f9ae28.webp",
+    "static/media/imagine.jpg": "/colivri_web/static/media/imagine.fa5615ee0e2c2c521e35.jpg",
+    "static/media/navbar.png": "/colivri_web/static/media/navbar.1adef08fc1bf09bc1e5d.png",
+    "static/media/meta.png": "/colivri_web/static/media/meta.720444fd59ac74f83ab0.png",
+    "index.html": "/colivri_web/index.html",
+    "static/media/circle-user-solid.svg": "/colivri_web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
+    "main.75d6cdc2.css.map": "/colivri_web/static/css/main.75d6cdc2.css.map",
+    "main.39535882.js.map": "/colivri_web/static/js/main.39535882.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75d6cdc2.css",
+    "static/js/main.39535882.js"
+  ]
+}
