@@ -1,0 +1,81 @@
+.project-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-detail-container img {
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  aspect-ratio: 16/9;
+}
+
+.project-detail-container h2 {
+  font-size: 24px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.project-detail-container p {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.project-detail-container .integrantes-heading {
+  text-align: left;
+}
+
+.project-detail-container .integrantes-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+.integrantes-list {
+  list-style: none;
+  padding: 1;
+}
+
+.integrante-item {
+  list-style-type: none;
+  margin-bottom: -50px;
+  margin-right: 80px;
+}
+
+.integrante-info {
+  display: flex;
+  align-items: center;
+}
+
+.integrante-info span {
+  margin-left: 10px;
+}
+
+.project-detail-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 30px;
+}
+
+.project-detail-container .link-heading {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project-detail-link {
+  font-size: 16px;
+}
+
+.project-detail-container .repository-heading {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project-detail-repository {
+  font-size: 16px;
+}
