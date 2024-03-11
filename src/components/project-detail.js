@@ -25,7 +25,7 @@ const ProyectDetail = () => {
   }, []);
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return <div className="loading">Cargando...</div>;
   };
 
   const project = projects.find((project) => project.id === parseInt(id));

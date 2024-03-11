@@ -42,7 +42,7 @@ const Projects = () => {
   }, []);
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return <div className="loading">Cargando...</div>;
   }
 
 
