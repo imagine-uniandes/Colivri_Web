@@ -22,7 +22,7 @@ const useWindowSize = () => {
 };
 
 const Groups = () => {
-  const [groups, setProjects] = useState([]);
+  const [groups, setGroups] = useState([]);
   const [people, setPeople] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   
@@ -35,7 +35,7 @@ const Groups = () => {
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
         .then(response => response.json())
     ]).then(([groupData, peopleData]) => {
-      setProjects(groupData);
+      setGroups(groupData);
       setPeople(peopleData);
       setIsLoading(false);
     });

@@ -1,0 +1,46 @@
+.Groups {
+  margin-top: 80px;
+}
+  .d-flex {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    margin-bottom: 100px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .card {
+    max-width: 300px;
+    margin: 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  img.member {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .bottom-cta {
+    flex: 1;
+    align-items: end;
+  }
+
+  .loading {
+    text-align: center;
+    margin-bottom: 1000px;
+  }
+
