@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/groups.css';
-import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
+import { DEFAULT_GROUP_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 
 const useWindowSize = () => {
   const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -22,7 +22,7 @@ const useWindowSize = () => {
 };
 
 const Groups = () => {
-  const [projects, setProjects] = useState([]);
+  const [groups, setProjects] = useState([]);
   const [people, setPeople] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   
@@ -30,12 +30,12 @@ const Groups = () => {
 
   useEffect(() => {
     Promise.all([
-      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/projects.json')
+      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/groups.json')
         .then(response => response.json()),
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
         .then(response => response.json())
-    ]).then(([projectData, peopleData]) => {
-      setProjects(projectData);
+    ]).then(([groupData, peopleData]) => {
+      setProjects(groupData);
       setPeople(peopleData);
       setIsLoading(false);
     });
@@ -114,24 +114,24 @@ const Groups = () => {
   };
 
   const renderCards = () => {
-    return projects.map((project, index) => (
+    return groups.map((group, index) => (
       <div className="col-lg-12 col-md-12 mb-4" key={index}>
         <div className="card h-100 mw-100 d-flex flex-row align-items-center">
-          <Link to={`/proyectos/${project.id}`}>
+          <Link to={`/proyectos/${group.id}`}>
             <div>
               <div>
-                {project.foto && (
+                {group.foto && (
                   <img
-                    src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
+                    src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.foto}`}
                     className="card-img"
-                    alt={`Imagen ${project.nombreProyecto}`}
+                    alt={`Imagen ${group.nombre}`}
                   />
                 )}
-                {!project.foto && (
+                {!group.foto && (
                   <img
-                    src={DEFAULT_PROJECT_IMAGE}
+                    src={DEFAULT_GROUP_IMAGE}
                     className="card-img"
-                    alt={`Imagen ${project.nombreProyecto}`}
+                    alt={`Imagen ${group.nombre}`}
                   />
                 )}
               </div>
@@ -139,14 +139,14 @@ const Groups = () => {
           </Link>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{project.nombreProyecto}</h5>
-              <p className="card-research">{project.researchArea}</p>
-              <p className="card-text">{project.descripcion}</p>
+              <h5 className="card-title">{group.nombre}</h5>
+              <p className="card-research">{group.researchArea}</p>
+              <p className="card-text">{group.descripcion}</p>
               <div className="bottom-cta d-flex justify-content-between">
                 <div className="d-flex">
-                  {renderMemberImages(project.integrantes)}
+                  {renderMemberImages(group.integrantes)}
                 </div>
-                <Link to={`/proyectos/${project.id}`} className="btn btn-primary">
+                <Link to={`/proyectos/${group.id}`} className="btn btn-primary">
                   Ver más
                 </Link>
               </div>
