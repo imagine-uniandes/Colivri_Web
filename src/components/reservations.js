@@ -4,7 +4,7 @@ import logo from "../assets/imgs/vr.webp";
 
 function ReservaEquipos() {
     const redirectToReservations = () => {
-        window.location.href = 'https://reservasdisc.virtual.uniandes.edu.co/';
+        window.open('https://reservasdisc.virtual.uniandes.edu.co/', '_blank');
     };
 
     return (
