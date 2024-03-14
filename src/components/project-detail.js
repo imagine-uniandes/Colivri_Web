@@ -111,6 +111,7 @@ const ProyectDetail = () => {
               <img
                 src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
                 alt={`Imagen ${project.nombreProyecto}`}
+                style={{ height: '430px' }}
               />
             )}
       <p>{project.descripcion}</p>
