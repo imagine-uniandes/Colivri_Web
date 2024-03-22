@@ -97,3 +97,39 @@
     text-align: center;
     margin-bottom: 1000px;
   }
+
+  .filters {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .filters select,
+  .filters input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .filters select {
+    width: 250px;
+  }
+  
+  .filters input[type="text"] {
+    width: 250px;
+  }
+  
+  .filters select:focus,
+  .filters input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .filters input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  .filters input[type="text"]:hover {
+    cursor: text;
+  }

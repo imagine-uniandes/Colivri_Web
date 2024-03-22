@@ -24,7 +24,11 @@ const useWindowSize = () => {
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [people, setPeople] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true)
+  const [filters, setFilters] = useState({
+    researchArea: '',
+  });
+  const [searchTerm, setSearchTerm] = useState('');
   
   const windowWidth = useWindowSize();
 
@@ -44,6 +48,17 @@ const Projects = () => {
   if (isLoading) {
     return <div className="loading">Cargando...</div>;
   }
+
+  const handleFilterChange = (filterName, value) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      [filterName]: value
+    }));
+  };
+
+  const handleSearchTermChange = event => {
+    setSearchTerm(event.target.value);
+  };
 
 
   const renderMemberImages = (integrantes) => {
@@ -114,7 +129,16 @@ const Projects = () => {
   };
 
   const renderCards = () => {
-    return projects.map((project, index) => (
+    let filteredProjects = projects;
+    filteredProjects = filteredProjects.filter(project => {
+      return (
+        (filters.researchArea === '' || project.researchArea === filters.researchArea) &&
+        ((project.nombreProyecto && project.nombreProyecto.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (project.descripcion && project.descripcion.toLowerCase().includes(searchTerm.toLowerCase())))
+      );
+    });
+
+    return filteredProjects.map((project, index) => (
       <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={index}>
         <div className="card h-100 mw-100">
           <Link to={`/proyectos/${project.id}`}>
@@ -141,9 +165,7 @@ const Projects = () => {
               <div className="d-flex">
                 {renderMemberImages(project.integrantes)}
               </div>
-              <Link to={`/proyectos/${project.id}`} className="btn btn-primary">
-                Ver más
-              </Link>
+              <Link to={`/proyectos/${project.id}`} className="btn btn-primary">Ver más</Link>
             </div>
           </div>
         </div>
@@ -154,6 +176,23 @@ const Projects = () => {
   return (
     <div className="proyectos container">
       <h1>Proyectos</h1>
+      <div className="filters">
+        <select value={filters.researchArea} onChange={e => handleFilterChange('researchArea', e.target.value)}>
+          <option value="">Todas las áreas de investigación</option>
+          <option value="Human Computer Interaction">Human Computer Interaction</option>
+          <option value="Image Processing">Image Processing</option>
+          <option value="Mixed Realities">Mixed Realities</option>
+          <option value="Robotics">Robotics</option>
+          <option value="Visual Analytics">Visual Analytics</option>
+          <option value="Video Games">Video Games</option>
+        </select>
+        <input
+          type="text"
+          placeholder=" Buscar proyectos..."
+          value={searchTerm}
+          onChange={handleSearchTermChange}
+        />
+      </div>
       <div className="row">
         {renderCards()}
       </div>
