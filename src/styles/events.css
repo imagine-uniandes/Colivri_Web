@@ -1,6 +1,6 @@
 .events {
   padding: 60px;
-  margin-bottom: 20px; /* Agrega espacio abajo */
+  margin-bottom: 10px;
 }
 
 .d-flex {
@@ -13,6 +13,7 @@
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 45px;
+  margin-bottom: 50px;
 }
 
 .card-img-top {
@@ -26,7 +27,6 @@
 
 .card-title {
   font-size: 1.2em;
-  margin-bottom: 10px;
 }
 
 .card-text {
@@ -64,7 +64,5 @@
   max-width: 300px;
   margin: 0 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  margin-top: 3%;
-  margin-bottom: 3%;
 }
 
