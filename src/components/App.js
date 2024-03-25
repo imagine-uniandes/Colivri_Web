@@ -5,7 +5,10 @@ import Groups from '../pages/groups';
 import Navbar from './navbar';
 import ProjectDetail from '../pages/project-detail';
 import { Routes, Route} from 'react-router-dom';
+import '../styles/app.css';
 //import Events from '../pages/events';
+
+
 
 function App() {
     useEffect(() => {
@@ -13,7 +16,7 @@ function App() {
     }, []);
 
     return (
-        <div>{}
+        <div className="app-container">
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />

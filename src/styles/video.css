@@ -1,0 +1,28 @@
+.video-container {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 75px;
+}
+
+.video-container h1{
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.video-text h2 {
+    font-size: 45px;
+}
+
+.video-player {
+    position: relative;
+    width: 100%;
+    padding-top: 177.77%;
+}
+
+.video-player iframe {
+    position: absolute;
+    top: 3%;
+    left: 27%;
+    width: 50%;
+    height: 50%;
+}
