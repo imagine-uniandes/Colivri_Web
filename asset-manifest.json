@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Colivri_Web/static/css/main.10d6434d.css",
-    "main.js": "/Colivri_Web/static/js/main.e30b8b77.js",
+    "main.css": "/Colivri_Web/static/css/main.12457c46.css",
+    "main.js": "/Colivri_Web/static/js/main.b45d8e48.js",
     "static/media/ejercito.png": "/Colivri_Web/static/media/ejercito.30acc256ff6281349de0.png",
     "static/media/vr.png": "/Colivri_Web/static/media/vr.4a8e1209bb74a45f4f00.png",
     "static/media/bootstrap-icons.woff?": "/Colivri_Web/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/bootstrap-icons.woff2?": "/Colivri_Web/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/slider.png": "/Colivri_Web/static/media/slider.7acb49fbb9935fdcdc5b.png",
-    "static/media/logo.png": "/Colivri_Web/static/media/logo.8a46a3e7f26d5f0310ae.png",
     "static/media/3GoVideo.png": "/Colivri_Web/static/media/3GoVideo.9a1219956b301909c95d.png",
     "static/media/unity.png": "/Colivri_Web/static/media/unity.092bf4f9228a3747fc3c.png",
     "static/media/vr.webp": "/Colivri_Web/static/media/vr.5d0a08010c9056f9ae28.webp",
     "static/media/imagine.jpg": "/Colivri_Web/static/media/imagine.fa5615ee0e2c2c521e35.jpg",
-    "static/media/navbar.png": "/Colivri_Web/static/media/navbar.1adef08fc1bf09bc1e5d.png",
+    "static/media/logo.png": "/Colivri_Web/static/media/logo.e2fdbb953d22df636917.png",
     "static/media/meta.png": "/Colivri_Web/static/media/meta.720444fd59ac74f83ab0.png",
+    "static/media/navbar.png": "/Colivri_Web/static/media/navbar.668f7aedd9bf9b140512.png",
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
-    "main.10d6434d.css.map": "/Colivri_Web/static/css/main.10d6434d.css.map",
-    "main.e30b8b77.js.map": "/Colivri_Web/static/js/main.e30b8b77.js.map"
+    "main.12457c46.css.map": "/Colivri_Web/static/css/main.12457c46.css.map",
+    "main.b45d8e48.js.map": "/Colivri_Web/static/js/main.b45d8e48.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d6434d.css",
-    "static/js/main.e30b8b77.js"
+    "static/css/main.12457c46.css",
+    "static/js/main.b45d8e48.js"
   ]
 }
