@@ -18,7 +18,7 @@ function home() {
             <Companies />
             <Events />
             <Reservations />
-            <div className="video-faq-container">
+            <div className="video-faq-container container">
                 <FAQ />
                 <Video />
             </div>

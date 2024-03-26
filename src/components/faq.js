@@ -25,7 +25,7 @@ const FaqComponent = () => {
   };
 
   return (
-    <div className="faq-container">
+    <div className="faq-container col-md-9 col-sm-12">
         <h2>Preguntas Frecuentes</h2>
       {faqs.map((faq, index) => (
         <div className={`faq-item ${activeIndex === index ? 'active' : ''}`} key={index}>

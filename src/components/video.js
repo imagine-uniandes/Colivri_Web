@@ -3,9 +3,9 @@ import '../styles/video.css';
 
 const Video = () => {
     return (
-        <div className='video-container'>
+        <div className='video-container col-md-3 col-sm-12'>
             <div className="video-text">
-                <h1>¿Cómo llegar a Colivri?</h1>
+                <h2>¿Cómo llegar?</h2>
             </div>
             <div className="video-player">
                 <iframe
