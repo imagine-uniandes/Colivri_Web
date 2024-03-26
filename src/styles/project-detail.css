@@ -84,4 +84,42 @@
 
 .project-detail-repository {
   font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.related-projects {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.related-project-card {
+  text-decoration: none;
+  flex: 1;
+}
+
+.related-project-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.related-project-card .card-body {
+  height: 270px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.related-project-card .card-title {
+  font-size: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.related-project-card .card-research {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
 }
