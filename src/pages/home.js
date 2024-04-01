@@ -10,6 +10,7 @@ import Contact from '../components/contact';
 import Footer from '../components/footer';
 import '../styles/home.css';
 
+
 function home() {
     return (
         <div className='Home'>
