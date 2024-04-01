@@ -12,6 +12,7 @@ import '../styles/home.css';
 
 
 function home() {
+    window.scrollTo(0, 0);
     return (
         <div className='Home'>
             <Header />

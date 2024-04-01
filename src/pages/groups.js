@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import '../styles/home.css';
 
 function groups() {
+    window.scrollTo(0, 0);
     return (
         <div className='Groups'>
             <div style={{ marginTop: '100px'}}>

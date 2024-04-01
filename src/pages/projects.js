@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import '../styles/home.css';
 
 function projects() {
+    window.scrollTo(0, 0);
     return (
         <div className='Proyects'>
             <div style={{ marginTop: '100px'}}>

@@ -32,6 +32,7 @@ const ProyectDetail = () => {
         const filteredProjects = projects.filter(project => project.researchArea === currentProject.researchArea && project.id !== parseInt(id));
         const randomProjects = filteredProjects.sort(() => Math.random() - 0.5).slice(0, 3);
         setRandomProjects(randomProjects);
+        window.scrollTo(0, 0);
       }
     }
   }, [projects, isLoading, id]);
