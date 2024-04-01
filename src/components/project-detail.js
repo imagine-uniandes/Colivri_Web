@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import '../styles/project-detail.css';
-import { DEFAULT_PERSON_IMAGE } from '../constants';
+import { DEFAULT_PERSON_IMAGE, DEFAULT_PROJECT_IMAGE } from '../constants';
 import { Link } from 'react-router-dom';
 
 
@@ -29,34 +29,32 @@ const ProyectDetail = () => {
     if (!isLoading) {
       const currentProject = projects.find(project => project.id === parseInt(id));
       if (currentProject) {
-        const filteredProjects = projects.filter(project => project.researchArea === currentProject.researchArea && project.id !== parseInt(id) && project.foto);
-        const randomIndexes = getRandomIndexes(filteredProjects.length, 3);
-        const randomProjects = randomIndexes.map(index => filteredProjects[index]);
+        const filteredProjects = projects.filter(project => project.researchArea === currentProject.researchArea && project.id !== parseInt(id));
+        const randomProjects = filteredProjects.sort(() => Math.random() - 0.5).slice(0, 3);
         setRandomProjects(randomProjects);
       }
     }
   }, [projects, isLoading, id]);
   
-  const getRandomIndexes = (max, count) => {
-    const indexes = [];
-    while (indexes.length < count) {
-      const index = Math.floor(Math.random() * max);
-      if (!indexes.includes(index)) {
-        indexes.push(index);
-      }
-    }
-    return indexes;
-  };
 
   const renderProjectCards = () => {
     return randomProjects.map(project => (
       <Link to={`/proyectos/${project.id}`} key={project.id} className="related-project-card">
         <div className="card">
-          <img
-            src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
-            alt={`Imagen ${project.nombreProyecto}`}
-            className="card-img-top"
-          />
+        {project.foto && (
+              <img
+                src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
+                className="card-img-top"
+                alt={`Imagen ${project.nombreProyecto}`}
+              />
+            )}
+            {!project.foto && (
+              <img
+                src={DEFAULT_PROJECT_IMAGE}
+                className="card-img-top"
+                alt={`Imagen ${project.nombreProyecto}`}
+              />
+            )}
           <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
             <p className="card-research">Área de investigación: {project.researchArea}</p>
