@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
 import { useState, useEffect } from 'react';
+import '../styles/ProjectCard.css';
 
 const useWindowSize = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -64,7 +65,6 @@ const ProjectCard = ({ project, peopleInfo, area, verMas }) => {
         const maxToShow = maxImagesToShow[category];
     
         return integrantes.slice(0, maxToShow).map((integrante, i) => {
-            console.log(peopleInfo);
             const person = peopleInfo[integrante];
             if (!person) {
                 console.warn(`No se encontró a la persona con el identificador "${integrante}" en los datos de las personas.`);
@@ -117,14 +117,18 @@ const ProjectCard = ({ project, peopleInfo, area, verMas }) => {
         </Link>
         <div className="card-body">
             <h5 className="card-title">{project.nombreProyecto}</h5>
-            <p className="card-research">{area && project.researchArea}</p>
+            {area && <p className="card-research">{project.researchArea}</p>}
             <p className="card-text">{project.descripcion}</p>
+            {(peopleInfo || verMas) &&
             <div className="bottom-cta d-flex justify-content-between">
-            <div className="d-flex">
-                {peopleInfo && renderMemberImages(project.integrantes)}
+                <div className="d-flex">
+                    {peopleInfo && renderMemberImages(project.integrantes)}
+                </div>
+                {verMas &&
+                <Link to={`/proyectos/${project.id}`} className="btn btn-primary">Ver más</Link>
+                }
             </div>
-            {verMas && <Link to={`/proyectos/${project.id}`} className="btn btn-primary">Ver más</Link>}
-            </div>
+            }
         </div>
         </div>
     </div>

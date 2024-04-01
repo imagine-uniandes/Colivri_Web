@@ -1,92 +1,38 @@
 .proyects {
     padding: 20px;
   }
-  
-  
+
   .proyects h2{
     margin-top: 10px;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 45px;
   }
-  
-  .card-img-top {
-    object-fit: cover;
-    aspect-ratio: 16/9;
-  }
-  
-  .card-body {
-    height: 270px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
-  
-  .card-title {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-  }
-  
-  .card-text {
-    font-size: 0.9em;
-    color: #666;
-    height: 68px;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-  }
-  
+
   .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
   }
-  
+
   .btn-primary:hover {
     background-color: #0056b3;
     border-color: #0056b3;
   }
-  
+
   .carousel-item {
     text-align: center;
   }
-  
+
   @media (max-width: 767px) {
     .flex-basis-50 {
       flex-basis: 50%;
     }
   }
-  
+
   @media (min-width: 768px) {
     .flex-basis-33 {
       flex-basis: 33.333%;
     }
-  }
-  
-  .card {
-    max-width: 300px;
-    margin: 0 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-  
-  img.member {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-
-  .bottom-cta {
-    flex: 1;
-    align-items: end;
   }
 
   .loading {
