@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import '../styles/project-detail.css';
-import { DEFAULT_PERSON_IMAGE, DEFAULT_PROJECT_IMAGE } from '../constants';
-import { Link } from 'react-router-dom';
+import { DEFAULT_PERSON_IMAGE} from '../constants';
+import ProjectCard from './ProjectCard';
 
 
 const ProyectDetail = () => {
@@ -36,35 +36,13 @@ const ProyectDetail = () => {
       }
     }
   }, [projects, isLoading, id]);
-  
+
 
   const renderProjectCards = () => {
     return randomProjects.map(project => (
-      <Link to={`/proyectos/${project.id}`} key={project.id} className="related-project-card">
-        <div className="card">
-        {project.foto && (
-              <img
-                src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/projects/${project.foto}`}
-                className="card-img-top"
-                alt={`Imagen ${project.nombreProyecto}`}
-              />
-            )}
-            {!project.foto && (
-              <img
-                src={DEFAULT_PROJECT_IMAGE}
-                className="card-img-top"
-                alt={`Imagen ${project.nombreProyecto}`}
-              />
-            )}
-          <div className="card-body">
-            <h5 className="card-title">{project.nombreProyecto}</h5>
-            <p className="card-research">Área de investigación: {project.researchArea}</p>
-            <p className="card-text">{project.descripcion}</p>
-          </div>
-        </div>
-      </Link>
+      <ProjectCard key={project.id} project={project} peopleInfo={false} verMas={false} />
     ));
-  };  
+  };
 
   const renderIntegrantes = (integrantes) => {
 
