@@ -115,21 +115,14 @@ const Groups = () => {
 
   const renderCards = () => {
     return groups.map((group, index) => (
-      <div className="col-lg-12 col-md-12 mb-4" key={index}>
-        <div className="card h-100 mw-100 d-flex flex-row align-items-center">
+      <div className="col-lg-12 col-md-6 mb-4" key={index}>
+        <div className="card h-100 mw-100 d-flex flex-row">
           <Link to={`/proyectos/${group.id}`}>
             <div>
               <div>
-                {group.foto && (
+                {group.logo && (
                   <img
-                    src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.foto}`}
-                    className="card-img"
-                    alt={`Imagen ${group.nombre}`}
-                  />
-                )}
-                {!group.foto && (
-                  <img
-                    src={DEFAULT_GROUP_IMAGE}
+                    src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
                     className="card-img"
                     alt={`Imagen ${group.nombre}`}
                   />
