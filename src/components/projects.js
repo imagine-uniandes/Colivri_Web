@@ -1,32 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import '../styles/projects.css';
 import ProjectCard from '../components/ProjectCard';
+import DataContext from '../contexts/DataContext';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  const [people, setPeople] = useState({});
-  const [isLoading, setIsLoading] = useState(true)
+  const { projects, people, isLoading } = useContext(DataContext);
   const [filters, setFilters] = useState({
     researchArea: '',
   });
   const [searchTerm, setSearchTerm] = useState('');
 
-  useEffect(() => {
-    Promise.all([
-      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/projects.json')
-        .then(response => response.json()),
-      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
-        .then(response => response.json())
-    ]).then(([projectData, peopleData]) => {
-      setProjects(projectData);
-      setPeople(peopleData);
-      setIsLoading(false);
-    });
-  }, []);
-
-  if (isLoading) {
-    return <div className="loading">Cargando...</div>;
-  }
 
   const handleFilterChange = (filterName, value) => {
     setFilters(prevFilters => ({
@@ -75,7 +58,7 @@ const Projects = () => {
         />
       </div>
       <div className="row">
-        {renderCards()}
+        {isLoading ? <p>Cargando proyectos...</p> : renderCards()}
       </div>
     </div>
   );
