@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/groups.css';
-import { DEFAULT_GROUP_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
+import {DEFAULT_PERSON_IMAGE } from '../constants';
 
 const useWindowSize = () => {
   const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -115,33 +115,31 @@ const Groups = () => {
 
   const renderCards = () => {
     return groups.map((group, index) => (
-      <div className="col-lg-12 col-md-6 mb-4" key={index}>
-        <div className="card h-100 mw-100 d-flex flex-row">
-          <Link to={`/proyectos/${group.id}`}>
-            <div>
-              <div>
-                {group.logo && (
-                  <img
-                    src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
-                    className="card-img"
-                    alt={`Imagen ${group.nombre}`}
-                  />
-                )}
-              </div>
-            </div>
-          </Link>
-          <div className="col-md-8">
-            <div className="card-body">
-              <h5 className="card-title">{group.nombre}</h5>
-              <p className="card-research">{group.researchArea}</p>
-              <p className="card-text">{group.descripcion}</p>
-              <div className="bottom-cta d-flex justify-content-between">
-                <div className="d-flex">
-                  {renderMemberImages(group.integrantes)}
+      <div className="col-lg-12 col-md-12 mb-12" key={index}>
+        <div className="card mw-100">
+          <div className="card-content d-flex flex-sm-column flex-column flex-md-row">
+            <Link to={`/proyectos/${group.id}`} className='col-md-4 col-12'>
+                  {group.logo && (
+                    <img
+                      src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
+                      className="card-img"
+                      alt={`Imagen ${group.nombre}`}
+                    />
+                  )}
+            </Link>
+            <div className="col-md-8 col-12">
+              <div className="card-body">
+                <h5 className="card-title">{group.nombre}</h5>
+                <p className="card-research">{group.researchArea}</p>
+                <p className="card-text">{group.descripcion}</p>
+                <div className="bottom-cta d-flex justify-content-between">
+                  <div className="d-flex">
+                    {renderMemberImages(group.integrantes)}
+                  </div>
+                  <Link to={`/proyectos/${group.id}`} className="btn btn-primary">
+                    Ver más
+                  </Link>
                 </div>
-                <Link to={`/proyectos/${group.id}`} className="btn btn-primary">
-                  Ver más
-                </Link>
               </div>
             </div>
           </div>
@@ -153,7 +151,7 @@ const Groups = () => {
   return (
     <div className="grupos container">
       <h1>Grupos</h1>
-      <div className="row">
+      <div className="row d-flex align-items-stretch">
         {renderCards()}
       </div>
     </div>
