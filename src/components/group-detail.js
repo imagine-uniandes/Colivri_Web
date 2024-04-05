@@ -124,34 +124,16 @@ const GroupDetail = () => {
       </div>
       <h2 className="integrantes-heading">Integrantes:</h2>
       {renderIntegrantes(group.integrantes)}
-      {group.website && (
-        <h2 className="website-heading">Website:</h2>
-      )}
-      <div className="group-detail-website">
-        {group.website && (
-          <p>
-            <a href={group.website} target="_blank" rel="noopener noreferrer">
-              {group.website}
-            </a>
-          </p>
-        )}
-      </div>
-      {group.github && (
-        <h2 className="repository-heading">Repositorio:</h2>
-      )}
-      <div className="group-detail-repository">
-        {group.github && (
-          <p>
-            <a href={group.github} target="_blank" rel="noopener noreferrer">
-              {group.github}
-            </a>
-          </p>
-        )}
-      </div>
       {group.redes && (
         <h2 className="redes-heading">Redes:</h2>
       )}
       <div className="icons-social-medias">
+        {group.website && (
+          <a href={group.website} className="social-links"><i className="bi bi-globe"></i></a>
+        )}
+        {group.github && (
+          <a href={group.github} className="social-links"><i className="bi bi-github"></i></a>
+        )}
         {group.redes.correo && (
           <a href={`mailto:${group.redes.correo}`} className="email-links"><i className="bi bi-envelope"></i></a>
         )}
