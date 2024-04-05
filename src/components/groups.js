@@ -118,7 +118,7 @@ const Groups = () => {
       <div className="col-lg-12 col-md-12 mb-12" key={index}>
         <div className="card mw-100">
           <div className="card-content d-flex flex-sm-column flex-column flex-md-row">
-            <Link to={`/proyectos/${group.id}`} className='col-md-4 col-12'>
+            <Link to={`/grupos/${group.id}`} className='col-md-4 col-12'>
                   {group.logo && (
                     <img
                       src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
@@ -136,7 +136,7 @@ const Groups = () => {
                   <div className="d-flex">
                     {renderMemberImages(group.integrantes)}
                   </div>
-                  <Link to={`/proyectos/${group.id}`} className="btn btn-primary">
+                  <Link to={`/grupos/${group.id}`} className="btn btn-primary">
                     Ver más
                   </Link>
                 </div>

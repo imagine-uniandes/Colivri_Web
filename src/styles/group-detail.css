@@ -1,0 +1,101 @@
+.group-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.group-detail-container img {
+  margin-top: 30px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.group-detail-container h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.group-detail-container p {
+  text-align: left;
+  margin-top: 28px;
+}
+
+.group-detail-researchArea p {
+  text-align: left;
+}
+
+.group-detail-container p2 {
+  text-align: left;
+  margin-top: 28px;
+}
+
+.loading {
+  text-align: center;
+  margin-bottom: 1000px;
+}
+
+.group-detail-container .integrantes-heading {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.group-detail-container .integrantes-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.integrantes-list {
+  list-style: none;
+  padding: 1;
+}
+
+.integrante-item {
+  list-style-type: none;
+  margin-bottom: -50px;
+  margin-right: 80px;
+}
+
+.integrante-info {
+  display: flex;
+  align-items: center;
+}
+
+.integrante-info span {
+  margin-left: 10px;
+}
+
+.group-detail-container .website-heading {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.group-detail-website {
+  font-size: 16px;
+}
+
+.group-detail-container .repository-heading {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.group-detail-repository {
+  font-size: 16px;
+}
+
+.group-detail-container .redes-heading {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.group-detail-redes {
+  font-size: 16px;
+}
+
+.group-detail-redes, .email-link {
+  font-size: 16px;
+  text-align: left;
+}
