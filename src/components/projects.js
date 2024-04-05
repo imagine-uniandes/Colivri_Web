@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import '../styles/projects.css';
 import ProjectCard from '../components/ProjectCard';
 import DataContext from '../contexts/DataContext';

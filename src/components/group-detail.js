@@ -151,48 +151,24 @@ const GroupDetail = () => {
       {group.redes && (
         <h2 className="redes-heading">Redes:</h2>
       )}
-      <div className="group-detail-redes">
-        {group.redes && (
-          <p>
-            <a href={group.redes.correo} className="email-link" rel="noopener noreferrer">
-              {group.redes.correo}
-            </a>
-          </p>
+      <div className="icons-social-medias">
+        {group.redes.correo && (
+          <a href={`mailto:${group.redes.correo}`} className="email-links"><i className="bi bi-envelope"></i></a>
         )}
-        {group.redes && (
-          <p>
-            <a href={group.redes.instagram} target="_blank" rel="noopener noreferrer">
-              {group.redes.instagram}
-            </a>
-          </p>
+        {group.redes.instagram && (
+          <a href={group.redes.instagram} className="social-links"><i className="bi bi-instagram"></i></a>
         )}
-        {group.redes && (
-          <p>
-            <a href={group.redes.tiktok} target="_blank" rel="noopener noreferrer">
-              {group.redes.tiktok}
-            </a>
-          </p>
+        {group.redes.tiktok && (
+          <a href={group.redes.tiktok} className="social-links"><i className="bi bi-tiktok"></i></a>
         )}
-        {group.redes && (
-          <p>
-            <a href={group.redes.youtube} target="_blank" rel="noopener noreferrer">
-              {group.redes.youtube}
-            </a>
-          </p>
+        {group.redes.youtube && (
+          <a href={group.redes.youtube} className="social-links"><i className="bi bi-youtube"></i></a>
         )}
-        {group.redes && (
-          <p>
-            <a href={group.redes.facebook} target="_blank" rel="noopener noreferrer">
-              {group.redes.facebook}
-            </a>
-          </p>
+        {group.redes.facebook && (
+          <a href={group.redes.facebook} className="social-links"><i className="bi bi-facebook"></i></a>
         )}
-        {group.redes && (
-          <p>
-            <a href={group.redes.whatsapp} target="_blank" rel="noopener noreferrer">
-              {group.redes.whatsapp}
-            </a>
-          </p>
+        {group.redes.whatsapp && (
+          <a href={group.redes.whatsapp} className="social-links"><i className="bi bi-whatsapp"></i></a>
         )}
       </div>
     </div>
