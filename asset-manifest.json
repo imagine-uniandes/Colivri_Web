@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/Colivri_Web/static/css/main.f1d43a57.css",
-    "main.js": "/Colivri_Web/static/js/main.4a212f99.js",
+    "main.css": "/Colivri_Web/static/css/main.443303ea.css",
+    "main.js": "/Colivri_Web/static/js/main.c3b51b53.js",
     "static/media/colivri-isometric-web.png": "/Colivri_Web/static/media/colivri-isometric-web.54a2773824abeba78dc3.png",
     "static/media/ejercito.png": "/Colivri_Web/static/media/ejercito.30acc256ff6281349de0.png",
     "static/media/vr.png": "/Colivri_Web/static/media/vr.4a8e1209bb74a45f4f00.png",
+    "static/media/vj.png": "/Colivri_Web/static/media/vj.7e5437352843d184a059.png",
     "static/media/bootstrap-icons.woff?": "/Colivri_Web/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/hci.png": "/Colivri_Web/static/media/hci.c86d6e495cde59ca6e16.png",
+    "static/media/robotics.png": "/Colivri_Web/static/media/robotics.babbf6a23fb79cd194a3.png",
+    "static/media/mr.png": "/Colivri_Web/static/media/mr.f0f1e7994760ccb2dfc6.png",
     "static/media/bootstrap-icons.woff2?": "/Colivri_Web/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/va.png": "/Colivri_Web/static/media/va.45da1ce537133cbb7268.png",
     "static/media/slider.png": "/Colivri_Web/static/media/slider.7acb49fbb9935fdcdc5b.png",
     "static/media/3GoVideo.png": "/Colivri_Web/static/media/3GoVideo.9a1219956b301909c95d.png",
     "static/media/unity.png": "/Colivri_Web/static/media/unity.092bf4f9228a3747fc3c.png",
@@ -17,11 +22,11 @@
     "static/media/navbar.png": "/Colivri_Web/static/media/navbar.668f7aedd9bf9b140512.png",
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
-    "main.f1d43a57.css.map": "/Colivri_Web/static/css/main.f1d43a57.css.map",
-    "main.4a212f99.js.map": "/Colivri_Web/static/js/main.4a212f99.js.map"
+    "main.443303ea.css.map": "/Colivri_Web/static/css/main.443303ea.css.map",
+    "main.c3b51b53.js.map": "/Colivri_Web/static/js/main.c3b51b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d43a57.css",
-    "static/js/main.4a212f99.js"
+    "static/css/main.443303ea.css",
+    "static/js/main.c3b51b53.js"
   ]
 }
