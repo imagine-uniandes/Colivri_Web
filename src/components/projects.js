@@ -10,7 +10,6 @@ const Projects = () => {
   });
   const [searchTerm, setSearchTerm] = useState('');
 
-
   const handleFilterChange = (filterName, value) => {
     setFilters(prevFilters => ({
       ...prevFilters,
@@ -22,20 +21,14 @@ const Projects = () => {
     setSearchTerm(event.target.value);
   };
 
-  const renderCards = () => {
-    let filteredProjects = projects;
-    filteredProjects = filteredProjects.filter(project => {
-      return (
-        (filters.researchArea === '' || project.researchArea === filters.researchArea) &&
-        ((project.nombreProyecto && project.nombreProyecto.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        (project.descripcion && project.descripcion.toLowerCase().includes(searchTerm.toLowerCase())))
-      );
-    });
-
-    return filteredProjects.map((project, index) => (
-      <ProjectCard key={index} project={project} peopleInfo={people} area={true} verMas={true} />
-    ));
-  };
+  let filteredProjects = projects;
+  filteredProjects = filteredProjects.filter(project => {
+    return (
+      (filters.researchArea === '' || project.researchArea === filters.researchArea) &&
+      ((project.nombreProyecto && project.nombreProyecto.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      (project.descripcion && project.descripcion.toLowerCase().includes(searchTerm.toLowerCase())))
+    );
+  });
 
   return (
     <div className="proyectos container">
@@ -58,7 +51,15 @@ const Projects = () => {
         />
       </div>
       <div className="row">
-        {isLoading ? <p>Cargando proyectos...</p> : renderCards()}
+        {isLoading ? (
+          Array(10).fill().map((_, index) => (
+            <ProjectCard key={index} isLoading={isLoading} verMas={true} />
+          ))
+        ) : (
+          filteredProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} peopleInfo={people} area={true} verMas={true} isLoading={isLoading} />
+          ))
+        )}
       </div>
     </div>
   );

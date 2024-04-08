@@ -50,3 +50,16 @@ img.member {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+.d-flex span {
+    display: flex;
+    width: 100%;
+}
+
+.button-loading {
+    margin-left: auto;
+}
+
+.loading-card span:first-child {
+    margin-top: -4px;
+}
