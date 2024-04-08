@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { DEFAULT_PROJECT_IMAGE, DEFAULT_PERSON_IMAGE } from '../constants';
+import { DEFAULT_PROJECTS_IMAGES , DEFAULT_PERSON_IMAGE } from '../constants';
 import { useState, useEffect } from 'react';
 import '../styles/ProjectCard.css';
 
@@ -24,10 +24,7 @@ const useWindowSize = () => {
 
 const ProjectCard = ({ project, peopleInfo, area, verMas }) => {
 
-
-
     const windowWidth = useWindowSize();
-
 
     const renderMemberImages = (integrantes) => {
         const breakpoints = {
@@ -109,7 +106,7 @@ const ProjectCard = ({ project, peopleInfo, area, verMas }) => {
                 )}
                 {!project.foto && (
                 <img
-                    src={DEFAULT_PROJECT_IMAGE}
+                    src={DEFAULT_PROJECTS_IMAGES[project.researchArea] || DEFAULT_PROJECTS_IMAGES['default']}
                     className="card-img-top"
                     alt={`Imagen ${project.nombreProyecto}`}
                 />
