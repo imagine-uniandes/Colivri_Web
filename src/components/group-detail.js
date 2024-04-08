@@ -128,14 +128,15 @@ const GroupDetail = () => {
         <h2 className="redes-heading">Redes:</h2>
       )}
       <div className="icons-social-medias">
+        
         {group.website && (
-          <a href={group.website} className="social-links"><i className="bi bi-globe"></i></a>
+          <a href={group.website} className="social-links web"><i className="bi bi-globe"></i>{group.website}</a>
         )}
         {group.github && (
           <a href={group.github} className="social-links"><i className="bi bi-github"></i></a>
         )}
         {group.redes.correo && (
-          <a href={`mailto:${group.redes.correo}`} className="email-links"><i className="bi bi-envelope"></i></a>
+          <a href={`mailto:${group.redes.correo}`} className="social-links email"><i className="bi bi-envelope"></i>{group.redes.correo}</a>
         )}
         {group.redes.instagram && (
           <a href={group.redes.instagram} className="social-links"><i className="bi bi-instagram"></i></a>
