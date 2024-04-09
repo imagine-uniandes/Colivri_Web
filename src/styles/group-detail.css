@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.group-detail-container h1 {
+  font-size: 46px;
+  margin-top: -50px;
+}
+
 .group-detail-container img {
   margin-top: 30px;
   max-width: 100%;
@@ -47,26 +52,6 @@
   margin-bottom: 20px;
 }
 
-.integrantes-list {
-  list-style: none;
-  padding: 1;
-}
-
-.integrante-item {
-  list-style-type: none;
-  margin-bottom: -50px;
-  margin-right: 80px;
-}
-
-.integrante-info {
-  display: flex;
-  align-items: center;
-}
-
-.integrante-info span {
-  margin-left: 10px;
-}
-
 .group-detail-container .website-heading {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -95,20 +80,15 @@
   font-size: 16px;
 }
 
-.group-detail-redes, .email-link {
-  font-size: 16px;
-}
-
 .icons-social-medias{
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .social-links i, .email-links i {
   font-size: 50px;
   color: rgb(0, 0, 0);
-  margin-left: 20px;
 }
 
 .social-links{

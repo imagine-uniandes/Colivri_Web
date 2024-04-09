@@ -34,8 +34,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    margin-right: -10px;
+    gap: 15px;
   }
 
   .social-link, .email-link {
