@@ -11,21 +11,12 @@
 }
 
 .about .container{
-    margin-top: 2%;
+    margin-top: 4%;
 }
-
 
 .about img {
     max-width: 100%;
     max-height: 450px;
-}
-.about li{
-    margin-top: 10%;
-    list-style-type: none;
-}
-
-.about ul{
-    margin-top: 5%;
 }
 
 .about p{

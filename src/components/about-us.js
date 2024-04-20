@@ -11,7 +11,7 @@ function Navbar() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6 d-flex justify-content-center">
-                        <img src={logo} alt="logo"></img>
+                        <img src={iso} alt="iso"></img>
                     </div>
                     <div className="col-sm-12 col-lg-6 info">
                         <p>Colivri (Colaboratorio en Interacción, Visualización, Robótica y Sistemas Autónomos) de la Universidad de los Andes es un espacio de colaboración entre diversos departamentos de la Universidad como Ingeniería de Sistemas, Ingeniería Mecánica, Ingeniería Industrial, Ingeniería Eléctrica y Electrónica, entre otras.</p>
