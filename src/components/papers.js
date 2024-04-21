@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/papers.css';
+import { Link } from 'react-router-dom';
 import {DEFAULT_PERSON_IMAGE } from '../constants';
 
 const useWindowSize = () => {
@@ -47,6 +47,8 @@ const Papers = () => {
 
 
   const renderMemberImages = (integrantes) => {
+    if (!integrantes) return null; // Agregar esta línea para verificar si integrantes es undefined
+  
     const breakpoints = {
       mobileSmall: 400,
       mobileMedium: 576,
@@ -54,7 +56,7 @@ const Papers = () => {
       desktopMedium: 1199,
       desktopLarge: 1200,
     };
-
+  
     const maxImagesToShow = {
       xs: 2,
       mobileSmall: 4,
@@ -63,7 +65,7 @@ const Papers = () => {
       desktopMedium: 3,
       desktopLarge: 4,
     };
-
+  
     let category = '';
     if (windowWidth < breakpoints.mobileSmall) {
       category = 'xs';
@@ -78,9 +80,9 @@ const Papers = () => {
     } else {
       category = 'desktopLarge'
     }
-
+  
     const maxToShow = maxImagesToShow[category];
-
+  
     return integrantes.slice(0, maxToShow).map((integrante, i) => {
       const person = people[integrante];
       if (!person) {
@@ -90,7 +92,7 @@ const Papers = () => {
       const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
       const imageSrc = person.image
         ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
-    : DEFAULT_PERSON_IMAGE;
+        : DEFAULT_PERSON_IMAGE;
       const imageElement = (
         <img
           src={imageSrc}
@@ -100,7 +102,7 @@ const Papers = () => {
           style={{ width: '50px', height: '50px', marginRight: '5px' }}
         />
       );
-
+  
       return person.webpage ? (
         <a href={person.webpage} key={i} target='_blank' rel="noopener noreferrer">
           {imageElement}
@@ -120,12 +122,15 @@ const Papers = () => {
           <div className="card-content d-flex flex-sm-column flex-column flex-md-row">
             <div className="col-md-8 col-12">
               <div className="card-body">
+                <div className="bottom-cta d-flex justify-content-between">
+                  <p className="card-date">{paper.fecha}</p>
+                </div>
                 <h5 className="card-title">{paper.nombre}</h5>
-                <p className="card-research">{paper.researchArea}</p>
                 <p className="card-text">{paper.descripcion}</p>
+                <p className="card-research">{paper.researchArea}</p>
                 <div className="bottom-cta d-flex justify-content-between">
                   <div className="d-flex">
-                    {renderMemberImages(paper.integrantes)}
+                    {renderMemberImages(paper.autores)}
                   </div>
                   <Link to={`/papers/${paper.id}`} className="btn btn-primary">
                     Ver más
