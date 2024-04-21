@@ -2,7 +2,6 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
 .group-detail-container h1 {
@@ -49,28 +48,23 @@
 
 .group-detail-container .redes-heading {
   margin-top: 50px;
-  text-align: center;
+  text-align: left;
 }
 
-.group-detail-redes {
-  font-size: 16px;
+.social-media-group {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 2rem;
 }
 
-.icons-social-medias{
-  margin-top: 10px;
-}
-
-.social-links i, .email-links i {
-  color: rgb(0, 0, 0);
-}
-
-.social-links{
-  display: contents;
-}
-
-.social-links p{
-  margin: 0;
+.social-links {
+  color: black;
   display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.bi {
+  font-size: 32px;
+  margin-right: 16px;
 }
