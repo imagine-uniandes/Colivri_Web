@@ -134,26 +134,23 @@ const GroupDetail = () => {
         {group.redes.correo && (
           <a href={`mailto:${group.redes.correo}`} className="social-links email"><i className="bi bi-envelope"></i><p>{group.redes.correo}</p></a>
         )}
-      </div>
-      <div className="icons-social-medias">
-
         {group.github && (
-          <a href={group.github} className="social-links"><i className="bi bi-github"></i></a>
+          <a href={group.github} className="social-links"><i className="bi bi-github"><p>{group.github}</p></i></a>
         )}
         {group.redes.instagram && (
-          <a href={group.redes.instagram} className="social-links"><i className="bi bi-instagram"></i></a>
+          <a href={group.redes.instagram} className="social-links"><i className="bi bi-instagram"><p>{group.redes.instagram}</p></i></a>
         )}
         {group.redes.tiktok && (
-          <a href={group.redes.tiktok} className="social-links"><i className="bi bi-tiktok"></i></a>
+          <a href={group.redes.tiktok} className="social-links"><i className="bi bi-tiktok"><p>{group.redes.tiktok}</p></i></a>
         )}
         {group.redes.youtube && (
-          <a href={group.redes.youtube} className="social-links"><i className="bi bi-youtube"></i></a>
+          <a href={group.redes.youtube} className="social-links"><i className="bi bi-youtube"><p>{group.redes.youtube}</p></i></a>
         )}
         {group.redes.facebook && (
-          <a href={group.redes.facebook} className="social-links"><i className="bi bi-facebook"></i></a>
+          <a href={group.redes.facebook} className="social-links"><i className="bi bi-facebook"><p>{group.redes.facebook}</p></i></a>
         )}
         {group.redes.whatsapp && (
-          <a href={group.redes.whatsapp} className="social-links"><i className="bi bi-whatsapp"></i></a>
+          <a href={group.redes.whatsapp} className="social-links"><i className="bi bi-whatsapp"><p>{group.redes.whatsapp}</p></i></a>
         )}
       </div>
     </div>

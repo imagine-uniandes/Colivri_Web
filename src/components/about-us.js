@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/about.css';
-import logo from "../assets/imgs/logo.png";
+//import logo from "../assets/imgs/logo.png";
 import iso from "../assets/imgs/colivri-iso.png";
 
 function Navbar() {

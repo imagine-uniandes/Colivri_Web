@@ -1,5 +1,6 @@
 import Home from '../pages/home';
 import Projects from '../pages/projects';
+import Papers from '../pages/papers';
 import Groups from '../pages/groups';
 import Navbar from './navbar';
 //import Events from '../pages/events';
@@ -19,6 +20,7 @@ function App() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/proyectos" element={<Projects />} />
                 <Route path="/proyectos/:id" element={<ProjectDetail />} />
+                <Route path="/papers" element={<Papers />} />
                 <Route path="/grupos" element={<Groups />} />
                 <Route path="/grupos/:id" element={<GroupDetail />} />
                 {/*<Route exact path="/eventos" element={<Events />} />*/}

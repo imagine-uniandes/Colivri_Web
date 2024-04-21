@@ -21,11 +21,6 @@
   text-align: center;
 }
 
-.group-detail-container p {
-  text-align: left;
-  margin-top: 28px;
-}
-
 .group-detail-researchArea p {
   text-align: left;
 }
@@ -52,46 +47,30 @@
   margin-bottom: 20px;
 }
 
-.group-detail-container .website-heading {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.group-detail-website {
-  font-size: 16px;
-}
-
-.group-detail-container .repository-heading {
-  margin-top: 50px;
-  text-align: left;
-}
-
-.group-detail-repository {
-  font-size: 16px;
-}
-
 .group-detail-container .redes-heading {
   margin-top: 50px;
-  text-align: left;
+  text-align: center;
 }
 
 .group-detail-redes {
   font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .icons-social-medias{
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+  margin-top: 10px;
 }
 
 .social-links i, .email-links i {
-  font-size: 50px;
   color: rgb(0, 0, 0);
 }
 
 .social-links{
-  color: rgb(0, 0, 0);
   display: contents;
+}
+
+.social-links p{
+  margin: 0;
+  display: flex;
 }
