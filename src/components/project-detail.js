@@ -9,6 +9,7 @@ const ProyectDetail = () => {
   const { id } = useParams();
   const [projects, setProjects] = useState([]);
   const [people, setPeople] = useState({});
+  const [events, setEvents] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [randomProjects, setRandomProjects] = useState([]);
 
@@ -17,10 +18,13 @@ const ProyectDetail = () => {
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/projects.json')
         .then(response => response.json()),
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
-        .then(response => response.json())
-    ]).then(([projectData, peopleData]) => {
+        .then(response => response.json()),
+        fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/events.json')
+          .then(response => response.json())
+    ]).then(([projectData, peopleData, eventsData]) => {
       setProjects(projectData);
       setPeople(peopleData);
+      setEvents(eventsData);
       setIsLoading(false);
     });
   }, []);
@@ -171,6 +175,11 @@ const ProyectDetail = () => {
       <div className="related-projects">
         {renderProjectCards()}
       </div>
+
+      {project.events && (
+        <h2 className="events">Eventos:</h2>
+      )}
+
     </div>
   );
 };
