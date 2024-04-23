@@ -8,7 +8,7 @@ function papers() {
     window.scrollTo(0, 0);
     return (
         <div className='Papers'>
-            <div style={{ marginTop: '100px'}}>
+            <div style={{ marginTop: '10px'}}>
                 <Papers />
             </div>
             <Contact />
