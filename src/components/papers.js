@@ -44,15 +44,15 @@ const Papers = () => {
     return papers.map((paper, index) => (
       <div className="col-lg-12 col-md-12 mb-12" key={index}>
         <div className="card mw-100">
-          <div className="card-content d-flex flex-sm-column flex-column flex-md-row">
+          <div className="card-contentt d-flex flex-sm-column flex-column flex-md-row">
             <div className="col-md-11 col-12">
-              <div className="card-body">
+              <div className="card-bodyy">
                 <div className="bottom-cta d-flex justify-content-between">
                   <p className="card-date">{paper.fecha}</p>
                   <p className="card-authors">{renderMemberNames(paper.autores)}</p>
                 </div>
-                <h5 className="card-title">{paper.nombre}</h5>
-                <p className="card-text">{paper.descripcion}</p>
+                <h5 className="card-titlee">{paper.nombre}</h5>
+                <p className="card-textt">{paper.descripcion}</p>
                 <div className="bottom-cta d-flex justify-content-between">
                   <div className="d-flex">
                     <p className="card-research">{paper.researchArea}</p>

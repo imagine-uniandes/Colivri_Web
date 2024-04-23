@@ -13,34 +13,30 @@
   margin-bottom: 50px;
 }
 
-.card-title {
+.card-titlee {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.card-content {
+.card-contentt {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
- .card-body {
+ .card-bodyy {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.card-text {
+.card-textt {
   margin-top: 10px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
- .card-research {
-  text-align: center;
 }
 
 .btn-primary {
