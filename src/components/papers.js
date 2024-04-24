@@ -47,13 +47,13 @@ const Papers = () => {
           <div className="card-contentt d-flex flex-sm-column flex-column flex-md-row">
             <div className="col-md-11 col-12">
               <div className="card-bodyy">
-                <div className="bottom-cta d-flex justify-content-between">
+                <div className="d-flex justify-content-between">
                   <p className="card-date">{paper.fecha}</p>
                   <p className="card-authors">{renderMemberNames(paper.autores)}</p>
                 </div>
                 <h5 className="card-titlee">{paper.nombre}</h5>
                 <p className="card-textt">{paper.descripcion}</p>
-                <div className="bottom-cta d-flex justify-content-between">
+                <div className="card-end d-flex justify-content-between">
                   <div className="d-flex">
                     <p className="card-research">{paper.researchArea}</p>
                   </div>
