@@ -9,10 +9,8 @@ const ProyectDetail = () => {
   const { id } = useParams();
   const [projects, setProjects] = useState([]);
   const [people, setPeople] = useState({});
-  const [events, setEvents] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [randomProjects, setRandomProjects] = useState([]);
-  const [relatedEvents, setRelatedEvents] = useState([]);
 
   useEffect(() => {
     Promise.all([
@@ -20,12 +18,9 @@ const ProyectDetail = () => {
         .then(response => response.json()),
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
         .then(response => response.json()),
-      fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/events.json')
-        .then(response => response.json())
-    ]).then(([projectData, peopleData, eventsData]) => {
+    ]).then(([projectData, peopleData]) => {
       setProjects(projectData);
       setPeople(peopleData);
-      setEvents(eventsData);
       setIsLoading(false);
     });
   }, []);
@@ -37,12 +32,10 @@ const ProyectDetail = () => {
         const filteredProjects = projects.filter(project => project.researchArea === currentProject.researchArea && project.id !== parseInt(id));
         const randomProjects = filteredProjects.sort(() => Math.random() - 0.5).slice(0, 3);
         setRandomProjects(randomProjects);
-        const relatedEvents = currentProject.eventos ? currentProject.eventos.map(eventId => events.find(event => event.id === eventId)) : [];
-        setRelatedEvents(relatedEvents);
         window.scrollTo(0, 0);
       }
     }
-  }, [projects, isLoading, id, events]);
+  }, [projects, isLoading, id]);
 
 
   const renderProjectCards = () => {
@@ -121,23 +114,6 @@ const ProyectDetail = () => {
     );
   };
 
-  const renderEventCards = () => {
-    return relatedEvents.map(event => (
-      <div key={event.id} className="card event-card">
-        {event.foto && (
-          <img
-            src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/events/${event.foto}`}
-            className="card-img-top"
-            alt={`Imagen ${event.nombre}`}
-          />
-        )}
-        <div className="card-body">
-          <h5 className="card-title">{event.nombre}</h5>
-        </div>
-      </div>
-    ));
-  };
-
   if (isLoading) {
     return <div className="loading">Cargando...</div>;
   }
@@ -196,14 +172,19 @@ const ProyectDetail = () => {
         {renderProjectCards()}
       </div>
 
-      {relatedEvents.length > 0 && (
-        <div>
-          <h2 className="events">Eventos:</h2>
-          <div className="row">
-            {renderEventCards()}
-          </div>
+      <h2 className="eventos">Eventos:</h2>
+      <div key={project.eventos.id} className="card event-card">
+        {project.eventos.foto && (
+          <img
+            src={project.eventos.foto}
+            className="card-img-top"
+            alt={`Imagen ${project.eventos.nombre}`}
+          />
+        )}
+        <div className="card-body">
+          <h5 className="card-title">{project.eventos.nombre}</h5>
         </div>
-      )}
+      </div>
     </div>
   );
 };
