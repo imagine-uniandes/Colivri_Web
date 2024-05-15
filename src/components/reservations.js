@@ -11,7 +11,7 @@ function ReservaEquipos() {
         <div className="reserva-equipos">
             <div className="reserva-equipos-text">
                 <h2>Reserva Equipos</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>¡Si ya estas dentro de la lista de prestamos del laboratorio, puedes darle en el siguiente botón y realizar tu reserva de equipos!</p>
             </div>
             <div className="reserva-equipos-action container">
                 <div className="row">

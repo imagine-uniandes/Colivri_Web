@@ -6,18 +6,21 @@ const FaqComponent = () => {
 
   const faqs = [
     {
-      question: '¿Qué es a long established fact that a reader will be distracted by the readable content of a page?',
+      question: '¿Cómo puedo hacer parte de Colivri?',
       answer: 'It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
     },
     {
-        question: '¿Qué es a long established fact that a reader will be distracted by the readable content of a page?',
+        question: '¿Cómo puedo pedir equipos en prestamos?',
+        answer: 'Si ya estas en la lista, puedes usar el botón de reserva aquí. O del contrario, puedes solicitar acceso mandando un correo a vn.gomez@uniandes.edu.co describiendo cual es el motivo de tu solicitud.'
+    },
+    {
+        question: '¿En qué cursos de ISIS puedo hacer proyectos en Colivri?',
         answer: 'It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
     },
     {
-        question: '¿Qué es a long established fact that a reader will be distracted by the readable content of a page?',
-        answer: 'It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-    },
-
+      question: '¿Si no soy de sistemas puedo hacer parte?',
+      answer: 'It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+  },
   ];
 
   const toggleFAQ = (index) => {

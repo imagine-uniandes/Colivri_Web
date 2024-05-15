@@ -107,3 +107,7 @@
 .event-card {
   width: 100%;
 }
+
+.eventos-grid {
+  display: flex;
+}

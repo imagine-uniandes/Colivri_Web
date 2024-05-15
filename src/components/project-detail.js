@@ -115,7 +115,7 @@ const ProyectDetail = () => {
   };
 
   const renderEventos = (eventos) => (
-    <div className="eventos-grid">
+    <div className="eventos-grid w-100">
       {eventos.map((evento) => (
         <div key={evento.id} className="card event-card">
           {evento.foto && (
