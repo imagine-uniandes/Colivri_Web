@@ -114,6 +114,27 @@ const ProyectDetail = () => {
     );
   };
 
+  const renderEventos = (eventos) => (
+    <div className="eventos-grid">
+      {eventos.map((evento) => (
+        <div key={evento.id} className="card event-card">
+          {evento.foto && (
+            <img
+              src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/events/${evento.foto}`}
+              className="card-img-top"
+              alt={`Imagen ${evento.nombre}`}
+            />
+          )}
+          <div className="card-body">
+            <h5 className="card-title">{evento.nombre}</h5>
+            {evento.fecha && <p className="card-text">{evento.fecha}</p>}
+            {evento.descripcion && <p className="card-text">{evento.descripcion}</p>}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
   if (isLoading) {
     return <div className="loading">Cargando...</div>;
   }
@@ -172,19 +193,15 @@ const ProyectDetail = () => {
         {renderProjectCards()}
       </div>
 
-      <h2 className="eventos">Eventos:</h2>
-      <div key={project.eventos.id} className="card event-card">
-        {project.eventos.foto && (
-          <img
-            src={project.eventos.foto}
-            className="card-img-top"
-            alt={`Imagen ${project.eventos.nombre}`}
-          />
-        )}
-        <div className="card-body">
-          <h5 className="card-title">{project.eventos.nombre}</h5>
-        </div>
-      </div>
+      {project.eventos && project.eventos.length > 0 && (
+        <>
+          <h2 className="eventos">Eventos:</h2>
+          <div className="events-container">
+            {renderEventos(project.eventos)}
+          </div>
+        </>
+      )}
+
     </div>
   );
 };

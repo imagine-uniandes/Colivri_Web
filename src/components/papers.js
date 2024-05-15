@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/papers.css';
-import { Link } from 'react-router-dom';
 
 const Papers = () => {
   const [papers, setPapers] = useState([]);
@@ -55,11 +54,11 @@ const Papers = () => {
                 <p className="card-textt">{paper.descripcion}</p>
                 <div className="card-end d-flex justify-content-between">
                   <div className="d-flex">
-                    <p className="card-research">{paper.researchArea}</p>
+                    <p className="card-research text-grey"> Category: {paper.researchArea}</p>
                   </div>
-                  <Link to={`/papers/${paper.id}`} className="btn btn-primary">
-                    Ver más
-                  </Link>
+                  <a href={paper.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    Leer más
+                  </a>
                 </div>
               </div>
             </div>

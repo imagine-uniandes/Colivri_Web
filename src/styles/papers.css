@@ -25,14 +25,14 @@
 }
 
  .card-bodyy {
-  margin-top: 15px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .card-textt {
-  margin-top: 10px;
+  margin-top: 20px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -50,5 +50,10 @@
 }
 
 .card-end {
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.text-grey {
+  color: grey;
 }

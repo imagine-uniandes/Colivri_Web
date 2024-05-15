@@ -94,15 +94,16 @@
   gap: 20px;
 }
 
-.events {
-  margin-top: -20px;
+.eventos {
+  margin-top: 50px;
 }
 
-.events .row {
+.events-container {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.card.event-card .card-body {
-  text-align: center;
+.event-card {
+  width: 100%;
 }
