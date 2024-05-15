@@ -4,8 +4,31 @@ import '../styles/papers.css';
 const Papers = () => {
   const [papers, setPapers] = useState([]);
   const [people, setPeople] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
-  
+  const [isLoading, setIsLoading] = useState(true);  
+  const [filters, setFilters] = useState({
+    researchArea: '',
+  });
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleFilterChange = (filterName, value) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      [filterName]: value
+    }));
+  };
+
+  const handleSearchTermChange = event => {
+    setSearchTerm(event.target.value);
+  };
+
+  let filteredPapers = papers;
+  filteredPapers = filteredPapers.filter(paper => {
+    return (
+      (filters.researchArea === '' || paper.researchArea === filters.researchArea) &&
+      ((paper.nombre && paper.nombre.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      (paper.descripcion && paper.descripcion.toLowerCase().includes(searchTerm.toLowerCase())))
+    );
+  });
 
   useEffect(() => {
     Promise.all([
@@ -26,7 +49,6 @@ const Papers = () => {
 
   const renderMemberNames = (integrantes) => {
     if (!integrantes) return null;
-  
     const authorNames = integrantes.map((integrante) => {
       const person = people[integrante];
       if (!person) {
@@ -35,12 +57,11 @@ const Papers = () => {
       }
       return person.display_name;
     });
-  
     return authorNames.join(', ');
   };
 
   const renderCards = () => {
-    return papers.map((paper, index) => (
+    return filteredPapers.map((paper, index) => (
       <div className="col-lg-12 col-md-12 mb-12" key={index}>
         <div className="card mw-100">
           <div className="card-contentt d-flex flex-sm-column flex-column flex-md-row">
@@ -54,7 +75,7 @@ const Papers = () => {
                 <p className="card-textt">{paper.descripcion}</p>
                 <div className="card-end d-flex justify-content-between">
                   <div className="d-flex">
-                    <p className="card-research text-grey"> Category: {paper.researchArea}</p>
+                    <p className="card-research text-grey">Category: {paper.researchArea}</p>
                   </div>
                   <a href={paper.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                     Leer más
@@ -71,6 +92,23 @@ const Papers = () => {
   return (
     <div className="papers container">
       <h1>Papers</h1>
+      <div className="filters">
+        <select value={filters.researchArea} onChange={e => handleFilterChange('researchArea', e.target.value)}>
+          <option value="">Todas las áreas de investigación</option>
+          <option value="Human Computer Interaction">Human Computer Interaction</option>
+          <option value="Image Processing">Image Processing</option>
+          <option value="Mixed Realities">Mixed Realities</option>
+          <option value="Robotics">Robotics</option>
+          <option value="Visual Analytics">Visual Analytics</option>
+          <option value="Video Games">Video Games</option>
+        </select>
+        <input
+          type="text"
+          placeholder="Buscar proyectos..."
+          value={searchTerm}
+          onChange={handleSearchTermChange}
+        />
+      </div>
       <div className="row d-flex align-items-stretch">
         {renderCards()}
       </div>
