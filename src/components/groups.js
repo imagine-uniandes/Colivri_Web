@@ -114,18 +114,21 @@ const Groups = () => {
   };
 
   const renderCards = () => {
-    return groups.map((group, index) => (
+    const excludedGroupId = 5;
+    const filteredGroups = groups.filter(group => group.id !== excludedGroupId);
+
+    return filteredGroups.map((group, index) => (
       <div className="col-lg-12 col-md-12 mb-12" key={index}>
         <div className="card mw-100">
           <div className="card-content d-flex flex-sm-column flex-column flex-md-row">
             <Link to={`/grupos/${group.id}`} className='col-md-4 col-12'>
-                  {group.logo && (
-                    <img
-                      src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
-                      className="card-img"
-                      alt={`Imagen ${group.nombre}`}
-                    />
-                  )}
+              {group.logo && (
+                <img
+                  src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/groups/${group.logo}`}
+                  className="card-img"
+                  alt={`Imagen ${group.nombre}`}
+                />
+              )}
             </Link>
             <div className="col-md-8 col-12">
               <div className="card-body">
