@@ -14,8 +14,9 @@ function Navbar() {
                         <img src={iso} alt="iso"></img>
                     </div>
                     <div className="col-sm-12 col-lg-6 info">
-                        <p>Colivri (Colaboratorio en Interacción, Visualización, Robótica y Sistemas Autónomos) de la Universidad de los Andes es un espacio de colaboración entre diversos departamentos de la Universidad como Ingeniería de Sistemas, Ingeniería Mecánica, Ingeniería Industrial, Ingeniería Eléctrica y Electrónica, entre otras.</p>
-                        <p>En Colivri nos dedicamos a la investigación y desarrollo de tecnologías en varias disciplinas. Trabajamos en el desarrollo de experiencias computacionales con interfaces novedosas. La Realidad Virtual y Aumentada, los simuladores, y las interfaces robot humano son algunas de las tecnologías que usamos para el desarrollo de nuevas soluciones a problemas locales e internacionales.</p>
+                        <p>Colivri es nuestro Colaboratorio en Interacción, Visualización, Robótica y Sistemas Autónomos, es un espacio de colaboración entre diversos departamentos de la Universidad, para el desarrollo de experiencias computacionales con interfaces novedosas. </p>
+                        <p>En Colivri trabajamos con tecnologías como Realidad Virtual, Aumentada y Mixta (Realidades Extendidas), interfaces humano-robot, videojuegos, simuladores, procesamiento de imágenes y muchas más tecnologías enfocadas en el desarrollo de soluciones a problemas a problemas locales e internacionales. </p>
+                        <p>En Colivri queremos impactar la vida de nuestros estudiantes, profesores, investigadores, usuarios y todas las personas involucradas en nuestros proyectos. Para esto, buscamos estar siempre actualizados en tecnología y formar una comunidad que nos permita desarrollar soluciones de alto impacto. </p>
                     </div>
                 </div>
 
@@ -27,3 +28,8 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+
+
+

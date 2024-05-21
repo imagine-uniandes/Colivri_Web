@@ -11,7 +11,7 @@ function ReservaEquipos() {
         <div className="reserva-equipos">
             <div className="reserva-equipos-text">
                 <h2>Reserva Equipos</h2>
-                <p>¡Si ya estas dentro de la lista de prestamos del laboratorio, puedes darle en el siguiente botón y realizar tu reserva de equipos!</p>
+                <p>Si eres un Miembro de Colivri, recuerda que puedes solicitar el préstamo de equipos y empezar tus proyectos de aprendizaje / investigación.</p>
             </div>
             <div className="reserva-equipos-action container">
                 <div className="row">
