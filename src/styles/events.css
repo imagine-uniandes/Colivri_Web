@@ -2,11 +2,6 @@
   padding: 60px;
 }
 
-.d-flex {
-  align-items: center;
-  justify-content: center;
-}
-
 .events h2{
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
