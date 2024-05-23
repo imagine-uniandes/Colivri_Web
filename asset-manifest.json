@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/Colivri_Web/static/css/main.443303ea.css",
-    "main.js": "/Colivri_Web/static/js/main.c3b51b53.js",
-    "static/media/colivri-isometric-web.png": "/Colivri_Web/static/media/colivri-isometric-web.54a2773824abeba78dc3.png",
+    "main.css": "/Colivri_Web/static/css/main.7e4659d5.css",
+    "main.js": "/Colivri_Web/static/js/main.eb759f94.js",
+    "static/media/campamentoxr.png": "/Colivri_Web/static/media/campamentoxr.faf11fedd979f5f3645d.png",
+    "static/media/colivri-iso.png": "/Colivri_Web/static/media/colivri-iso.a07436e3a94baed27407.png",
+    "static/media/slider.png": "/Colivri_Web/static/media/slider.1ad861cb021a2fde9c7d.png",
+    "static/media/bienvenida.png": "/Colivri_Web/static/media/bienvenida.aa80ebc64654eabb8a5d.png",
     "static/media/ejercito.png": "/Colivri_Web/static/media/ejercito.30acc256ff6281349de0.png",
+    "static/media/openlab.jpg": "/Colivri_Web/static/media/openlab.98096c906c87d1d95f97.jpg",
     "static/media/vr.png": "/Colivri_Web/static/media/vr.4a8e1209bb74a45f4f00.png",
     "static/media/vj.png": "/Colivri_Web/static/media/vj.7e5437352843d184a059.png",
     "static/media/bootstrap-icons.woff?": "/Colivri_Web/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
@@ -12,7 +16,6 @@
     "static/media/mr.png": "/Colivri_Web/static/media/mr.f0f1e7994760ccb2dfc6.png",
     "static/media/bootstrap-icons.woff2?": "/Colivri_Web/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/va.png": "/Colivri_Web/static/media/va.45da1ce537133cbb7268.png",
-    "static/media/slider.png": "/Colivri_Web/static/media/slider.7acb49fbb9935fdcdc5b.png",
     "static/media/3GoVideo.png": "/Colivri_Web/static/media/3GoVideo.9a1219956b301909c95d.png",
     "static/media/unity.png": "/Colivri_Web/static/media/unity.092bf4f9228a3747fc3c.png",
     "static/media/vr.webp": "/Colivri_Web/static/media/vr.5d0a08010c9056f9ae28.webp",
@@ -22,11 +25,11 @@
     "static/media/navbar.png": "/Colivri_Web/static/media/navbar.668f7aedd9bf9b140512.png",
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
-    "main.443303ea.css.map": "/Colivri_Web/static/css/main.443303ea.css.map",
-    "main.c3b51b53.js.map": "/Colivri_Web/static/js/main.c3b51b53.js.map"
+    "main.7e4659d5.css.map": "/Colivri_Web/static/css/main.7e4659d5.css.map",
+    "main.eb759f94.js.map": "/Colivri_Web/static/js/main.eb759f94.js.map"
   },
   "entrypoints": [
-    "static/css/main.443303ea.css",
-    "static/js/main.c3b51b53.js"
+    "static/css/main.7e4659d5.css",
+    "static/js/main.eb759f94.js"
   ]
 }
