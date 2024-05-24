@@ -19,6 +19,7 @@
 }
 
 .card-contentt {
+  margin-left: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
