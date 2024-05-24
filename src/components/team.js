@@ -23,32 +23,56 @@ const Team = () => {
   }, []);
 
   const renderIntegrantes = (integrantes) => {
+    const faculty = [];
+    const ugrad = [];
+    const master = [];
+
+    integrantes.forEach(integrante => {
+      const person = people[integrante];
+      if (person) {
+        if (person.role === 'faculty' || person.role === 'Electrical Lab Coordinator' || person.role === 'Mechanical Lab Coordinator') {
+          faculty.push(person);
+        } else if (person.role === 'ugrad') {
+          ugrad.push(person);
+        } else if (person.role === 'master') {
+          master.push(person);
+        }
+      }
+    });
+
+    const renderGroup = (group) => {
+      return (
+        <div className="integrantes-row row d-flex justify-content-center">
+          {group.map((person, index) => {
+            const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
+            const imageSrc = person.image
+              ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
+              : DEFAULT_PERSON_IMAGE;
+
+            return (
+              <div key={index} className="integrante-item col-md-2 col-sm-6 col-12 text-center">
+                <img
+                  src={imageSrc}
+                  className="rounded-circle member"
+                  alt={`Integrante ${person.display_name}`}
+                  style={{ width: '100px', height: '100px' }}
+                />
+                <div className="integrante-name">{person.display_name}</div>
+              </div>
+            );
+          })}
+        </div>
+      );
+    };
+
     return (
-      <div className="integrantes-container">
-        {integrantes.map((integrante, index) => {
-          const person = people[integrante];
-          if (!person) {
-            console.warn(`No se encontró a la persona con el identificador "${integrante}" en los datos de las personas.`);
-            return null;
-          }
-
-          const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
-          const imageSrc = person.image
-            ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
-            : DEFAULT_PERSON_IMAGE;
-
-          return (
-            <div key={index} className="integrante-item">
-              <img
-                src={imageSrc}
-                className="rounded-circle member"
-                alt={`Integrante ${person.display_name}`}
-                style={{ width: '100px', height: '100px' }}
-              />
-              <div className="integrante-name">{person.display_name}</div>
-            </div>
-          );
-        })}
+      <div>
+        <h3>Profesores y Coordinadores</h3>
+        {renderGroup(faculty)}
+        <h3>Master's Students</h3>
+        {renderGroup(master)}
+        <h3>Undergraduate Students</h3>
+        {renderGroup(ugrad)}
       </div>
     );
   };
@@ -62,18 +86,19 @@ const Team = () => {
   }
 
   return (
-    <div className="col-lg-12 col-md-12 mb-12">
-      <h1>{team.nombre}</h1>
-      {team.fotoGrupo && (
-        <img
-          src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/teams/${team.fotoGrupo}`}
-          alt={`Imagen ${team.fotoGrupo}`}
-          className="team-photo"
-        />
-      )}
-      <p>{team.descripcion}</p>
-      <h2 className="integrantes-heading">Integrantes:</h2>
-      {renderIntegrantes(team.integrantes)}
+    <div className="team-container d-flex justify-content-center align-items-center">
+      <div className="col-md-8 col-12 text-center">
+        <h1>{team.nombre}</h1>
+        {team.fotoGrupo && (
+          <img
+            src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/teams/${team.fotoGrupo}`}
+            alt={`Imagen ${team.fotoGrupo}`}
+            className="team-photo"
+          />
+        )}
+        <p>{team.descripcion}</p>
+        {renderIntegrantes(team.integrantes)}
+      </div>
     </div>
   );
 };

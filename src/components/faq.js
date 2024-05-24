@@ -24,7 +24,7 @@ const FaqComponent = () => {
     },
     {
       question: '¿En qué cursos de ISIS puedo hacer proyectos en Colivri?',
-      answer: 'Si eres estudiante de Ingeniería de Sistemas y Computación, puedes hacer proyectos desde tu curso de Introducción a la Ingeniería de Sistemas y en tu curso de \n' +
+      answer: 'Si eres estudiante de Ingeniería de Sistemas y Computación, puedes hacer proyectos desde tu curso de Introducción a la Ingeniería de Sistemas y en tu curso de Diseño de Productos e Innovación en TI (ISIS2007)\n' +
       'Adicionalmente, como parte de la Maestría en Ingeniería de Sistemas y Computación (MISIS), en los cursos Desarrollo de aplicaciones de Realidad Mixta (ISIS4814) y Computación Visual Interactiva (ISIS4823) \n' +
       'Nota: Estos cursos también pueden tomarse desde el pregrado, como electivas profesionales.'
     },
