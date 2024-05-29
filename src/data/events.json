@@ -1,21 +1,24 @@
-[
+[ 
     {
       "id": 1,
-      "title": "OpenLab Colivri ",
-      "text": "Es un evento que hacemos al menos una vez al año, en este exponemos los proyectos realizados en el laboratorio y tratamos de que sea abierto a todo público, dentro y fuera de Uniandes.",
-      "image": "openlab.jpg"
+      "title": "Bienvenida Colivri",
+      "text": "En Colivri formamos comunidad, por esto cada semestre celebramos el inicio de un nuevo equipo y le damos la bienvenida a nuestros miembros. Este es un espacio para conocernos y aprender a trabajar juntos.",
+      "image": "bienvenida.png",
+      "link": ""
     },
     {
       "id": 2,
       "title": "Campamento XR",
       "text": "Es un evento enfocado en Universidades Externas, como parte del proyecto vivero Virtual, se invitan a universidades para ser formados como Embajadores de tecnologías de Realidades Extendidas.",
-      "image": "campamentoxr.png"
+      "image": "campamentoxr.png",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdSMK3uXnISTPXoQk2aV4xla8q76FQ1sJrdjJoBxoW0LTLE5w/viewform"
     },
     {
       "id": 3,
-      "title": "Bienvenida Colivri",
-      "text": "En Colivri formamos comunidad, por esto cada semestre celebramos el inicio de un nuevo equipo y le damos la bienvenida a nuestros miembros. Este es un espacio para conocernos y aprender a trabajar juntos.",
-      "image": "bienvenida.png"
+      "title": "OpenLab Colivri ",
+      "text": "Es un evento que hacemos al menos una vez al año, en este exponemos los proyectos realizados en el laboratorio y tratamos de que sea abierto a todo público, dentro y fuera de Uniandes.",
+      "image": "openlab.jpg",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdSMK3uXnISTPXoQk2aV4xla8q76FQ1sJrdjJoBxoW0LTLE5w/viewform"
     }
   ]
   

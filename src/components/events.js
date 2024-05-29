@@ -30,11 +30,13 @@ const CarouselWithCards = () => {
                   <div className="card-bodyyy">
                     <h5 className="card-titleee">{card.title}</h5>
                     <p className="card-texttt" style={{ textAlign: 'left' }}>{card.text}</p>
-                    <div>
-                      <a href='/' className="btn btn-primary">
-                        Ver más
-                      </a>
-                    </div>
+                    {card.link && (
+                      <div>
+                        <a href={card.link} className="btn btn-primary">
+                          Inscríbete al próximo
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

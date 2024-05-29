@@ -18,6 +18,7 @@
 
 .card-titleee {
   font-size: 1.2em;
+  margin-bottom: 15px;
 }
 
 .card-texttt {
@@ -26,6 +27,7 @@
 }
 
 .btn-primary {
+  margin-top: 20px;
   background-color: #007bff;
   border-color: #007bff;
 }
