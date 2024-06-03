@@ -8,10 +8,6 @@
   font-size: 45px;
 }
 
-.card-img-top {
-  height: 150px;
-}
-
 .card-bodyyy {
   padding: 20px;
 }
@@ -22,6 +18,7 @@
 }
 
 .card-texttt {
+  margin-top: 20px;
   font-size: 0.9em;
   color: #666;
 }
