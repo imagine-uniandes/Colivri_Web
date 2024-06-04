@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import data from '../data/events.json';
 import '../styles/events.css';
 
-const CarouselWithCards = () => {
+const Events = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -62,4 +62,4 @@ const CarouselWithCards = () => {
   );
 };
 
-export default CarouselWithCards;
+export default Events;
