@@ -10,8 +10,14 @@ const CarouselWithCards = () => {
     setCards(data);
   }, []);
 
-  // Filtrar las primeras tres tarjetas para mostrar solo una fila de tres tarjetas
   const firstThreeCards = cards.slice(0, 3);
+
+  const scrollToContact = (top) => {
+    window.scrollBy({
+      top: 1500,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <div className='events container'>
@@ -30,6 +36,13 @@ const CarouselWithCards = () => {
                   <div className="card-bodyyy">
                     <h5 className="card-titleee">{card.title}</h5>
                     <p className="card-texttt" style={{ textAlign: 'left' }}>{card.text}</p>
+                    {card.id === 1 && (
+                      <div>
+                        <button className="btn btn-primary" onClick={scrollToContact}>
+                          ¿Quieres saber más?
+                        </button>
+                      </div>
+                    )}
                     {card.link && (
                       <div>
                         <a href={card.link} className="btn btn-primary">
@@ -44,6 +57,7 @@ const CarouselWithCards = () => {
           </div>
         </Carousel.Item>
       </Carousel>
+      <div id="footer"></div>
     </div>
   );
 };
