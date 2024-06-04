@@ -105,6 +105,7 @@ const GroupDetail = () => {
 
   return (
     <div className="group-detail-container">
+      <div className="images-gd">
       <h1>{group.nombre}</h1>
       {group.logo && (
         <img
@@ -119,6 +120,8 @@ const GroupDetail = () => {
           alt={`Imagen ${group.fotoGrupo}`}
         />
       )}
+      </div>
+
       <div className="group-detail-researchArea">
         <p>Área de investigación: {group.researchArea}</p>
       </div>
