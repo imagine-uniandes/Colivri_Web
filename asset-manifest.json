@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Colivri_Web/static/css/main.79902887.css",
-    "main.js": "/Colivri_Web/static/js/main.347e478f.js",
+    "main.js": "/Colivri_Web/static/js/main.db70a31d.js",
     "static/media/campamentoxr.png": "/Colivri_Web/static/media/campamentoxr.e8f791f63464100249bf.png",
     "static/media/bienvenida.png": "/Colivri_Web/static/media/bienvenida.6e5b2e7ab95cca0cc1c6.png",
     "static/media/slider.png": "/Colivri_Web/static/media/slider.c1125712f8147afd7bf8.png",
@@ -27,10 +27,10 @@
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
     "main.79902887.css.map": "/Colivri_Web/static/css/main.79902887.css.map",
-    "main.347e478f.js.map": "/Colivri_Web/static/js/main.347e478f.js.map"
+    "main.db70a31d.js.map": "/Colivri_Web/static/js/main.db70a31d.js.map"
   },
   "entrypoints": [
     "static/css/main.79902887.css",
-    "static/js/main.347e478f.js"
+    "static/js/main.db70a31d.js"
   ]
 }
