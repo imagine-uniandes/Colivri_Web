@@ -45,7 +45,7 @@ const CarouselWithCards = () => {
                     )}
                     {card.link && (
                       <div>
-                        <a href={card.link} className="btn btn-primary">
+                        <a href={card.link} target='_blank' rel="noopener noreferrer" className="btn btn-primary">
                           Inscríbete al próximo
                         </a>
                       </div>
