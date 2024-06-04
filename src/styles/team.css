@@ -1,0 +1,48 @@
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-container h1 {
+  margin-bottom: 30px;
+}
+
+.team-container p {
+  margin-bottom: 25px;
+}
+
+.team-container h3 {
+  margin-bottom: 23px;
+}
+
+.integrantes-roww {
+  margin-bottom: 40px;
+}
+
+.integrante-itemm {
+  margin: 10px;
+}
+
+.integrante-name {
+  margin-top: 10px;
+  font-size: 1.02em;
+  font-weight: 500;
+}
+
+.integrante-bio {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 24px;
+  font-weight: bold;
+}
+

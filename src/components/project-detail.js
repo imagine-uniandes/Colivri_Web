@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import '../styles/project-detail.css';
-import { DEFAULT_PERSON_IMAGE} from '../constants';
+import { DEFAULT_PERSON_IMAGE } from '../constants';
 import ProjectCard from './ProjectCard';
 
 
@@ -17,7 +17,7 @@ const ProyectDetail = () => {
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/projects.json')
         .then(response => response.json()),
       fetch('https://raw.githubusercontent.com/imagine-uniandes/web_data/main/data/people.json')
-        .then(response => response.json())
+        .then(response => response.json()),
     ]).then(([projectData, peopleData]) => {
       setProjects(projectData);
       setPeople(peopleData);
@@ -54,19 +54,19 @@ const ProyectDetail = () => {
             console.warn(`No se encontró a la persona con el identificador "${integrante}" en los datos de las personas.`);
             return null;
           }
-  
+
           const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
           const imageSrc = person.image
             ? (isUrl ? person.image : `https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/people/${person.image}`)
             : DEFAULT_PERSON_IMAGE;
-  
+
           const imageElement = (
             <img
-                  src={imageSrc}
-                  className="rounded-circle mr-2 member"
-                  alt={`Integrante ${person.display_name}`}
-                  style={{ width: '50px', height: '50px' }}
-                />
+              src={imageSrc}
+              className="rounded-circle mr-2 member"
+              alt={`Integrante ${person.display_name}`}
+              style={{ width: '50px', height: '50px' }}
+            />
           )
 
           return person.webpage ? (
@@ -89,20 +89,20 @@ const ProyectDetail = () => {
         })}
       </ul>
     );
-    
-  
+
+
     const columns = [];
     const numColumns = 2;
     const numIntegrantes = integrantes.length;
     const integrantesPerColumn = Math.ceil(numIntegrantes / numColumns);
-  
+
     for (let i = 0; i < numColumns; i++) {
       const startIndex = i * integrantesPerColumn;
       const endIndex = Math.min(startIndex + integrantesPerColumn, numIntegrantes);
       const columnIntegrantes = integrantes.slice(startIndex, endIndex);
       columns.push(renderColumn(columnIntegrantes));
     }
-  
+
     return (
       <div className="integrantes-container">
         {columns.map((column, index) => (
@@ -113,6 +113,27 @@ const ProyectDetail = () => {
       </div>
     );
   };
+
+  const renderEventos = (eventos) => (
+    <div className="eventos-grid w-100">
+      {eventos.map((evento) => (
+        <div key={evento.id} className="card event-card">
+          {evento.foto && (
+            <img
+              src={`https://raw.githubusercontent.com/imagine-uniandes/web_data/main/img/events/${evento.foto}`}
+              className="card-img-top"
+              alt={`Imagen ${evento.nombre}`}
+            />
+          )}
+          <div className="card-body">
+            <h5 className="card-title">{evento.nombre}</h5>
+            {evento.fecha && <p className="card-text">{evento.fecha}</p>}
+            {evento.descripcion && <p className="card-text">{evento.descripcion}</p>}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 
   if (isLoading) {
     return <div className="loading">Cargando...</div>;
@@ -171,8 +192,19 @@ const ProyectDetail = () => {
       <div className="related-projects">
         {renderProjectCards()}
       </div>
+
+      {project.eventos && project.eventos.length > 0 && (
+        <>
+          <h2 className="eventos">Eventos:</h2>
+          <div className="events-container">
+            {renderEventos(project.eventos)}
+          </div>
+        </>
+      )}
+
     </div>
   );
 };
+
 
 export default ProyectDetail;

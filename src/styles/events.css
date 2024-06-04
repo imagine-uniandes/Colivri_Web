@@ -1,40 +1,30 @@
 .events {
   padding: 60px;
-  margin-bottom: 10px;
-}
-
-.d-flex {
-  align-items: center;
-  justify-content: center;
 }
 
 .events h2{
-  margin-top: 1%;
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 45px;
-  margin-bottom: 50px;
 }
 
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
+.card-bodyyy {
+  padding: 20px;
 }
 
-.card-body {
-  padding: 15px;
-}
-
-.card-title {
+.card-titleee {
   font-size: 1.2em;
+  margin-bottom: 15px;
 }
 
-.card-text {
+.card-texttt {
+  margin-top: 20px;
   font-size: 0.9em;
   color: #666;
 }
 
 .btn-primary {
+  margin-top: 20px;
   background-color: #007bff;
   border-color: #007bff;
 }
@@ -59,10 +49,3 @@
     flex-basis: 33.333%;
   }
 }
-
-.card {
-  max-width: 300px;
-  margin: 0 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-

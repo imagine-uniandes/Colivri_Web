@@ -11,7 +11,8 @@ function ReservaEquipos() {
         <div className="reserva-equipos">
             <div className="reserva-equipos-text">
                 <h2>Reserva Equipos</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>Si eres un Miembro de Colivri, recuerda que puedes solicitar el préstamo de equipos y empezar tus proyectos de aprendizaje / investigación.</p>
+                <p>Aplica Términos y Condiciones disponibles aquí</p>
             </div>
             <div className="reserva-equipos-action container">
                 <div className="row">

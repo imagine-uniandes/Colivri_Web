@@ -1,6 +1,8 @@
 import Home from '../pages/home';
 import Projects from '../pages/projects';
+import Papers from '../pages/papers';
 import Groups from '../pages/groups';
+import Team from '../pages/team';
 import Navbar from './navbar';
 //import Events from '../pages/events';
 import ProjectDetail from '../pages/project-detail';
@@ -19,8 +21,10 @@ function App() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/proyectos" element={<Projects />} />
                 <Route path="/proyectos/:id" element={<ProjectDetail />} />
+                <Route path="/papers" element={<Papers />} />
                 <Route path="/grupos" element={<Groups />} />
                 <Route path="/grupos/:id" element={<GroupDetail />} />
+                <Route path="/equipo" element={<Team />} />
                 {/*<Route exact path="/eventos" element={<Events />} />*/}
             </Routes>
             <SkeletonTheme/>

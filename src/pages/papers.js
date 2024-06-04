@@ -1,15 +1,15 @@
 import React from 'react';
 import Contact from '../components/contact';
-import Groups from '../components/groups';
+import Papers from '../components/papers';
 import Footer from '../components/footer';
 import '../styles/home.css';
 
-function groups() {
+function papers() {
     window.scrollTo(0, 0);
     return (
-        <div className='Groups'>
-            <div style={{ marginTop: '100px'}}>
-                <Groups />
+        <div className='Papers'>
+            <div style={{ marginTop: '10px'}}>
+                <Papers />
             </div>
             <Contact />
             <Footer />
@@ -17,4 +17,4 @@ function groups() {
     )
 }
 
-export default groups
+export default papers

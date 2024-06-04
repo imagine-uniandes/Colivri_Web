@@ -2,23 +2,36 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
+}
+
+.group-detail-container h1 {
+  font-size: 46px;
+  margin-top: -50px;
 }
 
 .group-detail-container img {
   margin-top: 30px;
-  max-width: 100%;
+  max-width: 80%;
   margin-bottom: 30px;
+}
+
+.images-gd img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.images-gd img:first-of-type {
+  max-height: 300px;
+  aspect-ratio: auto;
 }
 
 .group-detail-container h2 {
   font-size: 24px;
   text-align: center;
-}
-
-.group-detail-container p {
-  text-align: left;
-  margin-top: 28px;
 }
 
 .group-detail-researchArea p {
@@ -47,71 +60,25 @@
   margin-bottom: 20px;
 }
 
-.integrantes-list {
-  list-style: none;
-  padding: 1;
-}
-
-.integrante-item {
-  list-style-type: none;
-  margin-bottom: -50px;
-  margin-right: 80px;
-}
-
-.integrante-info {
-  display: flex;
-  align-items: center;
-}
-
-.integrante-info span {
-  margin-left: 10px;
-}
-
-.group-detail-container .website-heading {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.group-detail-website {
-  font-size: 16px;
-}
-
-.group-detail-container .repository-heading {
-  margin-top: 50px;
-  text-align: left;
-}
-
-.group-detail-repository {
-  font-size: 16px;
-}
-
 .group-detail-container .redes-heading {
   margin-top: 50px;
   text-align: left;
 }
 
-.group-detail-redes {
-  font-size: 16px;
-}
-
-.group-detail-redes, .email-link {
-  font-size: 16px;
-}
-
-.icons-social-medias{
+.social-media-group {
   display: flex;
-  justify-content: center;
-  gap: 5px;
+  flex-wrap: wrap;
+  padding-left: 2rem;
 }
 
-.social-links i, .email-links i {
-  font-size: 50px;
-  color: rgb(0, 0, 0);
-  margin-left: 20px;
+.social-links {
+  color: black;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
-.social-links{
-  color: rgb(0, 0, 0);
-  display: contents;
+.bi {
+  font-size: 32px;
+  margin-right: 16px;
 }

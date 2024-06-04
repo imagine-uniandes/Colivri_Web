@@ -18,7 +18,7 @@ img.member {
 }
 
 .card-img-top {
-    margin-top: 0 !important;
+    margin-top: 16px !important;
     object-fit: contain;
     aspect-ratio: 16/9;
 }
