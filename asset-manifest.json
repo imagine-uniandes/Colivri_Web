@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Colivri_Web/static/css/main.191db2de.css",
-    "main.js": "/Colivri_Web/static/js/main.580fb47b.js",
-    "static/media/campamentoxr.png": "/Colivri_Web/static/media/campamentoxr.7703e610463342154ebd.png",
-    "static/media/openlab.png": "/Colivri_Web/static/media/openlab.1c044987c914258d2d8a.png",
-    "static/media/bienvenida.png": "/Colivri_Web/static/media/bienvenida.7488a6d941c0e02b5c59.png",
+    "main.css": "/Colivri_Web/static/css/main.79902887.css",
+    "main.js": "/Colivri_Web/static/js/main.347e478f.js",
+    "static/media/campamentoxr.png": "/Colivri_Web/static/media/campamentoxr.e8f791f63464100249bf.png",
+    "static/media/bienvenida.png": "/Colivri_Web/static/media/bienvenida.6e5b2e7ab95cca0cc1c6.png",
     "static/media/slider.png": "/Colivri_Web/static/media/slider.c1125712f8147afd7bf8.png",
     "static/media/colivri-iso.png": "/Colivri_Web/static/media/colivri-iso.a07436e3a94baed27407.png",
+    "static/media/openlab.png": "/Colivri_Web/static/media/openlab.ef3f0c06008a63afba19.png",
     "static/media/ejercito.png": "/Colivri_Web/static/media/ejercito.30acc256ff6281349de0.png",
     "static/media/openlab.jpg": "/Colivri_Web/static/media/openlab.98096c906c87d1d95f97.jpg",
     "static/media/vr.png": "/Colivri_Web/static/media/vr.4a8e1209bb74a45f4f00.png",
@@ -26,11 +26,11 @@
     "static/media/navbar.png": "/Colivri_Web/static/media/navbar.668f7aedd9bf9b140512.png",
     "index.html": "/Colivri_Web/index.html",
     "static/media/circle-user-solid.svg": "/Colivri_Web/static/media/circle-user-solid.66817cc3e7c08f4bc8f4eb98160375ef.svg",
-    "main.191db2de.css.map": "/Colivri_Web/static/css/main.191db2de.css.map",
-    "main.580fb47b.js.map": "/Colivri_Web/static/js/main.580fb47b.js.map"
+    "main.79902887.css.map": "/Colivri_Web/static/css/main.79902887.css.map",
+    "main.347e478f.js.map": "/Colivri_Web/static/js/main.347e478f.js.map"
   },
   "entrypoints": [
-    "static/css/main.191db2de.css",
-    "static/js/main.580fb47b.js"
+    "static/css/main.79902887.css",
+    "static/js/main.347e478f.js"
   ]
 }
