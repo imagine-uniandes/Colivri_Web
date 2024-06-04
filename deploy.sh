@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Ejecutar el comando scp para copiar los archivos al servidor remoto
-scp -r ./dist/* ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}
+scp -r ./build/* ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}
 
 # Verificar si el scp fue exitoso
 if [ $? -ne 0 ]; then
