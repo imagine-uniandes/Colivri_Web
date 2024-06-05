@@ -8,24 +8,23 @@
   font-size: 45px;
 }
 
-.card-img-top {
-  height: 150px;
-}
-
 .card-bodyyy {
   padding: 20px;
 }
 
 .card-titleee {
   font-size: 1.2em;
+  margin-bottom: 15px;
 }
 
 .card-texttt {
+  margin-top: 20px;
   font-size: 0.9em;
   color: #666;
 }
 
 .btn-primary {
+  margin-top: 20px;
   background-color: #007bff;
   border-color: #007bff;
 }

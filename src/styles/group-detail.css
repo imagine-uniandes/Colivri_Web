@@ -11,8 +11,22 @@
 
 .group-detail-container img {
   margin-top: 30px;
-  max-width: 100%;
+  max-width: 80%;
   margin-bottom: 30px;
+}
+
+.images-gd img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.images-gd img:first-of-type {
+  max-height: 300px;
+  aspect-ratio: auto;
 }
 
 .group-detail-container h2 {

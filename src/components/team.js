@@ -30,7 +30,7 @@ const Team = () => {
     integrantes.forEach(integrante => {
       const person = people[integrante];
       if (person) {
-        if (person.role === 'faculty' || person.role === 'Electrical Lab Coordinator' || person.role === 'Mechanical Lab Coordinator') {
+        if (person.role === 'faculty' || person.role === 'Lab Coordinator') {
           faculty.push(person);
         } else if (person.role === 'ugrad') {
           ugrad.push(person);
@@ -42,7 +42,7 @@ const Team = () => {
 
     const renderGroup = (group) => {
       return (
-        <div className="integrantes-row row d-flex justify-content-center">
+        <div className="integrantes-roww row d-flex justify-content-center">
           {group.map((person, index) => {
             const isUrl = person.image && (person.image.startsWith('http://') || person.image.startsWith('https://'));
             const imageSrc = person.image
@@ -50,7 +50,7 @@ const Team = () => {
               : DEFAULT_PERSON_IMAGE;
 
             return (
-              <div key={index} className="integrante-item col-md-2 col-sm-6 col-12 text-center">
+              <div key={index} className="integrante-itemm col-md-2 col-sm-6 col-12 text-center">
                 <img
                   src={imageSrc}
                   className="rounded-circle member"
@@ -58,6 +58,7 @@ const Team = () => {
                   style={{ width: '100px', height: '100px' }}
                 />
                 <div className="integrante-name">{person.display_name}</div>
+                <div className="integrante-bio">{person.bio}</div>
               </div>
             );
           })}
@@ -69,9 +70,9 @@ const Team = () => {
       <div>
         <h3>Profesores y Coordinadores</h3>
         {renderGroup(faculty)}
-        <h3>Master's Students</h3>
+        <h3>Estudiantes de Maestria</h3>
         {renderGroup(master)}
-        <h3>Undergraduate Students</h3>
+        <h3>Estudiantes de Pregrado</h3>
         {renderGroup(ugrad)}
       </div>
     );

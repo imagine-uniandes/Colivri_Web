@@ -13,7 +13,7 @@ const images = [
 
 ];
 
-const Carousel = () => {
+const Companies = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -38,4 +38,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Companies;

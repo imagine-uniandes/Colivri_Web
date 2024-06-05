@@ -12,7 +12,7 @@ const Footer = () => {
           <address>
             Edificio Mario Laserna Cra 1 Este No 19A - 40 Bogotá - Colombia | Tel: [57](1) 3394949 Ext: 2860, 2861, 2862 | Fax: [57](1) 3324325
           </address>
-          <p>© 2024 - <a href='https://sistemas.uniandes.edu.co/es/isis' target='blank'>Departamento de Ingeniería de Sistemas y Computación</a></p>
+          <p>© 2024 - <a href='https://sistemas.uniandes.edu.co/es/isis' target='_blank' rel="noopener noreferrer" >Departamento de Ingeniería de Sistemas y Computación</a></p>
         </div>
       </div>
     </footer>

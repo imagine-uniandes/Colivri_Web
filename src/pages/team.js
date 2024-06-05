@@ -8,7 +8,7 @@ function team() {
     window.scrollTo(0, 0);
     return (
         <div className='Team'>
-            <div style={{ marginTop: '100px'}}>
+            <div style={{ marginTop: '60px'}}>
                 <Groups />
             </div>
             <Contact />
